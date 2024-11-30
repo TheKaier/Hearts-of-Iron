@@ -10,11 +10,11 @@
 
 	// Nations
 	{
-		"name": "中华民国",//中华民国
-		"leaderName": "蒋介石",
+		"name": "Nation.CHI",//中华民国
+		"leaderName": "",
 		"adjective": [""],
+		"personality": "base",
 		//"preferredVictoryType": "",
-
         "startIntroPart1": "After the revolution of 1911 toppled the late Manchu emperor, the Republic of China was still struggling. In the remote areas, the warlords were divided, and in the Central Plain area, red bandits were entrenched in the foothills. Beyond its borders, the Japanese invaders installed a puppet regime led by Emperor Modi Puyi and tried to bring the whole of China under their control. Surrounded by powerful enemies, the Chiang Kai-shek administration will have to make tough choices to lead China and carve out a new path.",
         "startIntroPart2": "",
         "declaringWar": "",
@@ -31,6 +31,9 @@
 		"favouredReligion": "",
 		"uniqueName": "",
 		"uniques": [
+		/*"Adopt [征兵法案-志愿兵役制]",
+        "Adopt [贸易法案-自由贸易]",
+        "Adopt [经济法案-民用经济]",
 		"Adopt [通用国策]",
 		"Adopt [民族精神-九国公约]",
 		"Adopt [民族精神-共产主义崛起]",
@@ -38,15 +41,15 @@
 		"Adopt [民族精神-低效的官僚制度]",
 		"Adopt [民族精神-低能的军官团]",
 		"Adopt [民族精神-德国军事顾问]",
-		"Adopt [民族精神-低度通货膨胀]",
-		"[1] free [单位-殖民者] units appear",
-		"[+15 Happiness]",
+		"Adopt [民族精神-低度通货膨胀]",*/
+		//"[1] free [单位-殖民者] units appear",
+		//"[+12 Happiness]",
 		
 		],
 		/*"civilopediaText":[
         {"text": ""},
     ],*/
-		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+		"cities": ["Nanjing","Chengdu","Shanghai","Guangzhou","Xian","Hangzhou","Tianjin","Macau","Shandong","Beijing",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
 			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
@@ -55,11 +58,12 @@
     },
 	
 	{
-		"name": "日本",
-		"leaderName": "天皇",
+		"name": "Nation.Japan",//日本
+		"leaderName": "",
 		"adjective": [""],
+		"personality": "base",
 		//"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
+		"startIntroPart1": "Japan.startIntroPart",
 		"startIntroPart2": "",
 		"declaringWar": "",
 		"attacked": "",
@@ -73,7 +77,15 @@
 		"style": "",
 		"uniqueName": "",
 		"uniques": [
+	    /*"Adopt [征兵法案-有限征兵]",
+        "Adopt [贸易法案-有限出口]",
+        "Adopt [经济法案-部分动员]",
 		"Adopt [通用国策]",
+		"Adopt [民族精神-国立神道教]",
+		"Adopt [民族精神-日本财阀]",
+		"Adopt [民族精神-重复的研究",
+		"Adopt [民族精神-军国主义]",*/
+		//"Discover [科技-步兵装备I]",
 		],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
@@ -82,12 +94,13 @@
         "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
 	},
 		{
-		"name": "德意志国",//德意志国-德国
-		"leaderName": "阿道夫•希特勒",
+		"name": "Nation.Germany",//德意志国-德国
+		"leaderName": "",
 		"adjective": [""],
+		"personality": "base",
 		//"preferredVictoryType": "",
 
-        "startIntroPart1": "一个崭新的德意志正在崛起，自魏玛共和国解散并被希特勒的第三帝国取代以来，已经过去了三年。如今，在艰难地捱过了大萧条的前几个年头之后，经济秩序正重归稳定，大量的失业问题也得以解决。\n\n凡尔赛条约中对德国军队施加的限制早已被抛诸脑后，国防军正日益壮大，另一场世界大战已初露端倪。",
+        "startIntroPart1": "Germany.startIntroPart",
         "startIntroPart2": "",
         "declaringWar": "",
 		"attacked": "",
@@ -103,11 +116,14 @@
 		"favouredReligion": "",
 		"uniqueName": "",
 		"uniques": [
+		/*"Adopt [征兵法案-有限征兵]",
+        "Adopt [贸易法案-有限出口]",
+        "Adopt [经济法案-部分动员]",
 		//"Adopt [德意志国策]",
 		"Adopt [通用国策]",
 		"Adopt [民族精神-苦涩的失败者]",
-		"Adopt [民族精神-总参谋部]",
-		"[+5 Happiness]",
+		"Adopt [民族精神-总参谋部]",*/
+		//"[+5 Happiness]",
 		
 		
 		],
@@ -123,10 +139,174 @@
         "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]
 
     },
-	
-	
-	
-	
+	{
+		"name": "Nation.France",//法国
+		"leaderName": "",
+		"adjective": [""],
+		"personality": "base",
+		//"preferredVictoryType": "",
+
+        "startIntroPart1": "France.startIntroPart",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"tradeRequest": "",
+
+        "outerColor": [0,0,0],
+        "innerColor": [255,255,255],
+
+
+		"favouredReligion": "",
+		"uniqueName": "",
+		"uniques": [
+		/*"Adopt [征兵法案-有限征兵]",
+        "Adopt [贸易法案-重视出口]",
+        "Adopt [经济法案-民用经济]",
+		"Adopt [通用国策]",
+		"Adopt [民族精神-世界大战的胜利者]",
+		"Adopt [民族精神-混乱的政府]",
+		"Adopt [民族精神-受马奇诺防线的保护]",
+		"Adopt [民族精神-充分就业]",
+		"Adopt [民族精神-政治暴力]",
+		"Adopt [民族精神-低效的经济]",*/
+		//"[+7 Happiness]",
+		
+		
+		],
+		/*"civilopediaText":[
+        {"text": ""},
+    ],*/
+		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
+			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
+			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
+			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
+        "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
+
+    },
+	{
+		"name": "Nation.SovietUnion",//苏维埃联盟/苏联
+		"leaderName": "",
+		"adjective": [""],
+		"personality": "base",
+		//"preferredVictoryType": "",
+
+        "startIntroPart1": "SovietUnion.startIntroPart",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"tradeRequest": "",
+
+        "outerColor": [0,0,0],
+        "innerColor": [255,255,255],
+
+
+		"favouredReligion": "",
+		"uniqueName": "",
+		"uniques": [
+		/*"Adopt [征兵法案-志愿兵役制]",
+        "Adopt [贸易法案-重视出口]",
+        "Adopt [经济法案-民用经济]",
+		"Adopt [通用国策]",
+		"Adopt [民族精神-革命始源地]",
+		"Adopt [民族精神-托洛茨基的阴谋]",
+		"Adopt [民族精神-政治化的军队]",*/
+		//"[+10 Happiness]",
+		
+		
+		],
+		"cities": ["Moscow","Stalingrad","Leningrad","Kiev","Minsk","Baku","Kharkiv","Riga","Odessa","Grodno","Gomel","Rostov-on-Don","Kursk","Yekaterinburg","Vilnius","Vladivostok","Smolensk","Talinn","Tashkent","Khabarovsk","Chisnau","Sverdlovsk","Tbilisi","Murmansk","Arkhangelsk","Tula","Tashkent","Arkhangelsk","Ashgabat","Astana","Bishkek","Omsk","Yerevan","Saratov","Tula","Irkutsk","Perm","Pskov","Saratov","Irkutsk","Novokuznetsk","Orenburg"]
+
+    },
+	{
+		"name": "Nation.PRC",//中共
+		"leaderName": "",
+		"adjective": [""],
+		"personality": "base",
+		//"preferredVictoryType": "",
+        "startIntroPart1": "PRC.startIntroPart",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"tradeRequest": "",
+
+        "outerColor": [0,0,0],
+        "innerColor": [255,255,255],
+
+
+		"favouredReligion": "",
+		"uniqueName": "",
+		"uniques": [
+		/*"Adopt [征兵法案-按需服兵役]",
+        "Adopt [贸易法案-封闭经济]",
+        "Adopt [经济法案-部分动员]",
+		"Adopt [通用国策]",
+		"Adopt [Nationalspirit-The_long_march]",
+		"Adopt [Nationalspirit-Low_popular_support]",
+		"Adopt [Nationalspirit-Disjointed_Government]",
+		"Adopt [Nationalspirit-Army_corruption]",*/
+		//"[+12 Happiness]",
+		
+		],
+		/*"civilopediaText":[
+        {"text": ""},
+    ],*/
+		"cities": ["Nanjing","Chengdu","Shanghai","Guangzhou","Xian","Hangzhou","Tianjin","Macau","Shandong","Beijing",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+
+    },
+	{
+		"name": "Nation.UnitedKingdom",//英国
+		"leaderName": "",
+		"adjective": [""],
+		"personality": "base",
+		//"preferredVictoryType": "",
+        "startIntroPart1": "UnitedKingdom.startIntroPart",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"tradeRequest": "",
+
+        "outerColor": [0,0,0],
+        "innerColor": [255,255,255],
+
+
+		"favouredReligion": "",
+		"uniqueName": "",
+		"uniques": [
+		/*"Adopt [征兵法案-志愿兵役制]",
+        "Adopt [贸易法案-重视出口]",
+        "Adopt [经济法案-民用经济]",
+		"Adopt [通用国策]",
+		"Adopt [Nationalspirit-British_Stoicism]",
+		"Adopt [Nationalspirit-The_War_to_End_All_Wars]",
+		"Adopt [Nationalspirit-King_George_V]",*/
+		//"[+12 Happiness]",
+		
+		],
+		/*"civilopediaText":[
+        {"text": ""},
+    ],*/
+		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
+			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
+        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
+    },
 	
 	
 	// City-States

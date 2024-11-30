@@ -49,7 +49,7 @@
                 "Only available <before adopting [德意志-反对希特勒]>",
                 "Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Instantly provides [120] [政治点数]",
+        "Instantly provides [120] [Political]",
                 ],
                 "row": 1,
                 "column": 30
@@ -294,8 +294,8 @@
                 "Only available <after adopting [德意志-德奥合并]>",
                 "Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Remove [民族精神-苦涩的失败者]",
-        "Adopt [民族精神-意志的胜利]",
+        "Remove [Nationalspirit-BitterLoser]",
+        "Adopt [Nationalspirit-Triumphofthewill]",
                 ],
                 "row": 4,
                 "column": 38
@@ -335,9 +335,9 @@
     
     
     
-    {
+    /*{
         "name": "民族精神",
-        "era": "步兵",
+        "era": "未知",
         "priorities": {
             
         },
@@ -346,224 +346,444 @@
 ],
         "policies": [
             {
-                "name": "民族精神-苦涩的失败者",
+                "name": "Nationalspirit-BitterLoser",//苦涩的失败者
                 "uniques": [
                 
                 ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-BitterLoser"}]
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "民族精神-总参谋部",
+                "name": "Nationalspirit-ColonelGeneralStaff",//总参谋部
                 "uniques": [
                 
                 
                 ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-ColonelGeneralStaff"}]
                 "row": 2,
                 "column": 1
             },
             {
-                "name": "民族精神-意志的胜利",
+                "name": "Nationalspirit-Triumphofthewill",//意志的胜利
                 "uniques": [
                 
-                "[+1 Faith] [in capital]",
+                //"[+1 Faith] [in capital]",
                 ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-Triumphofthewill"}]
                 "row": 3,
                 "column": 1
             },
             {
-                "name": "民族精神-九国公约",
+                "name": "Nationalspirit-NinePowerTreaty",//九国公约
                 "uniques": [
                 //"Adopt [贸易法案-自由贸易] <upon turn end> <hidden from users>",
                 //"Remove [贸易法案-重视出口] <upon turn end> <hidden from users>",
                 //"Remove [贸易法案-有限出口] <upon turn end> <hidden from users>",
                 //"Remove [贸易法案-封闭经济] <upon turn end> <hidden from users>",
                 ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-NinePowerTreaty"}]
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "民族精神-共产主义崛起",
+                "name": "Nationalspirit-RiseCommunism",//共产主义崛起
                 "uniques": [
                 
                 ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-RiseCommunism"}]
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "民族精神-腐败的国军",
+                "name": "Nationalspirit-CorruptNationalArmy",//腐败的国军
                 "uniques": [
                 
-                "[-25]% Strength",
+                //"[-25]% Strength",
                 ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-CorruptNationalArmy"}]
                 "row": 3,
                 "column": 3
             },
             {
-                "name": "民族精神-低效的官僚制度",
+                "name": "Nationalspirit-InefficientBureaucracy",//低效的官僚制度
                 "uniques": [
                 
                 ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-InefficientBureaucracy"}]
                 "row": 4,
                 "column": 3
             },
             {
-                "name": "民族精神-低能的军官团",
+                "name": "Nationalspirit-低能的军官团",
                 "uniques": [
                 
                 ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-低能的军官团"}]
                 "row": 5,
                 "column": 3
             },
             {
-                "name": "民族精神-德国军事顾问",
+                "name": "Nationalspirit-德国军事顾问",
                 "uniques": [
                 
                 ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-德国军事顾问"}]
                 "row": 6,
                 "column": 3
             },
             {
-                "name": "民族精神-低度通货膨胀",
+                "name": "Nationalspirit-低度通货膨胀",
                 "uniques": [
                 
-                "[-10]% [Gold] [in all cities]",
+                //"[-10]% [Gold] [in all cities]",
                 ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-低度通货膨胀"}]
                 "row": 7,
                 "column": 3
+            },
+            {
+                "name": "Nationalspirit-WinnerWorldWar",//世界大战的胜利者
+                "uniques": [
+                //"Comment [适役人口-0.30%]",
+                //"Comment [陆军学说花费+50.00%]",
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-WinnerWorldWar"}]
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Nationalspirit-ChaoticGovernment",//混乱的政府
+                "uniques": [
+                //"Consumes [6] [Political]",
+                //"Comment [Political增长-80%]",
+		//"Consumes [12] [Political]",
+		//"[-10]% [Happiness] [in all cities]",
+		//"[+10]% Unhappiness from [Population] [in all cities]",
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-ChaoticGovernment"}]
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Nationalspirit-ProtectedbyMaginotLine",//受马奇诺防线的保护
+                "uniques": [
+
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-ProtectedbyMaginotLine"}]
+                "row": 3,
+                "column": 5
+            },
+            {
+                "name": "Nationalspirit-FullEmployment",//充分就业
+                "uniques": [
+                //"Comment [适役人口修正-25%]",
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-FullEmployment"}]
+                "row": 4,
+                "column": 5
+            },
+            {
+                "name": "Nationalspirit-PoliticalViolence",//政治暴力
+                "uniques": [
+
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-PoliticalViolence"}]
+                "row": 5,
+                "column": 5
+            },
+            {
+                "name": "Nationalspirit-InefficientEconomy",//低效的经济
+                "uniques": [
+		//"Comment [工厂产出-20%]",
+		
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-InefficientEconomy"}]
+                "row": 6,
+                "column": 5
+            },
+            {
+                "name": "Nationalspirit-StateShintoReligion",//国立神道教
+                "uniques": [
+                //"[+2] HP when healing",
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-StateShintoReligion"}]
+                "row": 1,
+                "column": 7
+            },
+            {
+                "name": "Nationalspirit-JapaneseZaibatsu",//日本财阀
+                "uniques": [
+                //"Consumes [3] [Political]",
+                //"Comment [Political-25%]",
+                //"Comment [贸易法案花费+25%]",
+                //"Comment [经济法案花费+25%]",
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-JapaneseZaibatsu"}]
+                "row": 2,
+                "column": 7
+            },
+            {
+                "name": "Nationalspirit-ReplicatedStudy",//重复的研究
+                "uniques": [
+                
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-ReplicatedStudy"}]
+                "row": 3,
+                "column": 7
+            },
+            {
+                "name": "Nationalspirit-JapanMilitarism",//日本军国主义
+                "uniques": [
+                //"Instantly consumes [20] [Warsupport]",
+                //"[-5]% [Science] [in all cities]",
+                //"[-10]% Production when constructing [民用工厂] buildings [in this city]",
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-JapanMilitarism"}]
+                "row": 4,
+                "column": 7
+            },
+            {
+                "name": "Nationalspirit-WhereRevolutionBegan",//革命始源地
+                "uniques": [
+                
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-WhereRevolutionBegan"}]
+                "row": 1,
+                "column": 9
+            },
+            {
+                "name": "Nationalspirit-Trotsky's_plot",//托洛茨基的阴谋
+                "uniques": [
+                //"Comment [Political-15%]",
+                //"[+20]% Unhappiness from [Population] [in all cities]",
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-Trotsky's_plot"}]
+                "row": 2,
+                "column": 9
+            },
+            {
+                "name": "Nationalspirit-PoliticizedArmy",//政治化的军队
+                "uniques": [
+                //"[+3]% Strength <when fighting in [Friendly Land] tiles>",
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-PoliticizedArmy"}]
+                "row": 3,
+                "column": 9
+            },
+            {
+                "name": "Nationalspirit-The_long_march",//长征的创伤
+                "uniques": [
+                
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-The_long_march"}]
+                "row": 1,
+                "column": 11
+            },
+            {
+                "name": "Nationalspirit-Low_popular_support",//低公众支持率
+                "uniques": [
+                
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-Low_popular_support"}]
+                "row": 2,
+                "column": 11
+            },
+            {
+                "name": "Nationalspirit-Disjointed_Government",//权力斗争
+                "uniques": [
+                
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-Disjointed_Government"}]
+                "row": 3,
+                "column": 11
+            },
+            {
+                "name": "Nationalspirit-Army_corruption",//被削弱的红军
+                "uniques": [
+                
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-Army_corruption"}]
+                "row": 4,
+                "column": 11
+            },
+            
+            {
+                "name": "Nationalspirit-British_Stoicism",//英国斯多葛主义
+                "uniques": [
+                
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-British_Stoicism"}]
+                "row": 1,
+                "column": 13
+            },
+            {
+                "name": "Nationalspirit-The_War_to_End_All_Wars",//终战之战
+                "uniques": [
+                
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-The_War_to_End_All_Wars"}]
+                "row": 2,
+                "column": 13
+            },
+            {
+                "name": "Nationalspirit-King_George_V",//乔治五世国王
+                "uniques": [
+                
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-King_George_V"}]
+                "row": 3,
+                "column": 13
             },
             
             
             
             
             
-            	   {
-                "name": "民族精神-国际主义",
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+           {
+                "name": "Nationalspirit-国际主义",
                 "uniques": [
                 
                 ],
                 "row": 1,
-                "column": 9
+                "column": 15
             },
 	   {
-                "name": "民族精神-政治正确",
+                "name": "Nationalspirit-政治正确",
                 "uniques": [
                 
                 ],
                 "row": 2,
-                "column": 9
+                "column": 15
             },
 	   {
-                "name": "民族精神-意识形态灌输",
+                "name": "Nationalspirit-意识形态灌输",
                 "uniques": [
-                "[+5 Happiness]",
-                "Provides [40] [人力]",
+                "[+15 Happiness]",
+                "Provides [5] [Manpower]",
                 ],
                 "row": 3,
-                "column": 9
+                "column": 15
             },
 	   {
-                "name": "民族精神-政治委员",
+                "name": "Nationalspirit-政治委员",
                 "uniques": [
-                "[+1] HP when healing <for [单位类型-步兵] units>",
-                "[+1] HP when healing <for [单位类型-装甲] units>",
+                "[+1] HP when healing <for [unitType.Infantry] units>",
+                "[+1] HP when healing <for [unitType.Armoured] units>",
                 ],
                 "row": 4,
-                "column": 9
+                "column": 15
             },
 	   {
-                "name": "民族精神-意识形态狂热主义",
+                "name": "Nationalspirit-意识形态狂热主义",
                 "uniques": [
-                "Instantly provides [5] [战争支持度]",
-                "[+5]% Strength <when fighting in [Friendly Land] tiles>",
+                //"Instantly provides [5] [Warsupport]",
+                //"[+5]% Strength <when fighting in [Friendly Land] tiles>",
                 ],
                 "row": 5,
-                "column": 9
+                "column": 15
             },
 	   {
-                "name": "民族精神-军国主义",
+                "name": "Nationalspirit-军国主义",
                 "uniques": [
-                "Provides [5] [人力] <in cities with at least [2] [Population]>",
-                "Provides [5] [人力] <in cities with at least [3] [Population]>",
-            	"Provides [5] [人力] <in cities with at least [4] [Population]>",
-            	"Provides [5] [人力] <in cities with at least [5] [Population]>",
+                //"Provides [1] [Manpower] <in cities with at least [2] [Population]>",
+                "Provides [1] [Manpower] <in cities with at least [3] [Population]>",
+            	"Provides [1] [Manpower] <in cities with at least [4] [Population]>",
+            	//"Provides [1] [Manpower] <in cities with at least [5] [Population]>",
                 ],
                 "row": 6,
-                "column": 9
+                "column": 15
             },
 	   {
-                "name": "民族精神-青年军",
+                "name": "Nationalspirit-青年军",
                 "uniques": [
-	            "Provides [5] [人力] <in cities with at least [2] [Population]>",
-            	"Provides [5] [人力] <in cities with at least [4] [Population]>",
+	            "Provides [1] [Manpower] <in cities with at least [2] [Population]>",
+            	"Provides [1] [Manpower] <in cities with at least [4] [Population]>",
                 ],
                 "row": 7,
-                "column": 9
+                "column": 15
             },
 	   {
-                "name": "民族精神-准军事组织",
+                "name": "Nationalspirit-准军事组织",
                 "uniques": [
                 
                 ],
                 "row": 8,
-                "column": 9
+                "column": 15
             },
 	   {
-                "name": "民族精神-自由主义精神",
+                "name": "Nationalspirit-自由主义精神",
                 "uniques": [
                 
                 ],
                 "row": 1,
-                "column": 11
+                "column": 17
             },
 	   {
-                "name": "民族精神-外交中立",
+                "name": "Nationalspirit-外交中立",
                 "uniques": [
                 
                 ],
                 "row": 2,
-                "column": 11
+                "column": 17
             },
 	   {
-                "name": "民族精神-保持威慑",
+                "name": "Nationalspirit-保持威慑",
                 "uniques": [
-                "[+50]% Production when constructing [军用工厂] buildings [in all cities]",
+                //"[+50]% Production when constructing [军用工厂] buildings [in all cities]",
                 ],
                 "row": 3,
-                "column": 11
+                "column": 17
             },
 	   {
-                "name": "民族精神-为何而战",
+                "name": "Nationalspirit-为何而战",
                 "uniques": [
-                "[+10 Happiness]",
-                "Instantly provides [10] [战争支持度]",
+                "[+20 Happiness]",
+                //"Instantly provides [10] [Warsupport]",
                 ],
                 "row": 4,
-                "column": 11
+                "column": 17
             },
 	   {
-                "name": "民族精神-志愿军",
+                "name": "Nationalspirit-志愿军",
                 "uniques": [
                 
                 ],
                 "row": 5,
-                "column": 11
+                "column": 17
             },
 	   {
-                "name": "民族精神-赴外远征军",
+                "name": "Nationalspirit-赴外远征军",
                 "uniques": [
                 
                 ],
                 "row": 6,
-                "column": 11
+                "column": 17
             },
 	   {
-                "name": "民族精神-特种部队",
+                "name": "Nationalspirit-特种部队",
                 "uniques": [
                 
                 ],
                 "row": 7,
-                "column": 11
+                "column": 17
             },
             
             {
@@ -577,23 +797,23 @@
     
     //九国公约
     //共产主义崛起
-    //腐败的国军
-    //低效的官僚制度
+    //CorruptNationalArmy
+    //InefficientBureaucracy
     //低能的军官团
     //德国军事顾问
     //低度通货膨胀
     //
-    //民族精神-意志的胜利
+    //Nationalspirit-Triumphofthewill
     //
     //
     //
-    //
-    //
+    //"Only available <when above [149] [Political]> <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
+    //"Instantly consumes [150] [Political] <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
     //
     //
         {
         "name": "法案",
-        "era": "步兵",
+        "era": "未知",
         "priorities": {
             
         },
@@ -604,13 +824,15 @@
             {
                 "name": "贸易法案-自由贸易",
                 "uniques": [
-		"[+2 Production] [in all cities]",
-		"[+10]% [Science] [in all cities]",
+		//"[+4 Production] [in all cities]",
+		//"[+10]% [Science] [in all cities]",
 		"Remove [贸易法案-重视出口] <hidden from users>",
 		"Remove [贸易法案-有限出口] <hidden from users>",
 		"Remove [贸易法案-封闭经济] <hidden from users>",
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Unavailable <when below [185] [Political]> <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
+            "Instantly consumes [35] [Political] <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
                 ],
                 "row": 1,
                 "column": 1
@@ -618,13 +840,15 @@
             {
                 "name": "贸易法案-重视出口",
                 "uniques": [
-                "[+1 Production] [in all cities]",
-		"[+5]% [Science] [in all cities]",
+                //"[+2 Production] [in all cities]",
+		//"[+5]% [Science] [in all cities]",
 		"Remove [贸易法案-自由贸易] <hidden from users>",
 		"Remove [贸易法案-有限出口] <hidden from users>",
 		"Remove [贸易法案-封闭经济] <hidden from users>",
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Unavailable <when below [185] [Political]> <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
+            "Instantly consumes [35] [Political] <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
                 ],
                 "row": 2,
                 "column": 1
@@ -635,8 +859,10 @@
 		"Remove [贸易法案-自由贸易] <hidden from users>",
 		"Remove [贸易法案-重视出口] <hidden from users>",
 		"Remove [贸易法案-封闭经济] <hidden from users>",
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Unavailable <when below [185] [Political]> <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
+            "Instantly consumes [35] [Political] <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
                 ],
                 "row": 3,
                 "column": 1
@@ -647,8 +873,10 @@
 		"Remove [贸易法案-自由贸易] <hidden from users>",
 		"Remove [贸易法案-重视出口] <hidden from users>",
 		"Remove [贸易法案-有限出口] <hidden from users>",
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Unavailable <when below [185] [Political]> <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
+            "Instantly consumes [35] [Political] <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
                 ],
                 "row": 4,
                 "column": 1
@@ -656,8 +884,8 @@
 	    {
                 "name": "征兵法案-非军事化国家",
                 "uniques": [
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
 		"Only available <after adopting [征兵法案-志愿兵役制]> <hidden from users>",
 		"Remove [征兵法案-志愿兵役制] <hidden from users>",
                 ],
@@ -667,8 +895,8 @@
             {
                 "name": "征兵法案-志愿兵役制",
                 "uniques": [
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-        "Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+        "Instantly consumes [150] [Political] <hidden from users>",
 		"Only available <before adopting [征兵法案-广泛征兵]> <hidden from users>",
 		"Only available <before adopting [征兵法案-按需服兵役]> <hidden from users>",
 		"Only available <before adopting [征兵法案-所有成年服兵役]> <hidden from users>",
@@ -682,8 +910,9 @@
             {
                 "name": "征兵法案-有限征兵",
                 "uniques": [
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Only available <when above [9] [Warsupport]> <hidden from users>",
 		"Only available <before adopting [征兵法案-非军事化国家]> <hidden from users>",
 		"Only available <before adopting [征兵法案-按需服兵役]> <hidden from users>",
 		"Only available <before adopting [征兵法案-所有成年服兵役]> <hidden from users>",
@@ -697,8 +926,9 @@
             {
                 "name": "征兵法案-广泛征兵",
                 "uniques": [
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Only available <when above [19] [Warsupport]> <hidden from users>",
 		"Only available <before adopting [征兵法案-非军事化国家]> <hidden from users>",
 		"Only available <before adopting [征兵法案-志愿兵役制]> <hidden from users>",
 		"Only available <before adopting [征兵法案-所有成年服兵役]> <hidden from users>",
@@ -713,16 +943,17 @@
             {
                 "name": "征兵法案-按需服兵役",
                 "uniques": [
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Only available <when above [59] [Warsupport]> <hidden from users>",
+       
 		"Only available <before adopting [征兵法案-非军事化国家]> <hidden from users>",
 		"Only available <before adopting [征兵法案-志愿兵役制]> <hidden from users>",
 		"Only available <before adopting [征兵法案-有限征兵]> <hidden from users>",
 		"Only available <before adopting [征兵法案-榨干他们]> <hidden from users>",
 		"Remove [征兵法案-广泛征兵] <hidden from users>",
-		"Remove [征兵法案-按需服兵役] <hidden from users>",
 		"Remove [征兵法案-所有成年服兵役] <hidden from users>",
-		"[-75]% growth [in all cities]",
+		//"[-75]% growth [in all cities]",
                 ],
                 "row": 5,
                 "column": 3
@@ -730,17 +961,19 @@
             {
                 "name": "征兵法案-所有成年服兵役",
                 "uniques": [
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Only available <when above [69] [Warsupport]> <hidden from users>",
+        	
 		"Only available <before adopting [征兵法案-非军事化国家]> <hidden from users>",
 		"Only available <before adopting [征兵法案-志愿兵役制]> <hidden from users>",
 		"Only available <before adopting [征兵法案-有限征兵]> <hidden from users>",
 		"Only available <before adopting [征兵法案-广泛征兵]> <hidden from users>",
 		"Remove [征兵法案-按需服兵役] <hidden from users>",
 		"Remove [征兵法案-榨干他们] <hidden from users>",
-		"Nullifies Growth [in all cities]",
-		"[-5]% Strength <for [All] units>",
-		"[-5]% [Science] [in all cities]",
+		//"Nullifies Growth [in all cities]",
+		//"[-5]% Strength <for [All] units>",
+		//"[-5]% [Science] [in all cities]",
                 ],
                 "row": 6,
                 "column": 3
@@ -748,13 +981,15 @@
             {
                 "name": "征兵法案-榨干他们",
                 "uniques": [
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Only available <when above [84] [Warsupport]> <hidden from users>",
+        	
 		"Only available <after adopting [征兵法案-所有成年服兵役]> <hidden from users>",
 		"Remove [征兵法案-所有成年服兵役] <hidden from users>",
-		"Nullifies Growth [in all cities]",
-		"[-5]% Strength <for [All] units>",
-		"[-10]% [Science] [in all cities]",
+		//"Nullifies Growth [in all cities]",
+		//"[-5]% Strength <for [All] units>",
+		//"[-10]% [Science] [in all cities]",
                 ],
                 "row": 7,
                 "column": 3
@@ -762,14 +997,16 @@
                         {
                 "name": "经济法案-民用经济",
                 "uniques": [
-		"[-30]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[-30]% Production when constructing [军用工厂] buildings [in all cities]",
+		//"[-30]% Production when constructing [民用工厂] buildings [in all cities]",
+		//"[-30]% Production when constructing [军用工厂] buildings [in all cities]",
 		"Remove [经济法案-早期动员] <hidden from users>",
 		"Remove [经济法案-部分动员] <hidden from users>",
 		"Remove [经济法案-战时经济] <hidden from users>",
 		"Remove [经济法案-总动员] <hidden from users>",
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Unavailable <when below [185] [Political]> <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
+            "Instantly consumes [35] [Political] <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
                 ],
                 "row": 1,
                 "column": 5
@@ -777,15 +1014,17 @@
 {
                 "name": "经济法案-早期动员",
                 "uniques": [
-		"[-10]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[-10]% Production when constructing [军用工厂] buildings [in all cities]",
+		//"[-10]% Production when constructing [民用工厂] buildings [in all cities]",
+		//"[-10]% Production when constructing [军用工厂] buildings [in all cities]",
 		"Remove [经济法案-民用经济] <hidden from users>",
 		"Remove [经济法案-部分动员] <hidden from users>",
 		"Remove [经济法案-战时经济] <hidden from users>",
 		"Remove [经济法案-总动员] <hidden from users>",
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-		"Only available <when above [14] [战争支持度]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+		"Only available <when above [14] [Warsupport]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Unavailable <when below [185] [Political]> <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
+            "Instantly consumes [35] [Political] <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
                 ],
                 "row": 2,
                 "column": 5
@@ -793,15 +1032,17 @@
 {
                 "name": "经济法案-部分动员",
                 "uniques": [
-		"[+5]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[+10]% Production when constructing [军用工厂] buildings [in all cities]",
+		//"[+5]% Production when constructing [民用工厂] buildings [in all cities]",
+		//"[+10]% Production when constructing [军用工厂] buildings [in all cities]",
 		"Remove [经济法案-民用经济] <hidden from users>",
 		"Remove [经济法案-早期动员] <hidden from users>",
 		"Remove [经济法案-战时经济] <hidden from users>",
 		"Remove [经济法案-总动员] <hidden from users>",
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-		"Only available <when above [24] [战争支持度]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+		"Only available <when above [24] [Warsupport]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Unavailable <when below [185] [Political]> <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
+            "Instantly consumes [35] [Political] <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
                 ],
                 "row": 3,
                 "column": 5
@@ -809,15 +1050,17 @@
 {
                 "name": "经济法案-战时经济",
                 "uniques": [
-		"[+10]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[+20]% Production when constructing [军用工厂] buildings [in all cities]",
+		//"[+10]% Production when constructing [民用工厂] buildings [in all cities]",
+		//"[+20]% Production when constructing [军用工厂] buildings [in all cities]",
 		"Remove [经济法案-民用经济] <hidden from users>",
 		"Remove [经济法案-早期动员] <hidden from users>",
 		"Remove [经济法案-部分动员] <hidden from users>",
 		"Remove [经济法案-总动员] <hidden from users>",
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-		"Only available <when above [49] [战争支持度]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+		"Only available <when above [49] [Warsupport]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Unavailable <when below [185] [Political]> <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
+            "Instantly consumes [35] [Political] <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
                 ],
                 "row": 4,
                 "column": 5
@@ -825,15 +1068,17 @@
 {
                 "name": "经济法案-总动员",
                 "uniques": [
-		"[+15]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[+30]% Production when constructing [军用工厂] buildings [in all cities]",
+		//"[+15]% Production when constructing [民用工厂] buildings [in all cities]",
+		//"[+30]% Production when constructing [军用工厂] buildings [in all cities]",
 		"Remove [经济法案-民用经济] <hidden from users>",
 		"Remove [经济法案-早期动员] <hidden from users>",
 		"Remove [经济法案-部分动员] <hidden from users>",
 		"Remove [经济法案-战时经济] <hidden from users>",
-		"Only available <when above [149] [政治点数]> <hidden from users>",
-		"Only available <when above [79] [战争支持度]> <hidden from users>",
-        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <when above [149] [Political]> <hidden from users>",
+		"Only available <when above [79] [Warsupport]> <hidden from users>",
+        	"Instantly consumes [150] [Political] <hidden from users>",
+        	"Unavailable <when below [185] [Political]> <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
+            "Instantly consumes [35] [Political] <hidden from users> <after adopting [Nationalspirit-日本财阀]>",
                 ],
                 "row": 5,
                 "column": 5
@@ -848,7 +1093,7 @@
     },
 {
         "name": "通用国策",
-        "era": "步兵",
+        "era": "未知",
         "priorities": {
 
         },
@@ -861,7 +1106,7 @@
                 "uniques": [
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Instantly provides [120] [政治点数]",
+        "Instantly provides [120] [Political]",
                 ],
                 "row": 1,
                 "column": 20
@@ -884,7 +1129,7 @@
         "Only available <before adopting [通用国策-民族主义]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-国际主义]",
+        "Adopt [Nationalspirit-国际主义]",
                 ],
                 "row": 3,
                 "column": 19
@@ -895,8 +1140,8 @@
         "Only available <after adopting [通用国策-国际主义]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-政治正确]",
-        "Instantly provides [200] [政治点数]",
+        "Adopt [Nationalspirit-政治正确]",
+        "Instantly provides [200] [Political]",
                 ],
                 "row": 4,
                 "column": 19
@@ -907,8 +1152,8 @@
         "Only available <after adopting [通用国策-政治正确]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-意识形态灌输]",
-        "Instantly provides [160] [政治点数]",
+        "Adopt [Nationalspirit-意识形态灌输]",
+        "Instantly provides [160] [Political]",
                 ],
                 "row": 5,
                 "column": 19
@@ -919,8 +1164,8 @@
         "Only available <after adopting [通用国策-意识形态灌输]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-政治委员]",
-        "Instantly provides [160] [政治点数]",
+        "Adopt [Nationalspirit-政治委员]",
+        "Instantly provides [160] [Political]",
                 ],
                 "row": 6,
                 "column": 19
@@ -931,7 +1176,7 @@
         "Only available <after adopting [通用国策-政治委员]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-意识形态狂热主义]",
+        "Adopt [Nationalspirit-意识形态狂热主义]",
                 ],
                 "row": 7,
                 "column": 19
@@ -942,7 +1187,7 @@
         "Only available <after adopting [通用国策-意识形态狂热主义II]>",
 	    "Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-	    "[+100]% [Science] [in capital]",
+	    "[+100]% [Science] [in all cities]",
                 ],
                 "row": 8,
                 "column": 19
@@ -964,8 +1209,8 @@
         "Only available <after adopting [通用国策-民族主义]>",
 	    "Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-军国主义]",
-        "Instantly provides [20] [陆军经验]",
+        "Adopt [Nationalspirit-军国主义]",
+        "Instantly provides [20] [LandEXP]",
                 ],
                 "row": 4,
                 "column": 17
@@ -976,7 +1221,7 @@
         "Only available <after adopting [通用国策-军国主义]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-青年军]",
+        "Adopt [Nationalspirit-青年军]",
                 ],
                 "row": 5,
                 "column": 17
@@ -987,7 +1232,7 @@
         "Only available <after adopting [通用国策-青年入伍]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-准军事组织]",
+        "Adopt [Nationalspirit-准军事组织]",
                 ],
                 "row": 6,
                 "column": 17
@@ -998,7 +1243,7 @@
         "Only available <after adopting [通用国策-准军事组织]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-意识形态狂热主义]",
+        "Adopt [Nationalspirit-意识形态狂热主义]",
                 ],
                 "row": 7,
                 "column": 17
@@ -1009,7 +1254,7 @@
         "Only available <after adopting [通用国策-意识形态狂热主义I]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-	"[+100]% [Science] [in capital]",
+	"[+100]% [Science] [in all cities]",
                 ],
                 "row": 8,
                 "column": 17
@@ -1021,7 +1266,7 @@
         "Only available <before adopting [通用国策-集体主义精神]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-自由主义精神]",
+        "Adopt [Nationalspirit-自由主义精神]",
                 ],
                 "row": 2,
                 "column": 21
@@ -1033,8 +1278,8 @@
         "Only available <before adopting [通用国策-干涉主义]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-外交中立]",
-        "Instantly provides [150] [政治点数]",
+        "Adopt [Nationalspirit-外交中立]",
+        "Instantly provides [150] [Political]",
                 ],
                 "row": 3,
                 "column": 21
@@ -1045,7 +1290,7 @@
         "Only available <after adopting [通用国策-保持中立]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-保持威慑]",
+        "Adopt [Nationalspirit-保持威慑]",
                 ],
                 "row": 4,
                 "column": 21
@@ -1056,7 +1301,7 @@
         "Only available <after adopting [通用国策-保持威慑]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-为何而战]",
+        "Adopt [Nationalspirit-为何而战]",
                 ],
                 "row": 6,
                 "column": 21
@@ -1067,7 +1312,7 @@
         "Only available <after adopting [通用国策-我们为何而战I]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-	"[+100]% [Science] [in capital]",
+	"[+100]% [Science] [in all cities]",
                 ],
                 "row": 8,
                 "column": 21
@@ -1079,7 +1324,7 @@
         "Only available <before adopting [通用国策-保持中立]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Instantly provides [150] [政治点数]",
+        "Instantly provides [150] [Political]",
                 ],
                 "row": 3,
                 "column": 23
@@ -1090,7 +1335,7 @@
         "Only available <after adopting [通用国策-干涉主义]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-志愿军]",
+        "Adopt [Nationalspirit-志愿军]",
                 ],
                 "row": 4,
                 "column": 23
@@ -1101,7 +1346,7 @@
         "Only available <after adopting [通用国策-志愿部队]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-赴外远征军]",
+        "Adopt [Nationalspirit-赴外远征军]",
                 ],
                 "row": 5,
                 "column": 23
@@ -1112,7 +1357,7 @@
         "Only available <after adopting [通用国策-赴外远征军]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-为何而战]",
+        "Adopt [Nationalspirit-为何而战]",
                 ],
                 "row": 6,
                 "column": 23
@@ -1123,7 +1368,7 @@
         "Only available <after adopting [通用国策-我们为何而战II]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-	"[+100]% [Science] [in capital]",
+	"[+100]% [Science] [in all cities]",
                 ],
                 "row": 8,
                 "column": 23
@@ -1233,7 +1478,7 @@
         "Only available <after adopting [通用国策-重视基建II]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-	"[+100]% [Science] [in capital]",
+	"[+100]% [Science] [in all cities]",
                 ],
                 "row": 6,
                 "column": 15
@@ -1244,7 +1489,7 @@
         "Only available <after adopting [通用国策-增加科研槽I]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-	"[+100]% [Science] [in capital]",
+	"[+100]% [Science] [in all cities]",
                 ],
                 "row": 7,
                 "column": 15
@@ -1254,7 +1499,7 @@
                 "uniques": [
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Instantly provides [25] [陆军经验]",
+        "Instantly provides [25] [LandEXP]",
                 ],
                 "row": 1,
                 "column": 2
@@ -1325,7 +1570,7 @@
         "Only available <after adopting [通用国策-重视陆军]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Instantly provides [25] [陆军经验]",
+        "Instantly provides [25] [LandEXP]",
                 ],
                 "row": 3,
                 "column": 2
@@ -1336,7 +1581,7 @@
         "Only available <after adopting [通用国策-重视军事学说I]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Instantly provides [25] [陆军经验]",
+        "Instantly provides [25] [LandEXP]",
                 ],
                 "row": 5,
                 "column": 2
@@ -1349,7 +1594,7 @@
         "Only available <after adopting [通用国策-重视装甲部队]>",
 	"Only available <when above [69] [Faith]> <hidden from users>",
         "Gain [-70] [Faith] <hidden from users>",
-        "Adopt [民族精神-特种部队]",
+        "Adopt [Nationalspirit-特种部队]",
                 ],
                 "row": 7,
                 "column": 2
@@ -1526,10 +1771,10 @@
                 ]
             }
         ]
-    },
+    },*/
     {
         "name": "军事学说",
-        "era": "步兵",
+        "era": "未知",
         "priorities": {
             
         },
@@ -1540,9 +1785,9 @@
             {
                 "name": "机动作战学说-机动作战",
                 "uniques": [
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+10]% Strength <when attacking> <for [单位类型-装甲] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <for [unitType.Armoured] units>",
                 ],
                 "row": 1,
                 "column": 2
@@ -1551,9 +1796,9 @@
                 "name": "机动作战学说-迟滞",
                 "uniques": [
         "Only available <after adopting [机动作战学说-机动作战]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+5]% Strength <when defending> <for [单位类型-步兵] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <for [unitType.Infantry] units>",
                 ],
                 "row": 2,
                 "column": 2
@@ -1562,9 +1807,9 @@
                 "name": "机动作战学说-弹性防御",
                 "uniques": [
         "Only available <after adopting [机动作战学说-迟滞]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+5]% Strength <for [单位类型-装甲] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <for [unitType.Armoured] units>",
                 ],
                 "row": 3,
                 "column": 2
@@ -1573,9 +1818,9 @@
                 "name": "机动作战学说-机动步兵",
                 "uniques": [
         "Only available <after adopting [机动作战学说-弹性防御]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+2] HP when healing <for [单位类型-步兵] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[+2] HP when healing <for [unitType.Infantry] units>",
                 ],
                 "row": 4,
                 "column": 1
@@ -1584,9 +1829,9 @@
                 "name": "机动作战学说-装甲先锋",
                 "uniques": [
         "Only available <after adopting [机动作战学说-弹性防御]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+5]% Strength <when attacking> <for [单位类型-装甲] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <for [unitType.Armoured] units>",
                 ],
                 "row": 4,
                 "column": 3
@@ -1595,9 +1840,9 @@
                 "name": "机动作战学说-大规模摩托化",
                 "uniques": [
         "Only available <after adopting [机动作战学说-机动步兵]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+5]% Strength <for [单位类型-步兵] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <for [unitType.Infantry] units>",
                 ],
                 "row": 5,
                 "column": 1
@@ -1606,9 +1851,9 @@
                 "name": "机动作战学说-重点突破战术",
                 "uniques": [
         "Only available <after adopting [机动作战学说-装甲先锋]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+2] HP when healing <for [单位类型-装甲] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[+2] HP when healing <for [unitType.Armoured] units>",
                 ],
                 "row": 5,
                 "column": 3
@@ -1617,10 +1862,10 @@
                 "name": "机动作战学说-机械化攻势",
                 "uniques": [
         "Only available <after adopting [机动作战学说-大规模摩托化]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+5]% Strength <for [单位类型-步兵] units>",
-	"[+3]% Strength <for [单位类型-装甲] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <for [unitType.Infantry] units>",
+	"[Target Unit] takes [3] damage <upon damaging a [Infantry] unit> <for [unitType.Armoured] units>",
                 ],
                 "row": 6,
                 "column": 1
@@ -1629,9 +1874,9 @@
                 "name": "机动作战学说-闪电战",
                 "uniques": [
         "Only available <after adopting [机动作战学说-重点突破战术]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+3] HP when healing <for [单位类型-装甲] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[+3] HP when healing <for [unitType.Armoured] units>",
                 ],
                 "row": 6,
                 "column": 3
@@ -1640,9 +1885,9 @@
                 "name": "机动作战学说-战斗群I",
                 "uniques": [
         "Only available <after adopting [机动作战学说-机械化攻势]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+3] HP when healing <for [单位类型-步兵] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[+3] HP when healing <for [unitType.Infantry] units>",
                 ],
                 "row": 7,
                 "column": 1
@@ -1651,9 +1896,9 @@
                 "name": "机动作战学说-战斗群II",
                 "uniques": [
         "Only available <after adopting [机动作战学说-闪电战]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+3] HP when healing <for [单位类型-步兵] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[+3] HP when healing <for [unitType.Infantry] units>",
                 ],
                 "row": 7,
                 "column": 3
@@ -1662,18 +1907,11 @@
                 "name": "机动作战学说-国民突击队",
                 "uniques": [
         "Only available <after adopting [机动作战学说-战斗群I]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"Provides [10] [人力] <in cities with at least [1] [Population]>",
-	"Provides [10] [人力] <in cities with at least [2] [Population]>",
-	"Provides [10] [人力] <in cities with at least [3] [Population]>",
-	"Provides [10] [人力] <in cities with at least [4] [Population]>",
-	"Provides [10] [人力] <in cities with at least [5] [Population]>",
-	"Provides [10] [人力] <in cities with at least [6] [Population]>",
-	"Provides [10] [人力] <in cities with at least [7] [Population]>",
-	"Provides [10] [人力] <in cities with at least [8] [Population]>",
-	"Provides [10] [人力] <in cities with at least [9] [Population]>",
-	"Provides [10] [人力] <in cities with at least [10] [Population]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"Provides [1] [Manpower] <in cities with at least [3] [Population]>",
+	"Provides [1] [Manpower] <in cities with at least [5] [Population]>",
+	"Provides [1] [Manpower] <in cities with at least [7] [Population]>",
                 ],
                 "row": 8,
                 "column": 1
@@ -1682,9 +1920,9 @@
                 "name": "机动作战学说-战场救火队",
                 "uniques": [
         "Only available <after adopting [机动作战学说-战斗群II]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+5]% Strength <for [单位类型-步兵] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[Target Unit] takes [1] damage <upon damaging a [All] unit> <for [unitType.Infantry] units>",
                 ],
                 "row": 8,
                 "column": 3
@@ -1693,18 +1931,12 @@
                 "name": "机动作战学说-无差别征兵",
                 "uniques": [
         "Only available <after adopting [机动作战学说-国民突击队]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"Provides [15] [人力] <in cities with at least [1] [Population]>",
-	"Provides [15] [人力] <in cities with at least [2] [Population]>",
-	"Provides [15] [人力] <in cities with at least [3] [Population]>",
-	"Provides [15] [人力] <in cities with at least [4] [Population]>",
-	"Provides [15] [人力] <in cities with at least [5] [Population]>",
-	"Provides [15] [人力] <in cities with at least [6] [Population]>",
-	"Provides [15] [人力] <in cities with at least [7] [Population]>",
-	"Provides [15] [人力] <in cities with at least [8] [Population]>",
-	"Provides [15] [人力] <in cities with at least [9] [Population]>",
-	"Provides [15] [人力] <in cities with at least [10] [Population]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"Provides [1] [Manpower] <in cities with at least [1] [Population]>",
+	"Provides [1] [Manpower] <in cities with at least [3] [Population]>",
+	"Provides [1] [Manpower] <in cities with at least [5] [Population]>",
+	"Provides [1] [Manpower] <in cities with at least [7] [Population]>",
                 ],
                 "row": 9,
                 "column": 1
@@ -1713,8 +1945,8 @@
                 "name": "机动作战学说-后发制人",
                 "uniques": [
         "Only available <after adopting [机动作战学说-战场救火队]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
                 ],
                 "row": 9,
                 "column": 3
@@ -1723,9 +1955,9 @@
                 "name": "机动作战学说-狼人游击兵",
                 "uniques": [
         "Only available <after adopting [机动作战学说-无差别征兵]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+10]% Strength <when fighting in [Friendly Land] tiles>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[Target Unit] takes [2] damage <upon damaging a [All] unit>",
                 ],
                 "row": 10,
                 "column": 1
@@ -1734,10 +1966,10 @@
                 "name": "机动作战学说-现代闪电战",
                 "uniques": [
         "Only available <after adopting [机动作战学说-后发制人]>",
-	"Only available <when above [99] [陆军经验]> <hidden from users>",
-        "Instantly consumes [100] [陆军经验] <hidden from users>",
-	"[+2] HP when healing <for [单位类型-装甲] units>",
-	"[+5]% Strength <when attacking> <for [单位类型-装甲] units>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"[+2] HP when healing <for [unitType.Armoured] units>",
+	"[+5]% Strength <when attacking> <for [unitType.Armoured] units>",
                 ],
                 "row": 10,
                 "column": 3

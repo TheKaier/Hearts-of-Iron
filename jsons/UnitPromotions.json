@@ -1,115 +1,144 @@
 [
+    
+    
     {
-		"name": "步兵",//
+		"name": "Basicinfantryequipment",//基础步兵装备
 		"uniques": [
-			/*"Gain [-1] [Faith] <upon defeating a [Wounded] unit>",
-		"Gain [1] [Faith] <upon being defeated>",*/
-		"[-50]% Strength",
-		"[+5]% Strength <after discovering [科技-改良步兵装备I]> <vs [单位类型-步兵] units>",
-		"[+5]% Strength <after discovering [科技-改良步兵装备II]> <vs [单位类型-步兵] units>",
-		"[+5]% Strength <after discovering [科技-改良步兵装备III]> <vs [单位类型-步兵] units>",
-			]
+		"[Target Unit] takes [10] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [5] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleI]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleII]>",
+		"Gun",
+		]
 	},
 	{
-		"name": "山地步兵",//
+		"name": "InfantryEquipmentI",//步兵装备I
 		"uniques": [
-			/*"Gain [-1] [Faith] <upon defeating a [Wounded] unit>",
-		"Gain [1] [Faith] <upon being defeated>",*/
-		"[-50]% Strength",
-		"[+5]% Strength <after discovering [科技-山地步兵II]> <vs [单位类型-步兵] units>",
-		"[+5]% Strength <after discovering [科技-山地步兵III]> <vs [单位类型-步兵] units>",
-			]
+		"[Target Unit] takes [13] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [6] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleI]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleII]>",
+		"Gun",
+		]
 	},
 	{
-		"name": "伞兵",//
+		"name": "InfantryEquipmentII",//步兵装备II
 		"uniques": [
-			/*"Gain [-1] [Faith] <upon defeating a [Wounded] unit>",
-		"Gain [1] [Faith] <upon being defeated>",*/
-		"[-50]% Strength",
-		"[+5]% Strength <after discovering [科技-伞兵II]> <vs [单位类型-步兵] units>",
-		"[+5]% Strength <after discovering [科技-伞兵III]> <vs [单位类型-步兵] units>",
-			]
+		"[Target Unit] takes [16] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [8] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleI]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleII]>",
+		"Gun",
+		]
 	},
 	{
-		"name": "摩托化步兵",//
+		"name": "InfantryEquipmentIII",//步兵装备III
 		"uniques": [
-		//"[-50]% Strength",
-			]
+		"[Target Unit] takes [20] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [10] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleI]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleII]>",
+		"Gun",
+		]
 	},
 	{
-		"name": "自行火箭炮",//
+		"name": "MotorizedEquipment",//摩托化装备
 		"uniques": [
-		//"[-50]% Strength",
-			]
-	},
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	{
-		"name": "晋升-基础步兵装备",//43
-		"uniques": [
-			"[+50]% Strength",
-			"[-25]% Strength <vs [单位类型-装甲] units>",
-			]
+		"[+10] HP when healing",
+		"Equipment",
+		]
 	},
 	{
-		"name": "晋升-步兵装备I",//50
+		"name": "self-propelledRocketLauncher",//自行火箭炮
 		"uniques": [
-			"[+60]% Strength",
-			"[-30]% Strength <vs [单位类型-装甲] units>",
-			]
+		"[Target Unit] takes [10] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [5] damage <upon damaging a [Armoured] unit>",
+		"Equipment",
+		]
 	},
 	{
-		"name": "晋升-步兵装备II",//58
+		"name": "MechanizedEquipment",//机械化装备
 		"uniques": [
-			"[+70]% Strength",
-			"[-35]% Strength <vs [单位类型-装甲] units>",
-			]
-	},
-	{
-		"name": "晋升-步兵装备III",//69
-		"uniques": [
-			"[+85]% Strength",
-			"[-40]% Strength <vs [单位类型-装甲] units>",
-			]
+		"[+1] Movement",
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-机械化装备II]>",
+		"[This Unit] heals [3] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-机械化装备III]>",
+		"Equipment",
+		]
 	},
 	
 	{
-		"name": "晋升-摩托化装备",//
+		"name": "LightUnderpan",//轻型底盘
 		"uniques": [
-			"[+10]% Strength",
-			"[+1] Movement",
-			]
+		"[+3] Movement",
+		"Underpan",
+		"Light",
+		]
 	},
 	{
-		"name": "晋升-机械化装备I",//
+		"name": "MiddleUnderpan",//中型底盘
 		"uniques": [
-			"[+15]% Strength",
-			"[+15]% Strength <when defending>",
-			]
+		"[+2] Movement",
+		"Underpan",
+		"Middle",
+		]
 	},
 	{
-		"name": "晋升-机械化装备II",//
+		"name": "HeavyUnderpan",//重型底盘
 		"uniques": [
-			"[+15]% Strength",
-			"[+20]% Strength <when defending>",
-			"[+1] Movement",
-			]
+		"[+1] Movement",
+		"Underpan",
+		"Heavy",
+		]
 	},
 	{
-		"name": "晋升-机械化装备III",//
+		"name": "LightTankArmoured",//轻型坦克装甲
 		"uniques": [
-			"[+20]% Strength",
-			"[+25]% Strength <when defending>",
-			"[+1] Movement",
-			]
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack>",
+		"[This Unit] heals [1] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-轻型坦克II]>",
+		"[This Unit] heals [1] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-轻型坦克III]>",
+		"TankArmoured",
+		]
+	},
+	{
+		"name": "MiddleTankArmoured",//中型坦克装甲
+		"uniques": [
+		"[This Unit] heals [4] HP <upon losing at least [0] HP in a single attack>",
+		"[This Unit] heals [1] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-中型坦克II]>",
+		"[This Unit] heals [1] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-中型坦克III]>",
+		"TankArmoured",
+		]
+	},
+	{
+		"name": "HeavyTankArmoured",//重型坦克装甲
+		"uniques": [
+		"[This Unit] heals [6] HP <upon losing at least [0] HP in a single attack>",
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-重型坦克II]>",
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-重型坦克III]>",
+		"TankArmoured",
+		]
+	},
+	{
+		"name": "ModernTankArmoured",//现代坦克装甲
+		"uniques": [
+		"[This Unit] heals [7] HP <upon losing at least [0] HP in a single attack>",
+		"TankArmoured",
+		]
+	},
+	{
+		"name": "MachineGun",//机关枪
+		"uniques": [
+		"[Target Unit] takes [25] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [10] damage <upon damaging a [Armoured] unit>",
+		"Gunturret",
+		]
+	},
+	{
+		"name": "Cannon",//加农炮
+		"uniques": [
+		"[Target Unit] takes [15] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [30] damage <upon damaging a [Armoured] unit>",
+		"Gunturret",
+		]
 	},
 	
 	
@@ -119,25 +148,49 @@
 	
 	
 	
+	{
+		"name": "ai-Infantry",//ai
+		"uniques": [
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleI]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleII]>",
+		"[Target Unit] takes [10] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [5] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [3] damage <upon damaging a [Infantry] unit> <after discovering [Tech.InfantryEquipmentI]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after discovering [Tech.InfantryEquipmentI]>",
+		"[Target Unit] takes [3] damage <upon damaging a [Infantry] unit><after discovering [Tech.InfantryEquipmentII]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit><after discovering [Tech.InfantryEquipmentII]>",
+		"[Target Unit] takes [4] damage <upon damaging a [Infantry] unit><after discovering [Tech.InfantryEquipmentIII]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit><after discovering [Tech.InfantryEquipmentIII]>",
+		"[Target Unit] takes [5] damage <upon damaging a [Infantry] unit><after discovering [科技-自行火箭炮]>",
+		"[Target Unit] takes [5] damage <upon damaging a [Armoured] unit> <after discovering [科技-自行火箭炮]>",
+		"[+1] Movement <after discovering [科技-机械化装备I]>",
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-机械化装备II]>",
+		"[This Unit] heals [3] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-机械化装备III]>",
+		"[+5] HP when healing <after discovering [科技-摩托化装备]>",
+		
+		
+		
+		"Equipment",
+		"Gun",
+		]
+	},
 	
 	
-	
-	
-/*基础步兵装备
-步兵装备I
-步兵装备II
-步兵装备III
-改良步兵装备I
-改良步兵装备II
-改良步兵装备III
-反坦克步枪I
-反坦克步枪II*/
-	
-	
-	
-	
-	
-	
+	{
+		"name": "ai-Armoured",//ai
+		"uniques": [
+		"[Target Unit] takes [20] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [30] damage <upon damaging a [Armoured] unit>",
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-轻型坦克I]>",
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-中型坦克I]>",
+		"[This Unit] heals [3] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-重型坦克I]>",
+		"[+2] Movement",
+		
+		"Underpan",
+		"TankArmoured",
+		"Gunturret",
+		]
+	},
 	
 	
 	

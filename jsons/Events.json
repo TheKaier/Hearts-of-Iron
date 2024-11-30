@@ -1,5 +1,29 @@
 [//"Triggers a [事件名] event"
     {
+        "name":"事件-推行政策",
+        "text":"政策应当可以推行了，领袖。",
+        "choices":[
+        {
+        "text":"已阅",
+        "triggeredUniques":[
+        
+		    ],
+        },
+        {
+        "text":"再缓缓",
+        "triggeredUniques":[
+        
+		    ],
+        },
+        {
+        "text":"滚出去",
+        "triggeredUniques":[
+        
+		    ],
+        },
+        ]
+    }
+    /*{
         "name":"事件-科技研发",
         "text":"选择对应的选项，研发对应科技",
         "choices":[
@@ -12,63 +36,127 @@
         {
         "text":"步兵科技",
         "triggeredUniques":[
-        "Discover [科技-步兵装备I] <when above [1999] [Science]> <hidden from users>",
-        "Discover [科技-改良步兵装备I] <after discovering [科技-步兵装备I]> <when above [2999] [Science]> <hidden from users>",
-        "Discover [科技-步兵装备II] <after discovering [科技-改良步兵装备I]> <when above [2999] [Science]> <hidden from users>",
-        "Discover [科技-改良步兵装备II] <after discovering [科技-步兵装备II]> <when above [2999] [Science]> <hidden from users>",
-        "Discover [科技-步兵装备III] <after discovering [科技-改良步兵装备II]> <when above [2999] [Science]> <hidden from users>",
-        "Discover [科技-改良步兵装备III] <after discovering [科技-步兵装备III]> <when above [1999] [Science]> <hidden from users>",
+        "Discover [科技-步兵装备I] <when above [2141] [Science]> <hidden from users>",
+        "Discover [科技-改良步兵装备I] <after discovering [科技-步兵装备I]> <when above [2856] [Science]> <hidden from users>",
+        "Discover [科技-步兵装备II] <after discovering [科技-改良步兵装备I]> <when above [2856] [Science]> <hidden from users>",
+        "Discover [科技-改良步兵装备II] <after discovering [科技-步兵装备II]> <when above [2856] [Science]> <hidden from users>",
+        "Discover [科技-步兵装备III] <after discovering [科技-改良步兵装备II]> <when above [2856] [Science]> <hidden from users>",
+        "Discover [科技-改良步兵装备III] <after discovering [科技-步兵装备III]> <when above [2141] [Science]> <hidden from users>",
 		    ],
         },
         {
         "text":"反坦克步枪科技",
         "triggeredUniques":[
-        "Discover [科技-反坦克步枪I] <after discovering [科技-步兵装备II]> <when above [1999] [Science]> <hidden from users>",
-        "Discover [科技-反坦克步枪II] <after discovering [科技-反坦克步枪I]> <when above [1999] [Science]> <hidden from users>",
+        "Discover [科技-反坦克步枪I] <after discovering [科技-步兵装备II]> <when above [2141] [Science]> <hidden from users>",
+        "Discover [科技-反坦克步枪II] <after discovering [科技-反坦克步枪I]> <when above [2141] [Science]> <hidden from users>",
             ],
         },
         {
         "text":"山地步兵科技",
         "triggeredUniques":[
-        "Discover [科技-山地步兵I] <when above [2999] [Science]> <hidden from users>",
-        "Discover [科技-山地步兵II] <after discovering [科技-山地步兵I]> <when above [1999] [Science]> <hidden from users>",
-        "Discover [科技-山地步兵III] <after discovering [科技-山地步兵II]> <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-山地步兵I] <when above [2856] [Science]> <hidden from users>",
+        "Discover [科技-山地步兵II] <after discovering [科技-山地步兵I]> <when above [2141] [Science]> <hidden from users>",
+        "Discover [科技-山地步兵III] <after discovering [科技-山地步兵II]> <when above [2856] [Science]> <hidden from users>",
             ],
         },
         {
         "text":"伞兵科技",
         "triggeredUniques":[
-        "Discover [科技-伞兵I] <when above [2999] [Science]> <hidden from users>",
-        "Discover [科技-伞兵II] <after discovering [科技-伞兵I]> <when above [1999] [Science]> <hidden from users>",
-        "Discover [科技-伞兵III] <after discovering [科技-伞兵II]> <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-伞兵I] <when above [2856] [Science]> <hidden from users>",
+        "Discover [科技-伞兵II] <after discovering [科技-伞兵I]> <when above [2141] [Science]> <hidden from users>",
+        "Discover [科技-伞兵III] <after discovering [科技-伞兵II]> <when above [2856] [Science]> <hidden from users>",
             ],
         },
         {
         "text":"机械化部队科技",
         "triggeredUniques":[
-        "Discover [科技-摩托化装备] <when above [2999] [Science]> <hidden from users>",
-        "Discover [科技-自行火箭炮] <after discovering [科技-摩托化装备]> <when above [1999] [Science]> <hidden from users>",
+        "Discover [科技-摩托化装备] <when above [2856] [Science]> <hidden from users>",
+        "Discover [科技-自行火箭炮] <after discovering [科技-摩托化装备]> <when above [2141] [Science]> <hidden from users>",
             ],
         },
         {
         "text":"机械化装备科技",
         "triggeredUniques":[
-        "Discover [科技-机械化装备I] <after discovering [科技-摩托化装备]> <when above [2999] [Science]> <hidden from users>",
-        "Discover [科技-机械化装备II] <after discovering [科技-机械化装备I]> <when above [2999] [Science]> <hidden from users>",
-        "Discover [科技-机械化装备III] <after discovering [科技-机械化装备II]> <when above [3999] [Science]> <hidden from users>",
+        "Discover [科技-机械化装备I] <after discovering [科技-摩托化装备]> <when above [2856] [Science]> <hidden from users>",
+        "Discover [科技-机械化装备II] <after discovering [科技-机械化装备I]> <when above [2856] [Science]> <hidden from users>",
+        "Discover [科技-机械化装备III] <after discovering [科技-机械化装备II]> <when above [4284] [Science]> <hidden from users>",
             ],
         },
         {
         "text":"海军陆战队科技",
         "triggeredUniques":[
-        "Discover [科技-海军陆战队I] <when above [2999] [Science]> <hidden from users>",
-        "Discover [科技-海军陆战队II] <after discovering [科技-伞兵I]> <when above [1999] [Science]> <hidden from users>",
-        "Discover [科技-海军陆战队III] <after discovering [科技-伞兵II]> <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-海军陆战队I] <when above [2856] [Science]> <hidden from users>",
+        "Discover [科技-海军陆战队II] <after discovering [科技-海军陆战队I]> <when above [2141] [Science]> <hidden from users>",
+        "Discover [科技-海军陆战队III] <after discovering [科技-海军陆战队II]> <when above [2856] [Science]> <hidden from users>",
             ],
-        }
+        },
+        {
+        "text":"支援装备科技-工兵连",
+        "triggeredUniques":[
+        "Discover [科技-支援装备] <when above [1213] [Science]> <hidden from users>",
+        "Discover [科技-工兵连I] <after discovering [科技-支援装备]> <when above [2427] [Science]> <hidden from users>",
+        "Discover [科技-工兵连II] <after discovering [科技-工兵连I]> <when above [1813] [Science]> <hidden from users>",
+        "Discover [科技-工兵连III] <after discovering [科技-工兵连II]> <when above [1813] [Science]> <hidden from users>",
+        "Discover [科技-工兵连IV] <after discovering [科技-工兵连III]> <when above [1813] [Science]> <hidden from users>",
+            ],
+        },
+        {
+        "text":"支援装备科技-侦查连",
+        "triggeredUniques":[
+        "Discover [科技-支援装备] <when above [1213] [Science]> <hidden from users>",
+        "Discover [科技-侦查连I] <after discovering [科技-支援装备]> <when above [2427] [Science]> <hidden from users>",
+        "Discover [科技-侦查连II] <after discovering [科技-侦查连I]> <when above [1813] [Science]> <hidden from users>",
+        "Discover [科技-侦查连III] <after discovering [科技-侦查连II]> <when above [1813] [Science]> <hidden from users>",
+        "Discover [科技-侦查连IV] <after discovering [科技-侦查连III]> <when above [1813] [Science]> <hidden from users>",
+            ],
+        },
+        {
+        "text":"支援装备科技-维修连",
+        "triggeredUniques":[
+        "Discover [科技-支援装备] <when above [1213] [Science]> <hidden from users>",
+        "Discover [科技-维修连I] <after discovering [科技-支援装备]> <when above [2427] [Science]> <hidden from users>",
+        "Discover [科技-维修连II] <after discovering [科技-维修连I]> <when above [1813] [Science]> <hidden from users>",
+        "Discover [科技-维修连III] <after discovering [科技-维修连II]> <when above [1813] [Science]> <hidden from users>",
+        "Discover [科技-维修连IV] <after discovering [科技-维修连III]> <when above [1813] [Science]> <hidden from users>",
+            ],
+        },
+        {
+        "text":"坦克科技-轻型坦克",
+        "triggeredUniques":[
+        "Discover [科技-一战坦克] <when above [2427] [Science]> <hidden from users>",
+        "Discover [科技-轻型坦克I] <after discovering [科技-一战坦克]> <when above [2427] [Science]> <hidden from users>",
+        "Discover [科技-轻型坦克II] <after discovering [科技-轻型坦克I]> <when above [2427] [Science]> <hidden from users>",
+        "Discover [科技-轻型坦克III] <after discovering [科技-轻型坦克II]> <when above [2427] [Science]> <hidden from users>",
+            ],
+        },
+        {
+        "text":"坦克科技-中型坦克",
+        "triggeredUniques":[
+        "Discover [科技-一战坦克] <when above [2427] [Science]> <hidden from users>",
+        "Discover [科技-中型坦克I] <after discovering [科技-轻型坦克II]> <when above [2427] [Science]> <hidden from users>",
+        "Discover [科技-中型坦克II] <after discovering [科技-中型坦克I]> <when above [2427] [Science]> <hidden from users>",
+        "Discover [科技-中型坦克III] <after discovering [科技-中型坦克II]> <when above [2427] [Science]> <hidden from users>",
+        "Discover [科技-现代坦克] <after discovering [科技-中型坦克III]> <when above [2427] [Science]> <hidden from users>",
+            ],
+        },
+        {
+        "text":"坦克科技-重型坦克",
+        "triggeredUniques":[
+        "Discover [科技-一战坦克] <when above [2427] [Science]> <hidden from users>",
+        "Discover [科技-重型坦克I] <after discovering [科技-一战坦克]> <when above [2427] [Science]> <hidden from users>",
+        "Discover [科技-重型坦克II] <after discovering [科技-重型坦克I]> <when above [3027] [Science]> <hidden from users>",
+        "Discover [科技-重型坦克III] <after discovering [科技-重型坦克II]> <when above [3027] [Science]> <hidden from users>",
+        "Discover [科技-超重型坦克] <after discovering [科技-重型坦克III]> <when above [3027] [Science]> <hidden from users>",
+            ],
+        },
+        
+        
+        
+        
         ]
-    }
-
+    }*/
+//2427
+//1813
 
 
 

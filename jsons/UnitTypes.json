@@ -2,25 +2,57 @@
     {
         "name": "unitType.Worker",//建造者
         "movementType": "Land"
+        "uniques": [
+        
+			]
     },
     {
         "name": "unitType.Settler",//殖民者
         "movementType": "Land"
     },
     {
-        "name": "单位类型-步兵",//步兵
+        "name": "unitType.Infantry",//步兵
         "movementType": "Land"
         "uniques": [
-		"Instantly provides [2] [陆军经验] <upon losing at least [10] HP in a single attack> <when at war>",
+		"Instantly provides [5] [LandEXP] <upon losing at least [0] HP in a single attack>",
+		"Gain control over [all] tiles in a [0]-tile radius <upon turn end> <in tiles adjacent to [your] tiles>",
+		
+		
+		"[This Unit] gains the [Basicinfantryequipment] status for [10000] turn(s) <for [0] movement> <costs [10] [Gun.Basicinfantryequipment]> <for [non-[Gun]] units>",
+		"[This Unit] gains the [InfantryEquipmentI] status for [10000] turn(s) <for [0] movement> <costs [10] [Gun.InfantryEquipmentI]> <for [non-[Gun]] units>",
+		"[This Unit] gains the [InfantryEquipmentII] status for [10000] turn(s) <for [0] movement> <costs [10] [Gun.InfantryEquipmentII]> <for [non-[Gun]] units>",
+		"[This Unit] gains the [InfantryEquipmentIII] status for [10000] turn(s) <for [0] movement> <costs [10] [Gun.InfantryEquipmentIII]> <for [non-[Gun]] units>",
+		
+		
+		"[This Unit] gains the [MotorizedEquipment] status for [10000] turn(s) <for [0] movement> <costs [10] [Equipment.MotorizedEquipment]> <for [{non-[Equipment]} {Gun}] units>",
+		"[This Unit] gains the [self-propelledRocketLauncher] status for [10000] turn(s) <for [0] movement> <costs [10] [Equipment.self-propelledRocketLauncher]> <for [{non-[Equipment]} {Gun}] units>",
+		"[This Unit] gains the [MechanizedEquipment] status for [10000] turn(s) <for [0] movement> <costs [10] [Equipment.MechanizedEquipment]> <for [{non-[Equipment]} {Gun}] units>",
+		
+		
+		
+		"[All] units gain the [ai-Infantry] promotion <for [AI player]>",
 			]
     },
     {
-        "name": "单位类型-装甲",//
+        "name": "unitType.Armoured",//
         "movementType": "Land"
         "uniques": [
-		"Instantly provides [1] [陆军经验] <upon losing at least [5] HP in a single attack> <when at war>",
-		"Instantly provides [2] [陆军经验] <upon losing at least [15] HP in a single attack> <when at war>",
-
+		"Instantly provides [5] [LandEXP] <upon losing at least [0] HP in a single attack>",
+		"Gain control over [all] tiles in a [0]-tile radius <upon turn end> <in tiles adjacent to [your] tiles>",
+		"[All] units gain the [ai-Armoured] promotion <for [AI player]>",
+		
+		"[This Unit] gains the [LightUnderpan] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.LightUnderpan]> <for [non-[Underpan]] units>",
+		"[This Unit] gains the [MiddleUnderpan] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.MiddleUnderpan]> <for [non-[Underpan]] units>",
+		"[This Unit] gains the [HeavyUnderpan] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.HeavyUnderpan]> <for [non-[Underpan]] units>",
+		
+		"[This Unit] gains the [LightTankArmoured] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.LightTankArmoured]> <for [{non-[TankArmoured]} {Underpan}] units>",
+		"[This Unit] gains the [MiddleTankArmoured] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.MiddleTankArmoured]> <for [{non-[TankArmoured]} {Underpan} {non-[Light]}] units>",
+		"[This Unit] gains the [ModernTankArmoured] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.ModernTankArmoured]> <for [{non-[TankArmoured]} {Underpan} {Middle}] units>",
+		"[This Unit] gains the [HeavyTankArmoured] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.HeavyTankArmoured]> <for [{non-[TankArmoured]} {Underpan} {Heavy}] units>",
+		
+		"[This Unit] gains the [MachineGun] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.MachineGun]> <for [{non-[Gunturret]} {TankArmoured}] units>",
+		"[This Unit] gains the [Cannon] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.Cannon]> <for [{non-[Gunturret]} {TankArmoured}] units>",
+		
 			]
     },
     

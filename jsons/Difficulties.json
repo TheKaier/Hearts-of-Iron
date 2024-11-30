@@ -1,7 +1,7 @@
 [
 {
 		"name": "Prince",
-		"baseHappiness": 10,
+		"baseHappiness": 100,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,

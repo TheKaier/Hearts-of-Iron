@@ -3,13 +3,13 @@
 
 	// Strategic resources
 	{
-		"name": "资源-橡胶",
+		"name": "Resources.Rubber",//橡胶
 		"resourceType": "Strategic",
 		//"revealedBy": "Animal Husbandry",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
-		"production": 1,
-		//"improvement": "Pasture",
-		"improvementStats": {"production": 1},
+		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Plains","Grassland"], // Hill only if plains or grassland
+		//"production": 1,
+		"improvement": "Farm",
+		//"improvementStats": {"production": 1},
 		"uniques": [
 		"Stockpiled"//库存
 		"Guaranteed with Strategic Balance resource option",
@@ -20,16 +20,16 @@
 					"Minor deposits generated with weight [100] <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
 					"Minor deposits generated with weight [20] <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 					"Minor deposits generated with weight [30] <in [{Featureless} {Plains}] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 6},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+		"majorDepositAmount": {"sparse": 5, "default": 6, "abundant": 6},
+		"minorDepositAmount": {"sparse": 5, "default": 6, "abundant": 6}
 	},
 	{
-		"name": "资源-钢铁",
+		"name": "Resources.Iron",
 		"resourceType": "Strategic",
 		//"revealedBy": "Iron Working",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
-		"production": 1,
-		//"improvement": "Mine",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		//"production": 1,
+		"improvement": "Mine",
 		"uniques": [
 		"Stockpiled"//库存
 		"Guaranteed with Strategic Balance resource option",
@@ -46,16 +46,16 @@
 					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
-		"majorDepositAmount": {"sparse": 4, "default": 7, "abundant": 10},
-		"minorDepositAmount": {"sparse": 3, "default": 4, "abundant": 7}
+		"majorDepositAmount": {"sparse": 7, "default": 8, "abundant": 9},
+		"minorDepositAmount": {"sparse": 7, "default": 8, "abundant": 9}
 	},
 	{
-		"name": "资源-钨",
+		"name": "Resources.Wolfram",
 		"resourceType": "Strategic",
 		//"revealedBy": "Iron Working",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
-		"production": 1,
-		//"improvement": "Mine",
+		//"production": 1,
+		"improvement": "Mine",
 		"uniques": [
 		"Stockpiled"//库存
 		"Guaranteed with Strategic Balance resource option",
@@ -72,18 +72,20 @@
 					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Tundra}] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
-		"majorDepositAmount": {"sparse": 3, "default": 5, "abundant": 7},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
+		"majorDepositAmount": {"sparse": 5, "default": 6, "abundant": 7},
+		"minorDepositAmount": {"sparse": 5, "default": 6, "abundant": 7}
 	},
-	/*{
-		"name": "Coal",
+	{
+		"name": "Resources.Chromium",
 		"resourceType": "Strategic",
 		//"revealedBy": "Industrialization",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh"],
-		"production": 1,
-		//"improvement": "Mine",
-		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest"],
+		//"production": 1,
+		"improvement": "Mine",
+		//"improvementStats": {"production": 1},
+		"uniques": [
+		"Stockpiled"//库存
+		"Generated with weight [35] <in [Hill] tiles>",
 					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
 					"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
@@ -94,18 +96,20 @@
 					"Minor deposits generated with weight [30] <in [{Desert} {Hill}] tiles>",
 					"Minor deposits generated with weight [30] <in [{Tundra} {Hill}] tiles>",
 					"Minor deposits generated with weight [30] <in [{Snow} {Hill}] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"majorDepositAmount": {"sparse": 6, "default": 6, "abundant": 7},
+		"minorDepositAmount": {"sparse": 6, "default": 6, "abundant": 7}
 	},
 	{
-		"name": "Oil",
+		"name": "Resources.Oil",
 		"resourceType": "Strategic",
 		//"revealedBy": "Biology",
-		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
-		"production": 1,
-		//"improvedBy": ["Oil well", "Offshore Platform"],
-		"improvementStats": {"production": 3},
-		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Grassland","Plains"],
+		//"production": 1,
+		"improvedBy": ["Mine"],
+		//"improvementStats": {"production": 2},
+		"uniques": [
+		"Stockpiled"//库存
+		//"Deposits in [Coast] tiles always provide [4] resources",
 					"Guaranteed with Strategic Balance resource option",
 					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Generated with weight [40] <in [{Featureless} {Tundra}] tiles>",
@@ -117,27 +121,29 @@
 					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>",
 					"Minor deposits generated with weight [20] <in [{Featureless} {Tundra}] tiles>",
 					"Minor deposits generated with weight [20] <in [{Featureless} {Snow}] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"majorDepositAmount": {"sparse": 7, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 7, "default": 7, "abundant": 9}
 	},
-	{
-		"name": "Aluminum",
+	/*{
+		"name": "Resources.Aluminum",
 		"resourceType": "Strategic",
 		//"revealedBy": "Electricity",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
-		"production": 1,
-		//"improvement": "Mine",
-		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle","Grassland","Plains"],
+		//"production": 1,
+		"improvement": "Mine",
+		//"improvementStats": {"production": 1},
+		"uniques": [
+		"Stockpiled"//库存
+		"Generated with weight [15] <in [{Featureless} {Tundra}] tiles>",
 					"Generated with weight [15] <in [{Featureless} {Snow}] tiles>",
 					"Generated with weight [39] <in [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Jungle] tiles>",
 					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"majorDepositAmount": {"sparse": 6, "default": 6, "abundant": 8},
+		"minorDepositAmount": {"sparse": 6, "default": 6, "abundant": 8}
 	},
-	{
-		"name": "Uranium",
+	/*{
+		"name": "Resources.Uranium",
 		"resourceType": "Strategic",
 		//"revealedBy": "Atomic Theory",
 		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
@@ -156,16 +162,7 @@
 
 	// Luxury resources
 	{
-		"name": "人力",//人力Manpower
-		"resourceType": "Strategic",
-		//"revealedBy": "Future Tech",
-		"uniques": [
-		//"Cannot be traded"//不能交易
-		//"Stockpiled"//库存
-		]
-	},
-	{
-		"name": "稳定度",//稳定度Stability
+		"name": "Manpower",//人力Manpower
 		"resourceType": "Strategic",
 		//"revealedBy": "Future Tech",
 		"uniques": [
@@ -174,7 +171,7 @@
 		]
 	},
 	{
-		"name": "政治点数",//
+		"name": "Stability",//稳定度Stability
 		"resourceType": "Strategic",
 		//"revealedBy": "Future Tech",
 		"uniques": [
@@ -183,6 +180,15 @@
 		]
 	},
 	{
+		"name": "Political",//政治点数
+		"resourceType": "Strategic",
+		//"revealedBy": "Future Tech",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	/*{
 		"name": "战争支持度",//
 		"resourceType": "Strategic",
 		//"revealedBy": "Future Tech",
@@ -190,9 +196,9 @@
 		//"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		]
-	},
+	},*/
 	{
-		"name": "陆军经验",//
+		"name": "LandEXP",//陆军经验
 		"resourceType": "Strategic",
 		//"revealedBy": "Future Tech",
 		"uniques": [
@@ -200,4 +206,155 @@
 		"Stockpiled"//库存
 		]
 	},
+	{
+		"name": "Gun.Basicinfantryequipment",//基础步兵装备
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Gun.InfantryEquipmentI",//步兵装备I
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Gun.InfantryEquipmentII",//步兵装备II
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Gun.InfantryEquipmentIII",//步兵装备III
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Equipment.MotorizedEquipment",//摩托化装备
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Equipment.self-propelledRocketLauncher",//自行火箭炮
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Equipment.MechanizedEquipment",//机械化装备
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	
+	
+	{
+		"name": "Tank.LightUnderpan",//轻型底盘
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Tank.MiddleUnderpan",//中型底盘
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Tank.HeavyUnderpan",//重型底盘
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+    {
+		"name": "Tank.LightTankArmoured",//轻型坦克装甲
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Tank.MiddleTankArmoured",//中型坦克装甲
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Tank.HeavyTankArmoured",//重型坦克装甲
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Tank.ModernTankArmoured",//现代坦克装甲
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+    {
+		"name": "Tank.MachineGun",//机关枪
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "Tank.Cannon",//加农炮
+		"resourceType": "Strategic",
+		"revealedBy": "科技-隐藏",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	
+	
+	
+	
+	
 ]

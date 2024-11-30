@@ -1,0 +1,45 @@
+[
+    /*
+意愿类型: 
+1. 产能
+2. 食物
+3. 金钱
+4. 科研
+5. 文化
+6. 快乐
+7. 信仰
+8. 军事
+9. 侵略性
+10. 宣战意愿
+11. 贸易
+12. 外交
+13. 忠诚
+14. 扩张
+
+
+数值范围：[0，10]
+*/
+
+    {
+        "name": "base",
+        "production": 5,
+        "food": 5,
+        "gold": 5,
+        "science": 5,
+        "culture": 5,
+        "happiness": 5,
+        "faith": 5,
+        "military": 10,
+        "aggressive": 10,
+        "declareWar": 10,
+        "commerce": 3,
+        "diplomacy": 3,
+        "loyal": 7,
+        "expansion": 5,
+        
+        "priorities": {
+
+        }
+    },
+
+]

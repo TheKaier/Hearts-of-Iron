@@ -3,15 +3,18 @@
 
     "constants": {
         "maxXPfromBarbarians": 0,
-        "cityStrengthBase": 120,
-        "cityStrengthPerPop": 10,
+        "cityStrengthBase": 10,
+        "cityStrengthPerPop": 1,
       "cityStrengthFromTechsFullMultiplier": 0,
-        "unitSupplyPerPopulation": 10,
-        "pantheonBase": 10,
-        "pantheonGrowth": 0
+        "unitSupplyPerPopulation": 100,
+        "pantheonBase": 100000,
+        "pantheonGrowth": 0,
+        "minimalCityDistance":3,
+        
     },
     "uniques":[
         "Cannot be used as permanent audiovisual mod",
-        "Can only start games from the starting era"
+        "Can only start games from the starting era",
+        "Can trade civilization introductions for [1] Gold"
     ]
 }

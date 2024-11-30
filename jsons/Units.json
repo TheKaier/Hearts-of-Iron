@@ -3,104 +3,157 @@
 		"name": "Unit.Worker",//垦荒者
 		"unitType": "unitType.Worker",
 		"movement": 2,
+		"cost": 20
 		"uniques": ["Can build [Farm] improvements on tiles",
-		"平民",
+		"Can build [Mine] improvements on tiles",
+		"Can build [Remove Forest] improvements on tiles",
+		"Can build [Remove Jungle] improvements on tiles",
+		//"Can build [Remove Fallout] improvements on tiles",
+		"Can build [Remove Marsh] improvements on tiles",
+		"Uncapturable"
+		"Civilian",
 		
 		],
-		"cost": 100
 	},
 	{
-		"name": "单位-殖民者",//殖民者
+		"name": "Unit.Settler",//殖民者
 		"unitType": "unitType.Settler",
 		"movement": 2,
-		"cost": 250,
+		"cost": 60,
 		"uniques": ["Founds a new city <by consuming this unit>",
-		"平民",
+		"Uncapturable"
+		"Civilian",
 		//"Unbuildable",
 			],
 	},
 	{
-		"name": "单位-步兵",//步兵 I
-		"unitType": "单位类型-步兵",
+		"name": "Unit.Infantry",//步兵 I
+		"unitType": "unitType.Infantry",
 		"movement": 2,
-		"strength": 100,
-		"cost": 100,
+		"strength": 10,
+		"cost": 15,
+		"range":1,
+		"rangedStrength": 10,
 		//"requiredTech": "Scientific Theory",
 		"uniques": [
-		//"Instantly consumes [10] [人力]",
-		"Consumes [10] [人力]",
-		//"Unbuildable",
-		//"Remove [基础步兵装备] [in this city] <hidden from users>",
-		/*"Remove [步兵装备I] [in this city] <hidden from users>",
-		"Remove [步兵装备II] [in this city] <hidden from users>",
-		"Remove [步兵装备III] [in this city] <hidden from users>",*/
-		"军队",
+		"Only available <when above [9] [Manpower]>",
+		"Instantly consumes [10] [Manpower]",
+		"Infantry",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit><after discovering [Tech.ImprovedInfantryEquipmentI]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit><after discovering [Tech.ImprovedInfantryEquipmentII]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit><after discovering [Tech.ImprovedInfantryEquipmentIII]>",
 		],
+		//"attackSound": ""
 	},
 	{
-		"name": "单位-山地步兵",//步兵 I
-		"unitType": "单位类型-步兵",
+		"name": "Unit.MountainInfantry",//山地步兵 I
+		"unitType": "unitType.Infantry",
 		"movement": 2,
-		"strength": 100,
-		"cost": 150,
-		"requiredTech": "科技-山地步兵I",
+		"strength": 10,
+		"cost": 20,
+		"range":1,
+		"rangedStrength": 10,
+		"requiredTech": "Tech.MountainInfantryI",
 		"uniques": [
-		//"Instantly consumes [10] [人力]",
-		"Consumes [10] [人力]",
-		"[+15]% Strength <in [Hill] tiles>",
+		"Only available <when above [9] [Manpower]>",
+		"Instantly consumes [10] [Manpower]",
+		//"Consumes [10] [Manpower]",
+		//"[+20]% Strength <in [Hill] tiles>",
+		"Double movement in [Hill]",
 		//"Unbuildable",
-		"军队",
+		"Infantry",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit><after discovering [Tech.MountainInfantryII]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit><after discovering [Tech.MountainInfantryIII]>",
 		],
+		//"attackSound": ""
 	},
 		{
-		"name": "单位-伞兵",//步兵 I
-		"unitType": "单位类型-步兵",
+		"name": "Unit.Paratroopers",//步兵 I
+		"unitType": "unitType.Infantry",
 		"movement": 2,
-		"strength": 110,
-		"cost": 180,
-		"requiredTech": "科技-伞兵I",
+		"strength": 10,
+		"cost": 15,
+		"range":1,
+		"rangedStrength": 10,
+		"requiredTech": "Tech.ParatroopersI",
 		"uniques": [
-		//"Instantly consumes [10] [人力]",
-		"Consumes [10] [人力]",
-		"May Paradrop up to [4] tiles from inside friendly territory",
+		"Only available <when above [9] [Manpower]>",
+		"Instantly consumes [10] [Manpower]",
+		"May Paradrop up to [8] tiles from inside friendly territory",
 		//"Unbuildable",
-		"军队",
+		"Infantry",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit><after discovering [Tech.ParatroopersII]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit><after discovering [Tech.ParatroopersIII]>",
 		],
+		//"attackSound": ""
 	},
-		{
-		"name": "单位-摩托化步兵",//
-		"unitType": "单位类型-装甲",
+	{
+		"name": "Unit.Marines",//
+		"unitType": "unitType.Infantry",	
 		"movement": 2,
-		"strength": 150,
-		"cost": 200,
-		"requiredTech": "科技-摩托化装备",
+		"strength": 10,
+		"cost": 20,
+		"range":1,
+		"rangedStrength": 10,
+		"requiredTech": "Tech.MarinesI",
 		"uniques": [
-		"Consumes [1] [资源-钢铁]",
-		"Consumes [1] [资源-橡胶]",
-		//"Instantly consumes [12] [人力]",
-		"Consumes [12] [人力]",
-		//"Unbuildable",
-		"军队",
+		"Only available <when above [9] [Manpower]>",
+		"Instantly consumes [10] [Manpower]",
+		"May travel on Water tiles without embarking",
+		//"Double movement in [Coast]",
+		//"Double movement in [Ocean]",
+		"Eliminates combat penalty for attacking over a river",
+		"Eliminates combat penalty for attacking across a coast",
+		"Infantry",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit><after discovering [Tech.MarinesII]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit><after discovering [Tech.MarinesIII]>",
 		],
+		//"attackSound": ""
 	},
-		{
-		"name": "单位-自行火箭炮",//
-		"unitType": "单位类型-装甲",	
+	{
+		"name": "Unit.Cycling",//
+		"unitType": "unitType.Infantry",
+		"movement": 2,
+		"strength": 20,
+		"cost": 30,
+		"uniques": [
+		"Only available <when above [9] [Manpower]>",
+		"Instantly consumes [10] [Manpower]",
+		"Never appears as a Barbarian unit",
+		"Can only attack [City] units",
+		"[+100]% Strength <for [All] units> <when attacking>",
+		"Infantry",
+			],
+			//"attackSound": ""
+	},
+	{
+		"name": "Unit.Tank",//坦克
+		"unitType": "unitType.Armoured",
 		"movement": 1,
-		"strength": 100,
-		"range":2,
-		"rangedStrength": 120,
-		"cost": 200,
-		"requiredTech": "科技-自行火箭炮",
+		"strength": 10,
+		"cost": 55,
+		"range":1,
+		"rangedStrength": 10,
+		"requiredTech": "Tech.WWITank",
 		"uniques": [
-		"Consumes [1] [资源-钢铁]",
-		"Consumes [1] [资源-橡胶]",
-		//"Instantly consumes [5] [人力]",
-		"Consumes [5] [人力]",
-		//"Unbuildable",
-		"军队",
-		],
+		"Only available <when above [24] [Manpower]>",
+		"Instantly consumes [25] [Manpower]",
+		"Never appears as a Barbarian unit",
+		"Armoured",
+			],
+			//"attackSound": ""
 	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	//"May Paradrop up to [4] tiles from inside friendly territory",
 	

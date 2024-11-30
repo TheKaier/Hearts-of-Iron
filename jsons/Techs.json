@@ -1,11 +1,11 @@
 [
 //<when above [20] [Science]>
 //"Only available <when above [20] [Science]>",
-//"Gain [-50] [Science]",
-		{
+////"Gain [-50] [Science]",
+		/*{
 		"columnNumber": 0,
 		"era": "循环科技",
-		"techCost": 10000,
+		"techCost": 100000,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
@@ -14,20 +14,20 @@
 				"row": 1,
 				"quote": "",
 				"uniques": [
-				//"Can be continually researched"
+				"Can be continually researched"
 				]
 				},
 		]
-	},
+	},*/
 	{
 		"columnNumber": 1,
-		"era": "步兵",
-		"techCost": 500,
+		"era": "未知",
+		"techCost": 150,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "科技-基础步兵装备",//基础步兵装备
+				"name": "Tech.Basicinfantryequipment",//基础步兵装备
 				"row": 1,
 				"quote": "Primary infantry equipment developed during World War I.",
 				"uniques": ["Starting tech",
@@ -36,286 +36,669 @@
 				]
 				},
 			{
-				"name": "科技-步兵装备I",//步兵装备 I
+				"name": "Tech.InfantryEquipmentI",//步兵装备 I
 				"row": 2,
-				//"prerequisites": ["科技-基础步兵装备"],
+				"prerequisites": ["Tech.Basicinfantryequipment"],
 				"quote": "Infantry weapons used by individuals and troops, and other equipment required by soldiers."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-基础步兵装备]>",
+				
+				"Only available <after discovering [Tech.Basicinfantryequipment]>",
 				//"Only available <when above [1499] [Science]>",
-				"Gain [-2000] [Science]",
+				//"Gain [-2142] [Science]",
 				]
 			},
 			{
-				"name": "科技-改良步兵装备I",//改良步兵装备 I
+				"name": "Tech.ImprovedInfantryEquipmentI",//改良步兵装备 I
 				"row": 3,
-				//"prerequisites": ["科技-步兵装备I"],
+				"prerequisites": ["Tech.InfantryEquipmentI"],
 				"quote": ""
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-步兵装备I]>",
+				
+				"Only available <after discovering [Tech.InfantryEquipmentI]>",
 				//"Only available <when above [1599] [Science]>",
-				"Gain [-2000] [Science]",
+				//"Gain [-2142] [Science]",
 				]
 			},
 			{
-				"name": "科技-步兵装备II",//步兵装备 II
+				"name": "Tech.InfantryEquipmentII",//步兵装备 II
 				"row": 4,
-				//"prerequisites": ["科技-改良步兵装备I"],
+				"prerequisites": ["Tech.ImprovedInfantryEquipmentI"],
 				"quote": "Infantry weapons used by individuals and troops, and other equipment required by soldiers. More modern, with a massive addition of submachine guns and anti-tank rifle."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-改良步兵装备I]>",
+				
+				"Only available <after discovering [Tech.ImprovedInfantryEquipmentI]>",
 				//"Only available <when above [2499] [Science]>",
-				"Gain [-3000] [Science]",
+				//"Gain [-2857] [Science]",
 				]
 			},
 			{
-				"name": "科技-改良步兵装备II",//改良步兵装备 II
+				"name": "Tech.ImprovedInfantryEquipmentII",//改良步兵装备 II
 				"row": 5,
-				//"prerequisites": ["科技-步兵装备II"],
+				"prerequisites": ["Tech.InfantryEquipmentII"],
 				"quote": "The unit or heavy weapon used by infantry includes other miscellaneous equipment required; the weapon is of a more advanced type and the equipment is more professional."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-步兵装备II]>",
+				
+				"Only available <after discovering [Tech.InfantryEquipmentII]>",
 				//"Only available <when above [2499] [Science]>",
-				"Gain [-3000] [Science]",
+				//"Gain [-2857] [Science]",
 				]
 			},
 			{
-				"name": "科技-反坦克步枪I",//反坦克步枪 I
+				"name": "Tech.AntitankrifleI",//反坦克步枪 I
 				"row": 6,
-				//"prerequisites": ["科技-步兵装备II"],
+				"prerequisites": ["Tech.InfantryEquipmentII"],
 				"quote": "Equipping our infantry units with anti-tank rifle will allow them to fight light armoured vehicles without losing power."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-步兵装备II]>",
+				
+				"Only available <after discovering [Tech.InfantryEquipmentII]>",
 				//"Only available <when above [1499] [Science]>",
-				"Gain [-2000] [Science]",
+				//"Gain [-2142] [Science]",
 				]
 			},	
 			{
-				"name": "科技-步兵装备III",//步兵装备 III
+				"name": "Tech.InfantryEquipmentIII",//步兵装备 III
 				"row": 7,
-				//"prerequisites": ["科技-改良步兵装备II"],
+				"prerequisites": ["Tech.ImprovedInfantryEquipmentII"],
 				"quote": "The unit or heavy weapon used by infantry includes other miscellaneous equipment required; the weapon is of a more advanced type and the equipment is more professional."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-改良步兵装备II]>",
+				
+				"Only available <after discovering [Tech.ImprovedInfantryEquipmentII]>",
 				//"Only available <when above [2499] [Science]>",
-				"Gain [-3000] [Science]",
+				//"Gain [-2857] [Science]",
 				]
 			},
 			{
-				"name": "科技-反坦克步枪II",//反坦克步枪 II
+				"name": "Tech.AntitankrifleII",//反坦克步枪 II
 				"row": 8,
-				//"prerequisites": ["科技-反坦克步枪I"],
+				"prerequisites": ["Tech.AntitankrifleI"],
 				"quote": "For infantry to be effective against heavier armoured vehicles, smaller hollow-charge weapons must be manufactured."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-反坦克步枪I]>",
+				
+				"Only available <after discovering [Tech.AntitankrifleI]>",
 				//"Only available <when above [1499] [Science]>",
-				"Gain [-2000] [Science]",
+				//"Gain [-2142] [Science]",
 				]
 			},	
 			{
-				"name": "科技-改良步兵装备III",//改良步兵装备 III
+				"name": "Tech.ImprovedInfantryEquipmentIII",//改良步兵装备 III
 				"row": 9,
-				//"prerequisites": ["科技-步兵装备III"],
+				"prerequisites": ["Tech.InfantryEquipmentIII"],
 				"quote": "The units or heavy weapons used by infantry include other miscellaneous equipment required; advanced weapons such as assault rifles and anti-tank rocket launchers; and the spread of small-range weapons."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-步兵装备III]>",
+				
+				"Only available <after discovering [Tech.InfantryEquipmentIII]>",
 				//"Only available <when above [1599] [Science]>",
-				"Gain [-2000] [Science]",
+				//"Gain [-2142] [Science]",
 				]
 			},
 		]
 	},
 	{
 		"columnNumber": 2,
-		"era": "山地步兵",
-		"techCost": 500,
+		"era": "未知",
+		"techCost": 150,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "科技-山地步兵I",
+				"name": "Tech.ParatroopersI",
 				"row": 1,
-				"quote": "文本-科技-山地步兵I",
+				"quote": "Text-Tech.ParatroopersI",
+				"prerequisites": ["Tech.Basicinfantryequipment"],
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-基础步兵装备]>",
+				
+				"Only available <after discovering [Tech.Basicinfantryequipment]>",
 				//"Only available <when above [2499] [Science]>",
-				"Gain [-3000] [Science]",
+				//"Gain [-2857] [Science]",
 				]
 				},
 			{
-				"name": "科技-山地步兵II",
+				"name": "Tech.ParatroopersII",
 				"row": 2,
-				"quote": "文本-科技-山地步兵II"
+				"quote": "Text-Tech.ParatroopersII"
+				"prerequisites": ["Tech.ParatroopersI"],
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-山地步兵I]>",
+				
+				"Only available <after discovering [Tech.ParatroopersI]>",
 				//"Only available <when above [1499] [Science]>",
-                "Gain [-2000] [Science]",
+                //"Gain [-2142] [Science]",
 				]
 			},
 			{
-				"name": "科技-山地步兵III",
+				"name": "Tech.ParatroopersIII",
 				"row": 3,
-				"quote": "文本-科技-山地步兵III"
+				"quote": "Text-Tech.ParatroopersIII"
+				"prerequisites": ["Tech.ParatroopersII"],
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-山地步兵II]>",
+				
+				"Only available <after discovering [Tech.ParatroopersII]>",
 				//"Only available <when above [2499] [Science]>",
-				"Gain [-3000] [Science]",
+				//"Gain [-2857] [Science]",
 				]
 			},
 		]
 	},
 	{
 		"columnNumber": 3,
-		"era": "伞兵",
-		"techCost": 500,
+		"era": "未知",
+		"techCost": 150,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "科技-伞兵I",
+				"name": "Tech.MountainInfantryI",
 				"row": 1,
-				"quote": "文本-科技-伞兵I",
+				"quote": "Text-Tech.MountainInfantryI",
+				"prerequisites": ["Tech.Basicinfantryequipment"],
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-基础步兵装备]>",
+				
+				"Only available <after discovering [Tech.Basicinfantryequipment]>",
 				//"Only available <when above [2499] [Science]>",
-				"Gain [-3000] [Science]",
+				//"Gain [-2857] [Science]",
 				]
 				},
 			{
-				"name": "科技-伞兵II",
+				"name": "Tech.MountainInfantryII",
 				"row": 2,
-				"quote": "文本-科技-伞兵II"
+				"quote": "Text-Tech.MountainInfantryII"
+				"prerequisites": ["Tech.MountainInfantryI"],
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-伞兵I]>",
+				
+				"Only available <after discovering [Tech.MountainInfantryI]>",
 				//"Only available <when above [1499] [Science]>",
-                "Gain [-2000] [Science]",
+                //"Gain [-2142] [Science]",
 				]
 			},
 			{
-				"name": "科技-伞兵III",
+				"name": "Tech.MountainInfantryIII",
 				"row": 3,
-				"quote": "文本-科技-伞兵III"
+				"quote": "Text-Tech.MountainInfantryIII"
+				"prerequisites": ["Tech.MountainInfantryII"],
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-伞兵II]>",
+				
+				"Only available <after discovering [Tech.MountainInfantryII]>",
 				//"Only available <when above [2499] [Science]>",
-				"Gain [-3000] [Science]",
+				//"Gain [-2857] [Science]",
 				]
 			},
 		]
 	},
-{
-		"columnNumber": 4,
-		"era": "机械化部队",
-		"techCost": 10000,
-		"buildingCost": 40,
-		"wonderCost": 185,
-		"techs": [
-			{
-				"name": "科技-摩托化装备",
-				"row": 1,
-				"quote": "文本-科技-摩托化装备",
-				"uniques": [
-				"Only available <after discovering [科技-基础步兵装备]>",
-				"Gain [-3000] [Science]",
-				"Unavailable",
-				]
-				},
-			{
-				"name": "科技-自行火箭炮",
-				"row": 2,
-				"quote": "文本-科技-自行火箭炮"
-				"uniques": [
-				"Only available <after discovering [科技-摩托化装备]>",
-				"Gain [-2000] [Science]",
-				"Unavailable",
-				]
-			},
-			{
-				"name": "科技-机械化装备I",
-				"row": 3,
-				"quote": "文本-科技-机械化装备I"
-				"uniques": [
-				"Only available <after discovering [科技-摩托化装备]>",
-				"Gain [-3000] [Science]",
-				"Unavailable",
-				]
-			},
-			{
-				"name": "科技-机械化装备II",
-				"row": 4,
-				"quote": "文本-科技-机械化装备II"
-				"uniques": [
-				"Only available <after discovering [科技-机械化装备I]>",
-				"Gain [-3000] [Science]",
-				"Unavailable",
-				]
-			},
-			{
-				"name": "科技-机械化装备III",
-				"row": 5,
-				"quote": "文本-科技-机械化装备III"
-				"uniques": [
-				"Only available <after discovering [科技-机械化装备II]>",
-				"Gain [-4000] [Science]",
-				"Unavailable",
-				]
-			},
-		]
-	},
+
 
 
 
 	{
-		"columnNumber": 5,
-		"era": "海军陆战队",
-		"techCost": 10000,
+		"columnNumber": 4,
+		"era": "未知",
+		"techCost": 150,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "科技-海军陆战队I",
+				"name": "Tech.MarinesI",
 				"row": 1,
-				"quote": "文本-科技-海军陆战队I",
+				"quote": "Text-Tech.MarinesI",
+				"prerequisites": ["Tech.Basicinfantryequipment"],
 				"uniques": [
-				"Only available <after discovering [科技-基础步兵装备]>",
-				"Gain [-3000] [Science]",
-				"Unavailable",
+				"Only available <after discovering [Tech.Basicinfantryequipment]>",
+				//"Gain [-2857] [Science]",
+				
 				]
 				},
 			{
-				"name": "科技-海军陆战队II",
+				"name": "Tech.MarinesII",
 				"row": 2,
-				"quote": "文本-科技-海军陆战队II"
+				"quote": "Text-Tech.MarinesII"
+				"prerequisites": ["Tech.MarinesI"],
 				"uniques": [
-				"Only available <after discovering [科技-海军陆战队I]>",
-				"Gain [-2000] [Science]",
-				"Unavailable",
+				"Only available <after discovering [Tech.MarinesI]>",
+				//"Gain [-2142] [Science]",
+				
 				]
 			},
 			{
-				"name": "科技-海军陆战队III",
+				"name": "Tech.MarinesIII",
 				"row": 3,
-				"quote": "文本-科技-海军陆战队III"
+				"quote": "Text-Tech.MarinesIII"
+				"prerequisites": ["Tech.MarinesII"],
 				"uniques": [
-				"Only available <after discovering [科技-海军陆战队II]>",
-				"Gain [-3000] [Science]",
-				"Unavailable",
+				"Only available <after discovering [Tech.MarinesII]>",
+				//"Gain [-2857] [Science]",
+				
 				]
 			},
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "未知",
+		"techCost": 200,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Tech.MotorizedEquipment",
+				"row": 1,
+				"quote": "Text-Tech.MotorizedEquipment",
+				"prerequisites": ["Tech.Basicinfantryequipment"],
+				"uniques": [
+				"Only available <after discovering [Tech.Basicinfantryequipment]>",
+				//"Gain [-2857] [Science]",
+				
+				]
+				},
+			{
+				"name": "Tech.self-propelledRocketLauncher",
+				"row": 2,
+				"quote": "Text-Tech.self-propelledRocketLauncher"
+				"prerequisites": ["Tech.MotorizedEquipment"],
+				"uniques": [
+				"Only available <after discovering [Tech.MotorizedEquipment]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.MechanizedEquipmentI",
+				"row": 3,
+				"quote": "Text-Tech.MechanizedEquipmentI"
+				"prerequisites": ["Tech.MotorizedEquipment"],
+				"uniques": [
+				"Only available <after discovering [Tech.MotorizedEquipment]>",
+				//"Gain [-2857] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.MechanizedEquipmentII",
+				"row": 4,
+				"quote": "Text-Tech.MechanizedEquipmentII"
+				"prerequisites": ["Tech.MechanizedEquipmentI"],
+				"uniques": [
+				"Only available <after discovering [Tech.MechanizedEquipmentI]>",
+				//"Gain [-2857] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.MechanizedEquipmentIII",
+				"row": 5,
+				"quote": "Text-Tech.MechanizedEquipmentIII"
+				"prerequisites": ["Tech.MechanizedEquipmentII"],
+				"uniques": [
+				"Only available <after discovering [Tech.MechanizedEquipmentII]>",
+				//"Gain [-4285] [Science]",
+				
+				]
+			},
+		]
+	},
+	/*{
+		"columnNumber": 6,
+		"era": "未知",
+		"techCost": 125,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "科技-支援装备",
+				"row": 1,
+				"quote": "",
+				"prerequisites": ["Tech.Basicinfantryequipment"],
+				"uniques": [
+				"Only available <after discovering [Tech.Basicinfantryequipment]>",
+				//"Gain [-1214] [Science]",
+				
+				]
+			},
+			{
+				"name": "科技-工兵连I",
+				"row": 2,
+				"quote": "",
+				"prerequisites": ["科技-支援装备"],
+				"uniques": [
+				"Only available <after discovering [科技-支援装备]>",
+				
+				
+				]
+			},
+			{
+				"name": "科技-工兵连II",
+				"row": 3,
+				"quote": "",
+				"prerequisites": ["科技-工兵连I"],
+				"uniques": [
+				"Only available <after discovering [科技-工兵连I]>",
+				//"Gain [-1814] [Science]",
+				
+				]
+			},
+			{
+				"name": "科技-工兵连III",
+				"row": 4,
+				"quote": "",
+				"prerequisites": ["科技-工兵连II"],
+				"uniques": [
+				"Only available <after discovering [科技-工兵连II]>",
+				//"Gain [-1814] [Science]",
+				
+				]
+			},
+			{
+				"name": "科技-工兵连IV",
+				"row": 5,
+				"quote": "",
+				"prerequisites": ["科技-工兵连III"],
+				"uniques": [
+				"Only available <after discovering [科技-工兵连III]>",
+				//"Gain [-1814] [Science]",
+				
+				]
+			},
+			{
+				"name": "科技-侦查连I",
+				"row": 6,
+				"quote": "",
+				"prerequisites": ["科技-支援装备"],
+				"uniques": [
+				"Only available <after discovering [科技-支援装备]>",
+				
+				
+				]
+			},
+			{
+				"name": "科技-侦查连II",
+				"row": 7,
+				"quote": "",
+				"prerequisites": ["科技-侦查连I"],
+				"uniques": [
+				"Only available <after discovering [科技-侦查连I]>",
+				//"Gain [-1814] [Science]",
+				
+				]
+			},
+			{
+				"name": "科技-侦查连III",
+				"row": 8,
+				"quote": "",
+				"prerequisites": ["科技-侦查连II"],
+				"uniques": [
+				"Only available <after discovering [科技-侦查连II]>",
+				//"Gain [-1814] [Science]",
+				
+				]
+			},
+			{
+				"name": "科技-侦查连IV",
+				"row": 9,
+				"quote": "",
+				"prerequisites": ["科技-侦查连III"],
+				"uniques": [
+				"Only available <after discovering [科技-侦查连III]>",
+				//"Gain [-1814] [Science]",
+				
+				]
+			},
+			{
+				"name": "科技-维修连I",
+				"row": 10,
+				"quote": "",
+				"prerequisites": ["科技-支援装备"],
+				"uniques": [
+				"Only available <after discovering [科技-支援装备]>",
+				
+				
+				]
+			},
+			{
+				"name": "科技-维修连II",
+				"row": 11,
+				"quote": "",
+				"prerequisites": ["科技-维修连I"],
+				"uniques": [
+				"Only available <after discovering [科技-维修连I]>",
+				//"Gain [-1814] [Science]",
+				
+				]
+			},
+			{
+				"name": "科技-维修连III",
+				"row": 12,
+				"quote": "",
+				"prerequisites": ["科技-维修连II"],
+				"uniques": [
+				"Only available <after discovering [科技-维修连II]>",
+				//"Gain [-1814] [Science]",
+				
+				]
+			},
+			{
+				"name": "科技-维修连IV",
+				"row": 13,
+				"quote": "",
+				"prerequisites": ["科技-维修连III"],
+				"uniques": [
+				"Only available <after discovering [科技-维修连III]>",
+				//"Gain [-1814] [Science]",
+				
+				]
+			},
+			
+			
+			
+			
+			
+		]
+	},*/
+	{
+		"columnNumber": 7,
+		"era": "未知",
+		"techCost": 175,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Tech.WWITank",
+				"row": 1,
+				"quote": "Text-Tech.WWITank",
+				"uniques": [
+				"Only available <after discovering [Tech.Basicinfantryequipment]>",
+				
+				
+				            ]
+			},
+			{
+				"name": "Tech.LightTankI",
+				"row": 2,
+				"quote": "Text-Tech.LightTankI",
+				"uniques": [
+				"Only available <after discovering [Tech.WWITank]>",
+				
+				
+				            ]
+			},
+			{
+				"name": "Tech.LightTankII",
+				"row": 3,
+				"quote": "Text-Tech.LightTankII",
+				"uniques": [
+				"Only available <after discovering [Tech.LightTankI]>",
+				
+				
+				            ]
+			},
+			{
+				"name": "Tech.LightTankIII",
+				"row": 4,
+				"quote": "Text-Tech.LightTankIII",
+				"uniques": [
+				"Only available <after discovering [Tech.LightTankII]>",
+				
+				
+				            ]
+			},
+			/*{
+				"name": "科技-基础型两栖坦克",
+				"row": 5,
+				"quote": "Text-科技-基础型两栖坦克",
+				"uniques": [
+				"Only available <after discovering [Tech.LightTankII]>",
+				
+				
+				            ]
+			},
+			{
+				"name": "科技-改进型两栖坦克",
+				"row": 6,
+				"quote": "Text-科技-改进型两栖坦克",
+				"uniques": [
+				"Only available <after discovering [科技-基础型两栖坦克]>",
+				
+				
+				            ]
+			},*/
+			{
+				"name": "Tech.MiddleTankI",
+				"row": 7,
+				"quote": "Text-Tech.MiddleTankI",
+				"uniques": [
+				"Only available <after discovering [Tech.LightTankII]>",
+				
+				
+				            ]
+			},
+			{
+				"name": "Tech.MiddleTankII",
+				"row": 8,
+				"quote": "Text-Tech.MiddleTankII",
+				"uniques": [
+				"Only available <after discovering [Tech.MiddleTankI]>",
+				
+				
+				            ]
+			},
+			{
+				"name": "Tech.MiddleTankIII",
+				"row": 9,
+				"quote": "Text-Tech.MiddleTankIII",
+				"uniques": [
+				"Only available <after discovering [Tech.MiddleTankII]>",
+				
+				
+				            ]
+			},
+			{
+			    "name": "Tech.HeavyTankI",
+				"row": 10,
+				"quote": "Text-Tech.HeavyTankI",
+				"uniques": [
+				"Only available <after discovering [Tech.WWITank]>",
+				
+				
+				            ]
+			},
+			{
+				"name": "Tech.HeavyTankII",
+				"row": 11,
+				"quote": "Text-Tech.HeavyTankII",
+				"uniques": [
+				"Only available <after discovering [Tech.HeavyTankI]>",
+				//"Gain [-3028] [Science]",
+				
+				            ]
+			},
+			{
+				"name": "Tech.HeavyTankIII",
+				"row": 12,
+				"quote": "Text-Tech.HeavyTankIII",
+				"uniques": [
+				"Only available <after discovering [Tech.HeavyTankII]>",
+				//"Gain [-3028] [Science]",
+				
+				            ]
+			},
+			{
+				"name": "Tech.ModernTank",
+				"row": 13,
+				"quote": "Text-Tech.ModernTank",
+				"uniques": [
+				"Only available <after discovering [Tech.MiddleTankIII]>",
+				
+				
+				            ]
+			},
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		]
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+		"columnNumber": 8,
+		"era": "未知",
+		"techCost": 1,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "科技-未知",
+				"row": 1,
+				"quote": "",
+				"uniques": [
+				"Enables embarkation for land units",
+				"Enables Defensive Pacts",
+				"Enables Open Borders agreements",
+				
+				]
+				},
+				{
+				"name": "科技-隐藏",
+				"row": 2,
+				"quote": "",
+				"uniques": [
+				"Unavailable",
+				
+				]
+				},
 		]
 	},
 
@@ -323,12 +706,8 @@
 
 
 
-
-
-
-
-
-
+//2428
+//1814
 
 
 

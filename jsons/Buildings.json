@@ -8,417 +8,269 @@
 		"culture": 1,
 		//"cityStrength": 10,
 		"cost": 1,
-		"uniques": ["Indicates the capital city",
+		"uniques": [
+		"Indicates the capital city",
+		
+		
 		]
 	},
 	{
-		"name": "Building.Manpower",
+		"name": "Draft office",
 		"cost": 1,
-		"culture": 1,
+		//"culture": 1,
 		"uniques": [
 		"Unsellable",
         "Automatically built in all cities where it is buildable",
-		//"Provides [10] [人力] <for every [1] [Population]>",
-		"Provides [10] [人力] <in cities with at least [1] [Population]>",
-		"Provides [10] [人力] <in cities with at least [2] [Population]>",
-		"Provides [10] [人力] <in cities with at least [3] [Population]>",
-		"Provides [10] [人力] <in cities with at least [4] [Population]>",
-		"Provides [10] [人力] <in cities with at least [5] [Population]>",
-		"Provides [10] [人力] <in cities with at least [6] [Population]>",
-		"Provides [10] [人力] <in cities with at least [7] [Population]>",
-		"Provides [10] [人力] <in cities with at least [8] [Population]>",
-		"Provides [10] [人力] <in cities with at least [9] [Population]>",
-		"Provides [10] [人力] <in cities with at least [10] [Population]>",
-				"Consumes [5] [人力] <in cities with at least [1] [Population]> <after adopting [征兵法案-非军事化国家]>",
-		"Consumes [5] [人力] <in cities with at least [2] [Population]> <after adopting [征兵法案-非军事化国家]>",
-		"Consumes [5] [人力] <in cities with at least [3] [Population]> <after adopting [征兵法案-非军事化国家]>",
-		"Consumes [5] [人力] <in cities with at least [4] [Population]> <after adopting [征兵法案-非军事化国家]>",
-		"Consumes [5] [人力] <in cities with at least [5] [Population]> <after adopting [征兵法案-非军事化国家]>",
-		"Consumes [5] [人力] <in cities with at least [6] [Population]> <after adopting [征兵法案-非军事化国家]>",
-		"Consumes [5] [人力] <in cities with at least [7] [Population]> <after adopting [征兵法案-非军事化国家]>",
-		"Consumes [5] [人力] <in cities with at least [8] [Population]> <after adopting [征兵法案-非军事化国家]>",
-		"Consumes [5] [人力] <in cities with at least [9] [Population]> <after adopting [征兵法案-非军事化国家]>",
-		"Consumes [5] [人力] <in cities with at least [10] [Population]> <after adopting [征兵法案-非军事化国家]>",
-
-		"Provides [5] [人力] <in cities with at least [1] [Population]> <after adopting [征兵法案-有限征兵]>",
-		"Provides [5] [人力] <in cities with at least [2] [Population]> <after adopting [征兵法案-有限征兵]>",
-		"Provides [5] [人力] <in cities with at least [3] [Population]> <after adopting [征兵法案-有限征兵]>",
-		"Provides [5] [人力] <in cities with at least [4] [Population]> <after adopting [征兵法案-有限征兵]>",
-		"Provides [5] [人力] <in cities with at least [5] [Population]> <after adopting [征兵法案-有限征兵]>",
-		"Provides [5] [人力] <in cities with at least [6] [Population]> <after adopting [征兵法案-有限征兵]>",
-		"Provides [5] [人力] <in cities with at least [7] [Population]> <after adopting [征兵法案-有限征兵]>",
-		"Provides [5] [人力] <in cities with at least [8] [Population]> <after adopting [征兵法案-有限征兵]>",
-		"Provides [5] [人力] <in cities with at least [9] [Population]> <after adopting [征兵法案-有限征兵]>",
-		"Provides [5] [人力] <in cities with at least [10] [Population]> <after adopting [征兵法案-有限征兵]>",
-
-		"Provides [20] [人力] <in cities with at least [1] [Population]> <after adopting [征兵法案-广泛征兵]>",
-		"Provides [20] [人力] <in cities with at least [2] [Population]> <after adopting [征兵法案-广泛征兵]>",
-		"Provides [20] [人力] <in cities with at least [3] [Population]> <after adopting [征兵法案-广泛征兵]>",
-		"Provides [20] [人力] <in cities with at least [4] [Population]> <after adopting [征兵法案-广泛征兵]>",
-		"Provides [20] [人力] <in cities with at least [5] [Population]> <after adopting [征兵法案-广泛征兵]>",
-		"Provides [20] [人力] <in cities with at least [6] [Population]> <after adopting [征兵法案-广泛征兵]>",
-		"Provides [20] [人力] <in cities with at least [7] [Population]> <after adopting [征兵法案-广泛征兵]>",
-		"Provides [20] [人力] <in cities with at least [8] [Population]> <after adopting [征兵法案-广泛征兵]>",
-		"Provides [20] [人力] <in cities with at least [9] [Population]> <after adopting [征兵法案-广泛征兵]>",
-		"Provides [20] [人力] <in cities with at least [10] [Population]> <after adopting [征兵法案-广泛征兵]>",
-
-		"Provides [50] [人力] <in cities with at least [1] [Population]> <after adopting [征兵法案-按需服兵役]>",
-		"Provides [50] [人力] <in cities with at least [2] [Population]> <after adopting [征兵法案-按需服兵役]>",
-		"Provides [50] [人力] <in cities with at least [3] [Population]> <after adopting [征兵法案-按需服兵役]>",
-		"Provides [50] [人力] <in cities with at least [4] [Population]> <after adopting [征兵法案-按需服兵役]>",
-		"Provides [50] [人力] <in cities with at least [5] [Population]> <after adopting [征兵法案-按需服兵役]>",
-		"Provides [50] [人力] <in cities with at least [6] [Population]> <after adopting [征兵法案-按需服兵役]>",
-		"Provides [50] [人力] <in cities with at least [7] [Population]> <after adopting [征兵法案-按需服兵役]>",
-		"Provides [50] [人力] <in cities with at least [8] [Population]> <after adopting [征兵法案-按需服兵役]>",
-		"Provides [50] [人力] <in cities with at least [9] [Population]> <after adopting [征兵法案-按需服兵役]>",
-		"Provides [50] [人力] <in cities with at least [10] [Population]> <after adopting [征兵法案-按需服兵役]>",
-
-		"Provides [110] [人力] <in cities with at least [1] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
-		"Provides [110] [人力] <in cities with at least [2] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
-		"Provides [110] [人力] <in cities with at least [3] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
-		"Provides [110] [人力] <in cities with at least [4] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
-		"Provides [110] [人力] <in cities with at least [5] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
-		"Provides [110] [人力] <in cities with at least [6] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
-		"Provides [110] [人力] <in cities with at least [7] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
-		"Provides [110] [人力] <in cities with at least [8] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
-		"Provides [110] [人力] <in cities with at least [9] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
-		"Provides [110] [人力] <in cities with at least [10] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
-
-		"Provides [140] [人力] <in cities with at least [1] [Population]> <after adopting [征兵法案-榨干他们]>",
-		"Provides [140] [人力] <in cities with at least [2] [Population]> <after adopting [征兵法案-榨干他们]>",
-		"Provides [140] [人力] <in cities with at least [3] [Population]> <after adopting [征兵法案-榨干他们]>",
-		"Provides [140] [人力] <in cities with at least [4] [Population]> <after adopting [征兵法案-榨干他们]>",
-		"Provides [140] [人力] <in cities with at least [5] [Population]> <after adopting [征兵法案-榨干他们]>",
-		"Provides [140] [人力] <in cities with at least [6] [Population]> <after adopting [征兵法案-榨干他们]>",
-		"Provides [140] [人力] <in cities with at least [7] [Population]> <after adopting [征兵法案-榨干他们]>",
-		"Provides [140] [人力] <in cities with at least [8] [Population]> <after adopting [征兵法案-榨干他们]>",
-		"Provides [140] [人力] <in cities with at least [9] [Population]> <after adopting [征兵法案-榨干他们]>",
-		"Provides [140] [人力] <in cities with at least [10] [Population]> <after adopting [征兵法案-榨干他们]>",
+		"Provides [1] [Manpower] <in cities with at least [1] [Population]> <hidden from users>",
+		"Provides [1] [Manpower] <in cities with at least [2] [Population]> <hidden from users>",
+		"Provides [1] [Manpower] <in cities with at least [3] [Population]> <hidden from users>",
+		"Provides [1] [Manpower] <in cities with at least [4] [Population]> <hidden from users>",
+		"Provides [1] [Manpower] <in cities with at least [5] [Population]> <hidden from users>",
+		"Provides [1] [Manpower] <in cities with at least [6] [Population]> <hidden from users>",
+		"Provides [1] [Manpower] <in cities with at least [7] [Population]> <hidden from users>",
+		"Provides [1] [Manpower] <in cities with at least [8] [Population]> <hidden from users>",
+		"Provides [1] [Manpower] <in cities with at least [9] [Population]> <hidden from users>",
+		"Provides [1] [Manpower] <in cities with at least [10] [Population]> <hidden from users>",
 		]
 	},
-	/*{
-		"name": "训练步兵",//
-		"cost": 100,
+	
+	
+	
+	
+	{
+		"name": "Building.Basicinfantryequipment",//基础步兵装备
+		"cost": 10,
 		"uniques": [
-		"Consumes [10] [人力]",
-		//"Remove [训练步兵] [in this city] <hidden from users>",
-		"[1] free [单位-步兵] units appear",
+		"Remove [Building.Basicinfantryequipment] [in this city] <hidden from users>",
 		"Unsellable",
-		"Only available <in cities with a [步兵武器]>",
-		
-		//拆除步兵的装备建筑
-		/*"Remove [基础步兵装备] [in this city] <upon gaining a [单位-步兵] unit> <hidden from users>",
-		"Remove [步兵装备I] [in this city] <hidden from users>",
-		"Remove [步兵装备II] [in this city] <hidden from users>",
-		"Remove [步兵装备III] [in this city] <hidden from users>",
-		
-		],
-	},*/
-	{
-		"name": "基础步兵装备",//43
-		"cost": 0,
-		"uniques": [
-		"Consumes [2] [资源-钢铁]",
-		"All newly-trained [单位类型-步兵] units [in this city] receive the [晋升-基础步兵装备] promotion",
-		"Only available <in cities without a [步兵武器]>",
-		"[-30]% Production when constructing [单位-步兵] units [in this city]",
-		"[-22]% Production when constructing [单位-山地步兵] units [in this city]",
-		"[-19]% Production when constructing [单位-伞兵] units [in this city]",
-		"步兵武器",
-		],
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Gun.Basicinfantryequipment]",
+		"Instantly consumes [10] [Resources.Iron]",
+		"Consumes [10] [Resources.Iron]",
+		],		
 	},
 	{
-		"name": "步兵装备I",//50
-		"cost": 0,
+		"name": "Building.InfantryEquipmentI",//步兵装备I
+		"cost": 15,
+		"requiredTech": "Tech.InfantryEquipmentI"
 		"uniques": [
-		"Consumes [2] [资源-钢铁]",
-		"All newly-trained [单位类型-步兵] units [in this city] receive the [晋升-步兵装备I] promotion",
-		"Only available <in cities without a [步兵武器]>",
-		"[-33]% Production when constructing [单位-步兵] units [in this city]",
-		"[-25]% Production when constructing [单位-山地步兵] units [in this city]",
-		"[-21]% Production when constructing [单位-伞兵] units [in this city]",
-		"步兵武器",
-		],
-		"requiredTech": "科技-步兵装备I"
+		"Remove [Building.InfantryEquipmentI] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Gun.InfantryEquipmentI]",
+		"Instantly consumes [10] [Resources.Iron]",
+		"Consumes [10] [Resources.Iron]",
+		],		
 	},
 	{
-		"name": "步兵装备II",//58
-		"cost": 0,
+		"name": "Building.InfantryEquipmentII",//步兵装备II
+		"cost": 20,
+		"requiredTech": "Tech.InfantryEquipmentII"
 		"uniques": [
-		"Consumes [3] [资源-钢铁]",
-		"All newly-trained [单位类型-步兵] units [in this city] receive the [晋升-步兵装备II] promotion",
-		"Only available <in cities without a [步兵武器]>",
-		"[-36]% Production when constructing [单位-步兵] units [in this city]",
-		"[-28]% Production when constructing [单位-山地步兵] units [in this city]",
-		"[-24]% Production when constructing [单位-伞兵] units [in this city]",
-		"步兵武器",
-		],
-		"requiredTech": "科技-步兵装备II"
+		"Remove [Building.InfantryEquipmentII] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Gun.InfantryEquipmentII]",
+		"Instantly consumes [15] [Resources.Iron]",
+		"Consumes [15] [Resources.Iron]",
+		],		
 	},
 	{
-		"name": "步兵装备III",//69
-		"cost": 0,
+		"name": "Building.InfantryEquipmentIII",//步兵装备III
+		"cost": 20,
+		"requiredTech": "Tech.InfantryEquipmentIII"
 		"uniques": [
-		"Consumes [4] [资源-钢铁]",
-		"All newly-trained [单位类型-步兵] units [in this city] receive the [晋升-步兵装备III] promotion",
-		"Only available <in cities without a [步兵武器]>",
-		"[-40]% Production when constructing [单位-步兵] units [in this city]",
-		"[-31]% Production when constructing [单位-山地步兵] units [in this city]",
-		"[-27]% Production when constructing [单位-伞兵] units [in this city]",
-		"步兵武器",
-		],
-		"requiredTech": "科技-步兵装备III"
-	},
-    {
-		"name": "摩托化装备",//250
-		"cost": 0,
-		"uniques": [
-		"Consumes [1] [资源-钢铁]",
-		"Consumes [1] [资源-橡胶]",
-		"All newly-trained [单位-步兵] units [in this city] receive the [晋升-摩托化装备] promotion",
-		"All newly-trained [单位-山地步兵] units [in this city] receive the [晋升-摩托化装备] promotion",
-		"All newly-trained [单位-自行火箭炮] units [in this city] receive the [晋升-摩托化装备] promotion",
-		"Only available <in cities without a [装甲装备]>",
-		"[-71]% Production when constructing [单位-步兵] units [in this city]",
-		"[-62]% Production when constructing [单位-山地步兵] units [in this city]",
-		"[-55]% Production when constructing [单位-自行火箭炮] units [in this city]",
-		"装甲装备",
-		],
-		"requiredTech": "科技-摩托化装备"
+		"Remove [Building.InfantryEquipmentIII] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Gun.InfantryEquipmentIII]",
+		"Instantly consumes [20] [Resources.Iron]",
+		"Consumes [20] [Resources.Iron]",
+		],		
 	},
 	{
-		"name": "机械化装备I",//800
-		"cost": 0,
+		"name": "Building.MotorizedEquipment",//摩托化装备
+		"cost": 30,
+		"requiredTech": "Tech.MotorizedEquipment"
 		"uniques": [
-		"Consumes [2] [资源-钢铁]",
-		"Consumes [1] [资源-橡胶]",
-		"All newly-trained [单位类型-装甲] units [in this city] receive the [晋升-机械化装备I] promotion",
-		"Only available <in cities without a [装甲装备]>",
-		"[-80]% Production when constructing [单位-摩托化装备步兵] units [in this city]",
-		"装甲装备",
-		],
-		"requiredTech": "科技-机械化装备I"
+		"Remove [Building.MotorizedEquipment] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Equipment.MotorizedEquipment]",
+		"Instantly consumes [15] [Resources.Iron]",
+		"Consumes [15] [Resources.Iron]",
+		"Instantly consumes [20] [Resources.Rubber]",
+		"Consumes [20] [Resources.Rubber]",
+		],		
 	},
 	{
-		"name": "机械化装备II",//1000
-		"cost": 0,
+		"name": "Building.self-propelledRocketLauncher",//自行火箭炮
+		"cost": 40,
+		"requiredTech": "Tech.self-propelledRocketLauncher"
 		"uniques": [
-		"Consumes [3] [资源-钢铁]",
-		"Consumes [1] [资源-橡胶]",
-		"All newly-trained [单位类型-装甲] units [in this city] receive the [晋升-机械化装备II] promotion",
-		"Only available <in cities without a [装甲装备]>",
-		"[-83]% Production when constructing [单位-摩托化装备步兵] units [in this city]",
-		"装甲装备",
-		],
-		"requiredTech": "科技-机械化装备II"
+		"Remove [Building.self-propelledRocketLauncher] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Equipment.self-propelledRocketLauncher]",
+		"Instantly consumes [25] [Resources.Iron]",
+		"Consumes [25] [Resources.Iron]",
+		"Instantly consumes [30] [Resources.Oil]",
+		"Consumes [30] [Resources.Oil]",
+		"Instantly consumes [20] [Resources.Rubber]",
+		"Consumes [20] [Resources.Rubber]",
+		],		
 	},
 	{
-		"name": "机械化装备III",//1200
-		"cost": 0,
+		"name": "Building.MechanizedEquipment",//机械化装备
+		"cost": 40,
+		"requiredTech": "Tech.MechanizedEquipmentI"
 		"uniques": [
-		"Consumes [4] [资源-钢铁]",
-		"Consumes [1] [资源-橡胶]",
-		"All newly-trained [单位类型-装甲] units [in this city] receive the [晋升-机械化装备III] promotion",
-		"Only available <in cities without a [装甲装备]>",
-		"[-86]% Production when constructing [单位-摩托化装备步兵] units [in this city]",
-		"装甲装备",
-		],
-		"requiredTech": "科技-机械化装备III"
+		"Remove [Building.MechanizedEquipment] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Equipment.MechanizedEquipment]",
+		"Instantly consumes [40] [Resources.Iron]",
+		"Consumes [40] [Resources.Iron]",
+		"Instantly consumes [35] [Resources.Oil]",
+		"Consumes [35] [Resources.Oil]",
+		"Instantly consumes [20] [Resources.Rubber]",
+		"Consumes [20] [Resources.Rubber]",
+		],		
+	},
+	
+	{
+		"name": "Building.LightUnderpan",//轻型底盘
+		"cost": 35,
+		"requiredTech": "Tech.LightTankI"
+		"uniques": [
+		"Remove [Building.LightUnderpan] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Tank.LightUnderpan]",
+		"Instantly consumes [40] [Resources.Iron]",
+		"Consumes [40] [Resources.Iron]",
+		"Instantly consumes [45] [Resources.Oil]",
+		"Consumes [45] [Resources.Oil]",
+		],		
+	},
+	{
+		"name": "Building.MiddleUnderpan",//中型底盘
+		"cost": 45,
+		"requiredTech": "Tech.MiddleTankI"
+		"uniques": [
+		"Remove [Building.MiddleUnderpan] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Tank.MiddleUnderpan]",
+		"Instantly consumes [45] [Resources.Iron]",
+		"Consumes [45] [Resources.Iron]",
+		"Instantly consumes [50] [Resources.Oil]",
+		"Consumes [50] [Resources.Oil]",
+		],		
+	},
+	{
+		"name": "Building.HeavyUnderpan",//重型底盘
+		"cost": 60,
+		"requiredTech": "Tech.HeavyTankI"
+		"uniques": [
+		"Remove [Building.HeavyUnderpan] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Tank.HeavyUnderpan]",
+		"Instantly consumes [55] [Resources.Iron]",
+		"Consumes [55] [Resources.Iron]",
+		"Instantly consumes [65] [Resources.Oil]",
+		"Consumes [65] [Resources.Oil]",
+		],		
 	},
 	
 	
+	{
+		"name": "Building.LightTankArmoured",//轻型坦克装甲
+		"cost": 40,
+		"requiredTech": "Tech.LightTankI"
+		"uniques": [
+		"Remove [Building.LightTankArmoured] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Tank.LightTankArmoured]",
+		"Instantly consumes [40] [Resources.Iron]",
+		"Consumes [40] [Resources.Iron]",
+		],		
+	},
+	{
+		"name": "Building.MiddleTankArmoured",//中型坦克装甲
+		"cost": 55,
+		"requiredTech": "Tech.MiddleTankI"
+		"uniques": [
+		"Remove [Building.MiddleTankArmoured] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Tank.MiddleTankArmoured]",
+		"Instantly consumes [45] [Resources.Iron]",
+		"Consumes [45] [Resources.Iron]",
+		"Instantly consumes [40] [Resources.Wolfram]",
+		"Consumes [40] [Resources.Wolfram]",
+		],		
+	},
+	{
+		"name": "Building.HeavyTankArmoured",//重型坦克装甲
+		"cost": 85,
+		"requiredTech": "Tech.HeavyTankI"
+		"uniques": [
+		"Remove [Building.HeavyTankArmoured] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Tank.HeavyTankArmoured]",
+		"Instantly consumes [55] [Resources.Iron]",
+		"Consumes [55] [Resources.Iron]",
+		"Instantly consumes [45] [Resources.Chromium]",
+		"Consumes [45] [Resources.Chromium]",
+		],		
+	},
+	{
+		"name": "Building.ModernTankArmoured",//现代坦克装甲
+		"cost": 70,
+		"requiredTech": "Tech.ModernTank"
+		"uniques": [
+		"Remove [Building.ModernTankArmoured] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Tank.ModernTankArmoured]",
+		"Instantly consumes [50] [Resources.Iron]",
+		"Consumes [50] [Resources.Iron]",
+		"Instantly consumes [35] [Resources.Chromium]",
+		"Consumes [35] [Resources.Chromium]",
+		],		
+	},
+	{
+		"name": "Building.MachineGun",//机关枪
+		"cost": 15,
+		"requiredTech": "Tech.WWITank"
+		"uniques": [
+		"Remove [Building.MachineGun] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Tank.MachineGun]",
+		"Instantly consumes [15] [Resources.Iron]",
+		"Consumes [15] [Resources.Iron]",
+		],		
+	},
+	{
+		"name": "Building.Cannon",//加农炮
+		"cost": 15,
+		"requiredTech": "Tech.WWITank"
+		"uniques": [
+		"Remove [Building.Cannon] [in this city] <hidden from users>",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		"Instantly provides [10] [Tank.Cannon]",
+		"Instantly consumes [15] [Resources.Iron]",
+		"Consumes [15] [Resources.Iron]",
+		],		
+	},
 	
 	
-	
-	
-	
-	
-	
-	
-	/*基础步兵装备
-步兵装备I
-步兵装备II
-步兵装备III
-改良步兵装备I
-改良步兵装备II
-改良步兵装备III
-反坦克步枪I
-反坦克步枪II*/
-//"[+5]% Production
-	{
-		"name": "民用工厂1",//
-		"cost":75,
-		"uniques": [
-		"[+50]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[+50]% Production when constructing [军用工厂] buildings [in all cities]",
-		"[+50]% Production when constructing [平民] units [in all cities]",
-		"Only available <in cities without a [军用工厂8]>",
-		"民用工厂",
-	]
-	},
-	{
-		"name": "民用工厂2",
-		"cost":150,
-		"requiredBuilding": "民用工厂1",	
-		"uniques": [
-		"[+50]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[+50]% Production when constructing [军用工厂] buildings [in all cities]",
-		"[+50]% Production when constructing [平民] units [in all cities]",
-		"Only available <in cities without a [军用工厂7]>",
-		"民用工厂",
-	]
-	},
-	{
-		"name": "民用工厂3",
-		"cost":200,
-		"requiredBuilding": "民用工厂2",	
-		"uniques": [
-		"[+50]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[+50]% Production when constructing [军用工厂] buildings [in all cities]",
-		"[+50]% Production when constructing [平民] units [in all cities]",
-		"Only available <in cities without a [军用工厂6]>",
-		"民用工厂",
-	]
-	},
-	{
-		"name": "民用工厂4",
-		"cost":250,
-		"requiredBuilding": "民用工厂3",	
-		"uniques": [
-		"[+100]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[+50]% Production when constructing [军用工厂] buildings [in all cities]",
-		"[+100]% Production when constructing [平民] units [in all cities]",
-		"Only available <in cities without a [军用工厂5]>",
-		"民用工厂",
-	]
-	},
-	{
-		"name": "民用工厂5",
-		"cost":250,
-		"requiredBuilding": "民用工厂4",	
-		"uniques": [
-		"[+100]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[+100]% Production when constructing [军用工厂] buildings [in all cities]",
-		"[+100]% Production when constructing [平民] units [in all cities]",
-		"Only available <in cities without a [军用工厂5]>",
-		"民用工厂",
-	]
-	},
-	{
-		"name": "民用工厂6",
-		"cost":320,
-		"requiredBuilding": "民用工厂5",	
-		"uniques": [
-		"[+100]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[+100]% Production when constructing [军用工厂] buildings [in all cities]",
-		"[+100]% Production when constructing [平民] units [in all cities]",
-		"Only available <in cities without a [军用工厂4]>",
-		"民用工厂",
-	]
-	},
-	{
-		"name": "民用工厂7",
-		"cost":400,
-		"requiredBuilding": "民用工厂6",	
-		"uniques": [
-		"[+100]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[+100]% Production when constructing [军用工厂] buildings [in all cities]",
-		"[+100]% Production when constructing [平民] units [in all cities]",
-		"Only available <in cities without a [军用工厂3]>",
-		"民用工厂",
-	]
-	},
-	{
-		"name": "民用工厂8",
-		"cost":500,
-		"requiredBuilding": "民用工厂7",	
-		"uniques": [
-		"[+150]% Production when constructing [民用工厂] buildings [in all cities]",
-		"[+150]% Production when constructing [军用工厂] buildings [in all cities]",
-		"[+150]% Production when constructing [平民] units [in all cities]",
-		"Only available <in cities without a [军用工厂2]>",
-		"民用工厂",
-	]
-	},
-	{
-		"name": "军用工厂1",//
-		"cost":75,
-		"uniques": [
-		"[+5]% Production when constructing [军队] units [in all cities]",
-		"Only available <in cities without a [民用工厂8]>",
-		"军用工厂",
-	]
-	},
-	{
-		"name": "军用工厂2",
-		"cost":150,
-		"requiredBuilding": "军用工厂1",	
-		"uniques": [
-		"[+5]% Production when constructing [军队] units [in all cities]",
-		"Only available <in cities without a [民用工厂7]>",
-		"军用工厂",
-	]
-	},
-	{
-		"name": "军用工厂3",
-		"cost":200,
-		"requiredBuilding": "军用工厂2",	
-		"uniques": [
-		"[+5]% Production when constructing [军队] units [in all cities]",
-		"Only available <in cities without a [民用工厂6]>",
-		"军用工厂",
-	]
-	},
-	{
-		"name": "军用工厂4",
-		"cost":250,
-		"requiredBuilding": "军用工厂3",	
-		"uniques": [
-		"[+10]% Production when constructing [军队] units [in all cities]",
-		"Only available <in cities without a [民用工厂5]>",
-		"军用工厂",
-	]
-	},
-	{
-		"name": "军用工厂5",
-		"cost":250,
-		"requiredBuilding": "军用工厂4",	
-		"uniques": [
-		"[+10]% Production when constructing [军队] units [in all cities]",
-		"Only available <in cities without a [民用工厂5]>",
-		"军用工厂",
-	]
-	},
-	{
-		"name": "军用工厂6",
-		"cost":320,
-		"requiredBuilding": "民用工厂5",	
-		"uniques": [
-		"[+10]% Production when constructing [军队] units [in all cities]",
-		"Only available <in cities without a [民用工厂4]>",
-		"军用工厂",
-	]
-	},
-	{
-		"name": "军用工厂7",
-		"cost":400,
-		"requiredBuilding": "军用工厂6",	
-		"uniques": [
-		"[+10]% Production when constructing [军队] units [in all cities]",
-		"Only available <in cities without a [民用工厂3]>",
-		"军用工厂",
-	]
-	},
-	{
-		"name": "军用工厂8",
-		"cost":500,
-		"requiredBuilding": "军用工厂7",	
-		"uniques": [
-		"[+15]% Production when constructing [军队] units [in all cities]",
-		"Only available <in cities without a [民用工厂2]>",
-		"军用工厂",
-	]
-	},
 	
 	
 	

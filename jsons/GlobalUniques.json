@@ -18,6 +18,23 @@
         /*"[-2]% [Gold] [in all cities] <for every [1] [Happiness]>",
         "[-2]% [Science] [in all cities] <for every [1] [Happiness]>",
         "[-2]% [Production] [in all cities] <for every [1] [Happiness]>",*/
+        
+        
+        /*"Nullifies Growth [in all cities] <when below [0] Happiness>",
+        "[-10]% [Production] [in all cities] <when below [-2] Happiness>",
+        "[-10]% [Production] [in all cities] <when below [-5] Happiness>",
+        "[-10]% [Production] [in all cities] <when below [-8] Happiness>",
+        "[-10]% [Production] [in all cities] <when below [-11] Happiness>",
+        "[-10]% [Production] [in all cities] <when below [-14] Happiness>",
+        "[-10]% Strength <for [All] units> <when below [-4] Happiness>",
+        "[-10]% Strength <for [All] units> <when below [-9] Happiness>",
+        "Cannot build [单位-殖民者] units <when below [0] Happiness>",
+        "Rebel units may spawn <when below [-9] Happiness>",*/
+        
+        
+        
+        
+        
         /*"Provides [1] [Manpower] <in cities with at least [1] [Population]>",
         "Provides [1] [Manpower] <in cities with at least [2] [Population]>",
 		"Provides [1] [Manpower] <in cities with at least [3] [Population]>",
@@ -31,14 +48,14 @@
         //征集人力
         
         //城市产出修改
-        //"[+5 Production] per [1] population [in all cities]",
-        "[+1 Gold] per [3] population [in all cities]",
-        "[+15 Production] [in all cities]",
+        /*"[+1 Production] per [1] population [in all cities]",
+        "[+2 Gold] per [3] population [in all cities]",
+        "[+20 Production] [in all cities]",
         "[+100 Science] [in capital]",
-        
+        "[+20 Science] [in all cities]",
         //"[+2 Food] per [1] population [in all cities]",//临时
         
-        "Instantly provides [1] [战争支持度] <when at war> <upon turn end>",
+        "Provides [1] [战争支持度] <when at war>",
         
         
         
@@ -49,43 +66,64 @@
        "[单位-摩托化步兵] units gain the [摩托化步兵] promotion <upon turn end>",
         "[单位-自行火箭炮] units gain the [自行火箭炮] promotion <upon turn end>",
         
+        */
+        //"步兵武器",
+        //"装甲装备",
         
-        "步兵武器",
-        "装甲装备",
+        
+        "Gun"//武器
+        "Equipment",//装备
+        "Infantry",//步兵
+        "Armoured",//装甲
+        "Gunturret",//炮塔
+        "Underpan",//底盘
+        "TankArmoured",//坦克装甲
+        "Light",
+        "Middle",
+        "Heavy",
         
         
-        "军队",
-        "平民",
-        "军用工厂",
-        "民用工厂",
+        
+        
+        
+        
+        "Civilian",//平民
+        //"军用工厂",
+        //"民用工厂",
         //推行政策开门
         //"Adopt [德意志国策]",
         //"Adopt [民族精神]",
-        "Adopt [法案]",
-        "Adopt [征兵法案-志愿兵役制]",
-        "Adopt [贸易法案-重视出口]",
-        "Adopt [经济法案-民用经济]",
+        //"Adopt [法案]",
+        //"Adopt [征兵法案-志愿兵役制]",
+        //"Adopt [贸易法案-重视出口]",
+        //"Adopt [经济法案-民用经济]",
         "Adopt [军事学说]",
         
+        
+        "Discover [科技-未知]",
+        
         //国策点数-信仰
-        "[+7 Faith] [in capital]",
-        "Provides [15] [政治点数]",
-        "Instantly provides [450] [政治点数]",
+        "[+15 Science]",
+        "[+7 Faith]",
+        "Provides [15] [Political]",
+        "Instantly provides [450] [Political]",
+        
+        
+        "[-100]% Strength <for [All] units> <when attacking>",
+        
+        
+        
+        
+        //"Triggers a [事件-科技研发] event <every [5] turns> <upon turn end>",
+        //"Triggers a [事件-推行政策] event <when above [69] [Faith]> <upon turn end>",
         
         
         
         
         
-        
-        
-        "Triggers a [事件-科技研发] event <every [5] turns> <upon turn end>",
-
-        
-        
-        
-        
-        
-        
+        /*"Nullifies [Production] [in all cities] <when below [0] [资源-钢铁]>",
+        "Nullifies [Production] [in all cities] <when below [0] [资源-橡胶]>",
+        "Nullifies [Production] [in all cities] <when below [0] [资源-钨]>",*/
         
         
         
