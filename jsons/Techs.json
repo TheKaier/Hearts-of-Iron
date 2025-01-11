@@ -640,23 +640,220 @@
 			
 		]
 	},
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	{
+		"columnNumber": 8,
+		"era": "未知",
+		"techCost": 100,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Tech.Art_1_comintern",
+				"row": 1,
+				"quote": "Text-Tech.Art_1_comintern",
+				"prerequisites": ["Tech.Basicinfantryequipment"],
+				"uniques": [
+				"Only available <after discovering [Tech.Basicinfantryequipment]>",
+				//"Gain [-2857] [Science]",
+				
+				]
+				},
+			{
+				"name": "Tech.Artillery1",
+				"row": 2,
+				"quote": "Text-Tech.Artillery1"
+				"prerequisites": ["Tech.Art_1_comintern"],
+				"uniques": [
+				"Only available <after discovering [Tech.Art_1_comintern]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.Art_2_comintern",
+				"row": 3,
+				"quote": "Text-Tech.Art_2_comintern"
+				"prerequisites": ["Tech.Artillery1"],
+				"uniques": [
+				"Only available <after discovering [Tech.Artillery1]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.Artillery2",
+				"row": 4,
+				"quote": "Text-Tech.Artillery2"
+				"prerequisites": ["Tech.Art_2_comintern"],
+				"uniques": [
+				"Only available <after discovering [Tech.Art_2_comintern]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.Artillery3",
+				"row": 5,
+				"quote": "Text-Tech.Artillery3"
+				"prerequisites": ["Tech.Artillery2"],
+				"uniques": [
+				"Only available <after discovering [Tech.Artillery2]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.Art_3_comintern",
+				"row": 6,
+				"quote": "Text-Tech.Art_3_comintern"
+				"prerequisites": ["Tech.Artillery3"],
+				"uniques": [
+				"Only available <after discovering [Tech.Artillery3]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.Artillery4",
+				"row": 7,
+				"quote": "Text-Tech.Artillery4"
+				"prerequisites": ["Tech.Art_3_comintern"],
+				"uniques": [
+				"Only available <after discovering [Tech.Art_3_comintern]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "未知",
+		"techCost": 100,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Tech.AT_1_allies",
+				"row": 2,
+				"quote": "Text-Tech.AT_1_allies",
+				"prerequisites": ["Tech.Art_1_comintern"],
+				"uniques": [
+				"Only available <after discovering [Tech.Art_1_comintern]>",
+				//"Gain [-2857] [Science]",
+				
+				]
+				},
+			{
+				"name": "Tech.Antitank1",
+				"row": 3,
+				"quote": "Text-Tech.Antitank1"
+				"prerequisites": ["Tech.AT_1_allies"],
+				"uniques": [
+				"Only available <after discovering [Tech.AT_1_allies]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.AT_2_allies",
+				"row": 4,
+				"quote": "Text-Tech.AT_2_allies"
+				"prerequisites": ["Tech.Antitank1"],
+				"uniques": [
+				"Only available <after discovering [Tech.Antitank1]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.Antitank2",
+				"row": 5,
+				"quote": "Text-Tech.Antitank2"
+				"prerequisites": ["Tech.AT_2_allies"],
+				"uniques": [
+				"Only available <after discovering [Tech.AT_2_allies]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.Antitank3",
+				"row": 6,
+				"quote": "Text-Tech.Antitank3"
+				"prerequisites": ["Tech.Antitank2"],
+				"uniques": [
+				"Only available <after discovering [Tech.Antitank2]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.AT_3_allies",
+				"row": 7,
+				"quote": "Text-Tech.AT_3_allies"
+				"prerequisites": ["Tech.Antitank3"],
+				"uniques": [
+				"Only available <after discovering [Tech.Antitank3]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "未知",
+		"techCost": 100,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Tech.Rocket_Art_1_allies",
+				"row": 2,
+				"quote": "Text-Tech.Rocket_Art_1_allies"
+				"prerequisites": ["Tech.Art_1_comintern"],
+				"uniques": [
+				"Only available <after discovering [Tech.Art_1_comintern]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.Rocket_artillery1",
+				"row": 3,
+				"quote": "Text-Tech.Rocket_artillery1"
+				"prerequisites": ["Tech.Rocket_Art_1_allies"],
+				"uniques": [
+				"Only available <after discovering [Tech.Rocket_Art_1_allies]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.Rocket_artillery2",
+				"row": 4,
+				"quote": "Text-Tech.Rocket_artillery2"
+				"prerequisites": ["Tech.Rocket_artillery1"],
+				"uniques": [
+				"Only available <after discovering [Tech.Rocket_artillery1]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+			{
+				"name": "Tech.Rocket_Art_2_allies",
+				"row": 5,
+				"quote": "Text-Tech.Rocket_Art_2_allies"
+				"prerequisites": ["Tech.Rocket_artillery2"],
+				"uniques": [
+				"Only available <after discovering [Tech.Rocket_artillery2]>",
+				//"Gain [-2142] [Science]",
+				
+				]
+			},
+		]
+	},
 	
 	
 	
@@ -673,7 +870,7 @@
 	
 	
 	{
-		"columnNumber": 8,
+		"columnNumber": 11,
 		"era": "未知",
 		"techCost": 1,
 		"buildingCost": 40,

@@ -33,7 +33,54 @@
 		"Provides [1] [Manpower] <in cities with at least [10] [Population]> <hidden from users>",
 		]
 	},
-	
+	{
+		"name": "Cooperative government",//合作政府
+		"cost": 1,
+		//"culture": 1,
+		"uniques": [
+		"Unsellable",
+        "Remove [Resistance zone] [in this city]",
+        "Can only be built <in [Annexed] cities>",
+        "Destroyed when the city is captured",
+		"Instantly consumes [150] [Political]",
+		"Only available <when above [149] [Political]>",
+		//"Consumes [150] [Political]",
+		]
+	},
+	{
+		"name": "Resistance zone",//抵抗区
+		"cost": 1,
+		//"culture": 1,
+		"uniques": [
+		"Unsellable",
+        "Automatically built in all cities where it is buildable",
+        "Only available <in cities without a [Cooperative government]>",
+        "Can only be built <in [Annexed] cities>",
+	    "Destroyed when the city is captured",
+	    "[-50]% [Production] [in this city]",
+	    "[-1 Production] per [1] population [in all cities]",
+	    /*"[+5]% Production <in cities with at least [1] [Population]> <hidden from users>",
+		"[+5]% Production <in cities with at least [2] [Population]> <hidden from users>",
+		"[+5]% Production <in cities with at least [3] [Population]> <hidden from users>",
+		"[+5]% Production <in cities with at least [4] [Population]> <hidden from users>",
+		"[+5]% Production <in cities with at least [5] [Population]> <hidden from users>",
+		"[+5]% Production <in cities with at least [6] [Population]> <hidden from users>",
+		"[+5]% Production <in cities with at least [7] [Population]> <hidden from users>",
+		"[+5]% Production <in cities with at least [8] [Population]> <hidden from users>",
+		"[+5]% Production <in cities with at least [9] [Population]> <hidden from users>",
+		"[+5]% Production <in cities with at least [10] [Population]> <hidden from users>",*/
+		"Consumes [1] [Manpower] <in cities with at least [1] [Population]> <hidden from users>",
+		"Consumes [1] [Manpower] <in cities with at least [2] [Population]> <hidden from users>",
+		"Consumes [1] [Manpower] <in cities with at least [3] [Population]> <hidden from users>",
+		"Consumes [1] [Manpower] <in cities with at least [4] [Population]> <hidden from users>",
+		"Consumes [1] [Manpower] <in cities with at least [5] [Population]> <hidden from users>",
+		"Consumes [1] [Manpower] <in cities with at least [6] [Population]> <hidden from users>",
+		"Consumes [1] [Manpower] <in cities with at least [7] [Population]> <hidden from users>",
+		"Consumes [1] [Manpower] <in cities with at least [8] [Population]> <hidden from users>",
+		"Consumes [1] [Manpower] <in cities with at least [9] [Population]> <hidden from users>",
+		"Consumes [1] [Manpower] <in cities with at least [10] [Population]> <hidden from users>",
+		]
+	},
 	
 	
 	

@@ -140,14 +140,13 @@
 		"name": "Mountain",
 		"type": "Land",
 		"impassable": true,
-		"defenceBonus": 0.25,
+		"defenceBonus": 1,
 		"RGB": [102, 102, 102],
 		"uniques": [
-		"Tile provides yield without assigned population",
 		"Rough terrain",
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
-            "Units ending their turn on this terrain take [50] damage",
+            //"Units ending their turn on this terrain take [50] damage",
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations"]
 	},

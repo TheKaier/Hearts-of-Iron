@@ -73,18 +73,28 @@
         
         "Gun"//武器
         "Equipment",//装备
+        
         "Infantry",//步兵
         "Armoured",//装甲
+        "Artillery",//火炮
+        //"Antitank"//反坦克
+        //"Rocket_artillery"//火箭炮
+        //"Antiair"//防空炮
+        
+        
+        
+        
+        
         "Gunturret",//炮塔
         "Underpan",//底盘
         "TankArmoured",//坦克装甲
         "Light",
         "Middle",
         "Heavy",
-        
-        
-        
-        
+        "FillArtillery",//已装备火炮
+        //"FillAntitank"//反坦克
+        //"FillRocket_artillery"//火箭炮
+        //"FillAntiair"//防空炮
         
         
         "Civilian",//平民
@@ -97,7 +107,7 @@
         //"Adopt [征兵法案-志愿兵役制]",
         //"Adopt [贸易法案-重视出口]",
         //"Adopt [经济法案-民用经济]",
-        "Adopt [军事学说]",
+        "Adopt [Theory]",//军事学说
         
         
         "Discover [科技-未知]",
@@ -106,11 +116,15 @@
         "[+15 Science]",
         "[+7 Faith]",
         "Provides [15] [Political]",
-        "Instantly provides [450] [Political]",
+        //"Instantly provides [450] [Political]",
         
         
         "[-100]% Strength <for [All] units> <when attacking>",
+        "[+100]% Strength <vs cities> <for [All] units> <when attacking>",
         
+        "[unitType.Armoured] units gain the [ai-Armoured] promotion <for [AI player]>",
+        "[unitType.Infantry] units gain the [ai-Infantry] promotion <for [AI player]>",
+        "[unitType.Artillery] units gain the [ai-Artillery] promotion <for [AI player]>",
         
         
         

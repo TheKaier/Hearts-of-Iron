@@ -636,8 +636,47 @@
                 "column": 13
             },
             
-            
-            
+            {
+                "name": "Nationalspirit-POL_april_constitution",//四月宪法
+                "uniques": [
+                政治点数政治点数：-15%
+                //中立主义中立主义每日新增支持率：+0.05
+                //政治顾问花费：+15%
+                //经济法案花费：+15%
+                //征兵法案花费：+15%
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-POL_april_constitution"}]
+                "row": 1,
+                "column": 15
+            },
+            {
+                "name": "Nationalspirit-POL_looming_peasants_strike",//农民罢工迫在眉睫
+                
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-POL_looming_peasants_strike"}]
+                "row": 2,
+                "column": 15
+            },
+            {
+                "name": "Nationalspirit-POL_sanation_left_opposition",//萨纳齐亚左派
+                "uniques": [
+                //稳定度稳定度：-5.00%
+                //中立主义中立主义每日新增支持率：+0.02
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-POL_sanation_left_opposition"}]
+                "row": 3,
+                "column": 15
+            },
+            {
+                "name": "Nationalspirit-POL_sanation_right_opposition",//萨纳齐亚右派反对
+                "uniques": [
+                //战争支持度：-10.00%
+                //中立主义每日新增支持率：+0.05
+                ],
+		"civilopediaText":[{"text":"Text-Nationalspirit-POL_sanation_right_opposition"}]
+                "row": 4,
+                "column": 15
+            },
             
             
             
@@ -1773,7 +1812,7 @@
         ]
     },*/
     {
-        "name": "军事学说",
+        "name": "Theory",//军事学说
         "era": "未知",
         "priorities": {
             
@@ -1782,131 +1821,137 @@
         "Unavailable",
 ],
         "policies": [
-            {
-                "name": "机动作战学说-机动作战",
+            {//机动作战学说
+                "name": "Theory.MW.Mobile Warfare",
                 "uniques": [
+                "Only available <before adopting [Theory.SF.Superior Firepower]>",
+                
+                
+                
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <for [unitType.Armoured] units>",
+	//"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <for [unitType.Armoured] units>",
                 ],
                 "row": 1,
                 "column": 2
             },
             {
-                "name": "机动作战学说-迟滞",
+                "name": "Theory.MW.Delay",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-机动作战]>",
+        "Only available <after adopting [Theory.MW.Mobile Warfare]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <for [unitType.Infantry] units>",
+	//"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <for [unitType.Infantry] units>",
                 ],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "机动作战学说-弹性防御",
+                "name": "Theory.MW.Elastic Defense",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-迟滞]>",
+        "Only available <after adopting [Theory.MW.Delay]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <for [unitType.Armoured] units>",
+	//"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <for [unitType.Armoured] units>",
                 ],
                 "row": 3,
                 "column": 2
             },
             {
-                "name": "机动作战学说-机动步兵",
+                "name": "Theory.MW.Mobile Infantry",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-弹性防御]>",
+        "Only available <after adopting [Theory.MW.Elastic Defense]>",
+        "Only available <after adopting [Theory.MW.Armored Spearhead]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[+2] HP when healing <for [unitType.Infantry] units>",
+	//"[+2] HP when healing <for [unitType.Infantry] units>",
                 ],
                 "row": 4,
                 "column": 1
             },
             {
-                "name": "机动作战学说-装甲先锋",
+                "name": "Theory.MW.Armored Spearhead",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-弹性防御]>",
+        "Only available <after adopting [Theory.MW.Elastic Defense]>",
+        "Only available <after adopting [Theory.MW.Mobile Infantry]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <for [unitType.Armoured] units>",
+	//"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <for [unitType.Armoured] units>",
                 ],
                 "row": 4,
                 "column": 3
             },
             {
-                "name": "机动作战学说-大规模摩托化",
+                "name": "Theory.MW.Mass Motorization",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-机动步兵]>",
+        "Only available <after adopting [Theory.MW.Mobile Infantry]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <for [unitType.Infantry] units>",
+	//"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <for [unitType.Infantry] units>",
                 ],
                 "row": 5,
                 "column": 1
             },
             {
-                "name": "机动作战学说-重点突破战术",
+                "name": "Theory.MW.Schwerpunkt",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-装甲先锋]>",
+        "Only available <after adopting [Theory.MW.Armored Spearhead]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[+2] HP when healing <for [unitType.Armoured] units>",
+	//"[+2] HP when healing <for [unitType.Armoured] units>",
                 ],
                 "row": 5,
                 "column": 3
             },
             {
-                "name": "机动作战学说-机械化攻势",
+                "name": "Theory.MW.Mechanized Offensive",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-大规模摩托化]>",
+        "Only available <after adopting [Theory.MW.Mass Motorization]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <for [unitType.Infantry] units>",
-	"[Target Unit] takes [3] damage <upon damaging a [Infantry] unit> <for [unitType.Armoured] units>",
+	//"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <for [unitType.Infantry] units>",
+	//"[Target Unit] takes [3] damage <upon damaging a [Infantry] unit> <for [unitType.Armoured] units>",
                 ],
                 "row": 6,
                 "column": 1
             },
             {
-                "name": "机动作战学说-闪电战",
+                "name": "Theory.MW.Blitzkrieg",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-重点突破战术]>",
+        "Only available <after adopting [Theory.MW.Schwerpunkt]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[+3] HP when healing <for [unitType.Armoured] units>",
+	//"[+3] HP when healing <for [unitType.Armoured] units>",
                 ],
                 "row": 6,
                 "column": 3
             },
             {
-                "name": "机动作战学说-战斗群I",
+                "name": "Theory.MW.Kampfgruppe1",//战斗群
                 "uniques": [
-        "Only available <after adopting [机动作战学说-机械化攻势]>",
+        "Only available <after adopting [Theory.MW.Mechanized Offensive]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[+3] HP when healing <for [unitType.Infantry] units>",
+	//"[+3] HP when healing <for [unitType.Infantry] units>",
                 ],
                 "row": 7,
                 "column": 1
             },
             {
-                "name": "机动作战学说-战斗群II",
+                "name": "Theory.MW.Kampfgruppe2",//战斗群
                 "uniques": [
-        "Only available <after adopting [机动作战学说-闪电战]>",
+        "Only available <after adopting [Theory.MW.Blitzkrieg]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[+3] HP when healing <for [unitType.Infantry] units>",
+	//"[+3] HP when healing <for [unitType.Infantry] units>",
                 ],
                 "row": 7,
                 "column": 3
             },
             {
-                "name": "机动作战学说-国民突击队",
+                "name": "Theory.MW.Volkssturm",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-战斗群I]>",
+        "Only available <after adopting [Theory.MW.Kampfgruppe1]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
 	"Provides [1] [Manpower] <in cities with at least [3] [Population]>",
@@ -1917,20 +1962,20 @@
                 "column": 1
             },
             {
-                "name": "机动作战学说-战场救火队",
+                "name": "Theory.MW.Fire brigades",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-战斗群II]>",
+        "Only available <after adopting [Theory.MW.Kampfgruppe1]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[Target Unit] takes [1] damage <upon damaging a [All] unit> <for [unitType.Infantry] units>",
+	//"[Target Unit] takes [1] damage <upon damaging a [All] unit> <for [unitType.Infantry] units>",
                 ],
                 "row": 8,
                 "column": 3
             },
             {
-                "name": "机动作战学说-无差别征兵",
+                "name": "Theory.MW.Non-Discriminatory Conscription",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-国民突击队]>",
+        "Only available <after adopting [Theory.MW.Volkssturm]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
 	"Provides [1] [Manpower] <in cities with at least [1] [Population]>",
@@ -1942,9 +1987,9 @@
                 "column": 1
             },
             {
-                "name": "机动作战学说-后发制人",
+                "name": "Theory.MW.Backhand Blow",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-战场救火队]>",
+        "Only available <after adopting [Theory.MW.Fire brigades]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
                 ],
@@ -1952,38 +1997,424 @@
                 "column": 3
             },
             {
-                "name": "机动作战学说-狼人游击兵",
+                "name": "Theory.MW.Werwolf Guerrillas",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-无差别征兵]>",
+        "Only available <after adopting [Theory.MW.Non-Discriminatory Conscription]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[Target Unit] takes [2] damage <upon damaging a [All] unit>",
+	//"[Target Unit] takes [2] damage <upon damaging a [All] unit>",
                 ],
                 "row": 10,
                 "column": 1
             },
             {
-                "name": "机动作战学说-现代闪电战",
+                "name": "Theory.MW.Modern Blitzkrieg",
                 "uniques": [
-        "Only available <after adopting [机动作战学说-后发制人]>",
+        "Only available <after adopting [Theory.MW.Backhand Blow]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
-	"[+2] HP when healing <for [unitType.Armoured] units>",
-	"[+5]% Strength <when attacking> <for [unitType.Armoured] units>",
+	//"[+2] HP when healing <for [unitType.Armoured] units>",
+	//"[+5]% Strength <when attacking> <for [unitType.Armoured] units>",
                 ],
                 "row": 10,
                 "column": 3
             },
+            
+            
+            
+            
+            
+            
+            
+            
             {
-                "name": "军事学说 Complete",
+                "name": "Theory.SF.Superior Firepower",
+                "uniques": [
+                "Only available <before adopting [Theory.MW.Mobile Warfare]>",
+                
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 1,
+                "column": 6
+            },
+	   {
+                "name": "Theory.SF.Delay",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Superior Firepower]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 2,
+                "column": 6
+            },
+	   {
+                "name": "Theory.SF.Mobile Defense",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Delay]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 3,
+                "column": 6
+            },
+	   {
+                "name": "Theory.SF.Dispersed Support",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Mobile Defense]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 4,
+                "column": 5
+            },
+
+	   {
+                "name": "Theory.SF.Overwhelming Firepower",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Dispersed Support]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 5,
+                "column": 5
+            },
+	   {
+                "name": "Theory.SF.Mechanized Offensive1",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Overwhelming Firepower]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 6,
+                "column": 5
+            },
+	   {
+                "name": "Theory.SF.Concentrated Fire Plans",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Mechanized Offensive1]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 7,
+                "column": 5
+            },
+	   {
+                "name": "Theory.SF.Combined Arms",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Concentrated Fire Plans]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 8,
+                "column": 5
+            },
+	   {
+                "name": "Theory.SF.Tactical Control",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Combined Arms]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 9,
+                "column": 5
+            },
+	   {
+                "name": "Theory.SF.AirLand Battle",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Tactical Control]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 10,
+                "column": 5
+            },
+
+
+
+
+
+
+
+	   {
+                "name": "Theory.SF.Integrated Support",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Mobile Defense]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 4,
+                "column": 7
+            },
+
+	   {
+                "name": "Theory.SF.Regimental Combat Teams",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Integrated Support]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 5,
+                "column": 7
+            },
+	   {
+                "name": "Theory.SF.Mechanized Offensive2",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Regimental Combat Teams]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 6,
+                "column": 7
+            },
+	   {
+                "name": "Theory.SF.Centralized Fire Control",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Mechanized Offensive2]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 7,
+                "column": 7
+            },
+	   {
+                "name": "Theory.SF.Forward Observers",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Centralized Fire Control]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 8,
+                "column": 7
+            },
+	   {
+                "name": "Theory.SF.Advanced Firebases",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Forward Observers]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 9,
+                "column": 7
+            },
+	   {
+                "name": "Theory.SF.Shock and Awe",
+                "uniques": [
+        "Only available <after adopting [Theory.SF.Advanced Firebases]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 10,
+                "column": 7
+            },
+
+            
+            
+            
+            
+            
+            
+            {
+                "name": "Theory.MA.Mass Assault",
+                "uniques": [
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 1,
+                "column": 10
+            },
+	   {
+                "name": "Theory.MA.Pocket Defense",
+                "uniques": [
+        "Only available <after adopting [Theory.MA.Mass Assault]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 2,
+                "column": 10
+            },
+	   {
+                "name": "Theory.MA.Defense in Depth",
+                "uniques": [
+        "Only available <after adopting [Theory.MA.Pocket Defense]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 3,
+                "column": 10
+            },
+	   {
+                "name": "Theory.MA.Large Front Operations",
+                "uniques": [
+        "Only available <after adopting [Theory.MA.Defense in Depth]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 4,
+                "column": 9
+            },
+
+	   {
+                "name": "Theory.MA.Deep Operations",
+                "uniques": [
+        "Only available <after adopting [Theory.MA.Large Front Operations]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 5,
+                "column": 9
+            },
+	   {
+                "name": "Theory.MA.Operational Concentration",
+                "uniques": [
+        "Only available <after adopting [Theory.MA.Deep Operations]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 6,
+                "column": 9
+            },
+	   {
+                "name": "Theory.MA.Vast Offensives",
+                "uniques": [
+        "Only available <after adopting [Theory.MA.Operational Concentration]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 7,
+                "column": 9
+            },
+	   {
+                "name": "Theory.MA.Breakthrough Priority",
+                "uniques": [
+        "Only available <after adopting [Theory.MA.Vast Offensives]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 8,
+                "column": 9
+            },
+	   {
+                "name": "Theory.MA.Mechanized Wave",
+                "uniques": [
+        "Only available <after adopting [Theory.Breakthrough Priority]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 9,
+                "column": 9
+            },
+	   {
+                "name": "Theory.MA.Guerrilla Warfare",
+                "uniques": [
+        "Only available <after adopting [Theory.MA.Mechanized Wave]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 10,
+                "column": 9
+            },
+
+
+	   {
+                "name": "Theory.MA.People's Army",
+                "uniques": [
+        "Only available <after adopting [Theory.MA.Defense in Depth]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 4,
+                "column": 11
+            },
+
+	   {
+                "name": "Theory.MA.Infantry Offensive",
+                "uniques": [
+        "Only available <after adopting [Theory.People's Army]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 5,
+                "column": 11
+            },
+	   {
+                "name": "Theory.MA.Large Front Offensive",
+                "uniques": [
+        "Only available <after adopting [Theory.MA.Infantry Offensive]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 6,
+                "column": 11
+            },
+	   {
+                "name": "Theory.MA.Human Wave Offensive",
+                "uniques": [
+        "Only available <after adopting [Theory.MA.Large Front Offensive]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	"Provides [1] [Manpower] <in cities with at least [1] [Population]>",
+	"Provides [1] [Manpower] <in cities with at least [2] [Population]>",
+	"Provides [1] [Manpower] <in cities with at least [3] [Population]>",
+	"Provides [1] [Manpower] <in cities with at least [4] [Population]>",
+	"Provides [1] [Manpower] <in cities with at least [5] [Population]>",
+	"Provides [1] [Manpower] <in cities with at least [6] [Population]>",
+	"Provides [1] [Manpower] <in cities with at least [7] [Population]>",
+                ],
+                "row": 7,
+                "column": 11
+            },
+	   {
+                "name": "Theory.MA.Breakthrough Priority",
+                "uniques": [
+        "Only available <after adopting [Theory.MA.Human Wave Offensive]>",
+	"Only available <when above [99] [LandEXP]> <hidden from users>",
+        "Instantly consumes [100] [LandEXP] <hidden from users>",
+	
+                ],
+                "row": 8,
+                "column": 11
+            },
+            
+            
+            {
+                "name": "Theory Complete",
                 "uniques": [
 
                 ]
             }
         ]
     },
-
-    
     
     
     

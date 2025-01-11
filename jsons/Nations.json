@@ -307,8 +307,97 @@
 			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
         "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
     },
+	{
+		"name": "Nation.Poland",//波兰
+		"leaderName": "",
+		"adjective": [""],
+		"personality": "base",
+		//"preferredVictoryType": "",
+        "startIntroPart1": "Poland.startIntroPart",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"tradeRequest": "",
+
+        "outerColor": [0,0,0],
+        "innerColor": [255,255,255],
+
+
+		"favouredReligion": "",
+		"uniqueName": "",
+		"uniques": [
+		/*"Adopt [征兵法案-志愿兵役制]",
+        "Adopt [贸易法案-重视出口]",
+        "Adopt [经济法案-民用经济]",
+		"Adopt [通用国策]",
+		"Adopt [Nationalspirit-POL_april_constitution]",
+		"Adopt [Nationalspirit-POL_looming_peasants_strike]",
+		"Adopt [Nationalspirit-POL_sanation_left_opposition]",
+		"Adopt [Nationalspirit-POL_sanation_right_opposition]",*/
+		//"[+12 Happiness]",
+		
+		],
+		/*"civilopediaText":[
+        {"text": ""},
+    ],*/
+		"cities": [
+            "Warsaw","Krakow","Lodz","Wroclaw","Poznan","Gdansk","Szczecin","Bydgoszcz","Lublin","Kaunas",
+            "Katowice","Bialystok","Gdynia","Schweidnitz","Czestochowa","Radom","Torun","Kielce","Gliwice","Klaipeda",
+            "Bytom","Olsztyn","Rzeszow","Bielsko-Biala","Ruda Slaska","Rybnik","Plock","Elblag","Gorzow Wielkopolski","Opole",
+            "Siauliai","Walbrzych","Zielona Gora","Wloclawek"
+        ],
+        "spyNames": [
+            "Wincenty","Roman","Benita","Jan","Kazimierz","Josef","Krystyna Skarbek","Tarnowski","Marian","Alenka"
+        ]
+    },
 	
 	
+	/*{
+		"name": "Nation.EADA",//东亚防御协定
+		"leaderName": "",
+		"adjective": [""],
+		"personality": "base",
+		//"preferredVictoryType": "",
+        "startIntroPart1": "EADA.startIntroPart",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"tradeRequest": "",
+
+        "outerColor": [146, 22, 8],
+		"innerColor": [255, 215, 55],
+
+
+		"favouredReligion": "",
+		"uniqueName": "",
+		"uniques": [
+		"Adopt [征兵法案-按需服兵役]",
+        "Adopt [贸易法案-封闭经济]",
+        "Adopt [经济法案-部分动员]",
+		"Adopt [通用国策]",
+		"Adopt [Nationalspirit-The_long_march]",
+		"Adopt [Nationalspirit-Low_popular_support]",
+		"Adopt [Nationalspirit-Disjointed_Government]",
+		"Adopt [Nationalspirit-Army_corruption]",
+		//"[+12 Happiness]",
+		//注释语句无用
+		],
+		"civilopediaText":[
+        {"text": ""},
+    ],
+		"cities": ["Nanjing","Chengdu","Shanghai","Guangzhou","Xian","Hangzhou","Tianjin","Macau","Shandong","Beijing",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+
+    },*/
 	// City-States
 	/*{
 		"name": "The Archive",

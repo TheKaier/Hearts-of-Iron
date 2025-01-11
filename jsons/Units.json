@@ -6,10 +6,12 @@
 		"cost": 20
 		"uniques": ["Can build [Farm] improvements on tiles",
 		"Can build [Mine] improvements on tiles",
+		"Can build [Plantation] improvements on tiles",
 		"Can build [Remove Forest] improvements on tiles",
 		"Can build [Remove Jungle] improvements on tiles",
-		//"Can build [Remove Fallout] improvements on tiles",
+		"Can build [Remove Fallout] improvements on tiles",
 		"Can build [Remove Marsh] improvements on tiles",
+		"Can build [Road] improvements on tiles",
 		"Uncapturable"
 		"Civilian",
 		
@@ -42,6 +44,8 @@
 		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit><after discovering [Tech.ImprovedInfantryEquipmentI]>",
 		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit><after discovering [Tech.ImprovedInfantryEquipmentII]>",
 		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit><after discovering [Tech.ImprovedInfantryEquipmentIII]>",
+		//"Grants [Basicinfantryequipment] ([123]) to adjacent [Unit.Infantry] units for the rest of the game"
+		
 		],
 		//"attackSound": ""
 	},
@@ -121,7 +125,7 @@
 		"Instantly consumes [10] [Manpower]",
 		"Never appears as a Barbarian unit",
 		"Can only attack [City] units",
-		"[+100]% Strength <for [All] units> <when attacking>",
+		//"[+100]% Strength <for [All] units> <when attacking>",
 		"Infantry",
 			],
 			//"attackSound": ""
@@ -143,8 +147,40 @@
 			],
 			//"attackSound": ""
 	},
-	
-	
+	{
+		"name": "Unit.Artillery",//火炮
+		"unitType": "unitType.Artillery",
+		"movement": 2,
+		"strength": 10,
+		"cost": 80,
+		"range":2,
+		"rangedStrength": 10,
+		"requiredTech": "Tech.Art_1_comintern",
+		"uniques": [
+		"Only available <when above [14] [Manpower]>",
+		"Instantly consumes [15] [Manpower]",
+		"Never appears as a Barbarian unit",
+		"Artillery",
+			],
+			//"attackSound": ""
+	},
+	/*{
+		"name": "Atomic Bomb",
+		"unitType": "unitType.Air",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 10,
+		"cost": 60,
+		//"requiredTech": "Nuclear Fission",
+		//"requiredResource": "Uranium",
+		//"promotions" : ["Evasion"],
+		"uniques": ["Nuclear weapon of Strength [1]","Self-destructs when attacking",
+			"Blast radius [2]"],
+		"attackSound": "Siren"
+		// Plane rather than a missile - can be based in city or Carrier only.
+		// Can be intercepted, but must die for it not to take effect.
+	},*/
 	
 	
 	

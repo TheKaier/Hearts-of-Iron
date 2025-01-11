@@ -1,6 +1,12 @@
 [
-    
-    
+    /*{
+		"name": "Decline in organization",//组织度下降
+		"uniques": [
+		"[This Unit] takes [1] damage",
+		"Doing so will consume this opportunity to choose a Promotion"
+		]
+	},*/
+    //<for [5] turns>
     {
 		"name": "Basicinfantryequipment",//基础步兵装备
 		"uniques": [
@@ -8,6 +14,8 @@
 		"[Target Unit] takes [5] damage <upon damaging a [Armoured] unit>",
 		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleI]>",
 		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleII]>",
+		
+		"[Target Unit] takes [25] damage <upon damaging a [Artillery] unit>",
 		"Gun",
 		]
 	},
@@ -18,6 +26,8 @@
 		"[Target Unit] takes [6] damage <upon damaging a [Armoured] unit>",
 		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleI]>",
 		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleII]>",
+		
+		"[Target Unit] takes [30] damage <upon damaging a [Artillery] unit>",
 		"Gun",
 		]
 	},
@@ -28,6 +38,8 @@
 		"[Target Unit] takes [8] damage <upon damaging a [Armoured] unit>",
 		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleI]>",
 		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleII]>",
+		
+		"[Target Unit] takes [35] damage <upon damaging a [Artillery] unit>",
 		"Gun",
 		]
 	},
@@ -38,6 +50,8 @@
 		"[Target Unit] takes [10] damage <upon damaging a [Armoured] unit>",
 		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleI]>",
 		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after discovering [Tech.AntitankrifleII]>",
+		
+		"[Target Unit] takes [40] damage <upon damaging a [Artillery] unit>",
 		"Gun",
 		]
 	},
@@ -53,6 +67,7 @@
 		"uniques": [
 		"[Target Unit] takes [10] damage <upon damaging a [Infantry] unit>",
 		"[Target Unit] takes [5] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [10] damage <upon damaging a [Artillery] unit>",
 		"Equipment",
 		]
 	},
@@ -60,8 +75,8 @@
 		"name": "MechanizedEquipment",//机械化装备
 		"uniques": [
 		"[+1] Movement",
-		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-机械化装备II]>",
-		"[This Unit] heals [3] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-机械化装备III]>",
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.MechanizedEquipmentII]>",
+		"[This Unit] heals [3] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.MechanizedEquipmentIII]>",
 		"Equipment",
 		]
 	},
@@ -94,8 +109,8 @@
 		"name": "LightTankArmoured",//轻型坦克装甲
 		"uniques": [
 		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack>",
-		"[This Unit] heals [1] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-轻型坦克II]>",
-		"[This Unit] heals [1] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-轻型坦克III]>",
+		"[This Unit] heals [1] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.LightTankII]>",
+		"[This Unit] heals [1] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.LightTankIII]>",
 		"TankArmoured",
 		]
 	},
@@ -103,8 +118,8 @@
 		"name": "MiddleTankArmoured",//中型坦克装甲
 		"uniques": [
 		"[This Unit] heals [4] HP <upon losing at least [0] HP in a single attack>",
-		"[This Unit] heals [1] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-中型坦克II]>",
-		"[This Unit] heals [1] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-中型坦克III]>",
+		"[This Unit] heals [1] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.MiddleTankII]>",
+		"[This Unit] heals [1] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.MiddleTankIII]>",
 		"TankArmoured",
 		]
 	},
@@ -112,8 +127,8 @@
 		"name": "HeavyTankArmoured",//重型坦克装甲
 		"uniques": [
 		"[This Unit] heals [6] HP <upon losing at least [0] HP in a single attack>",
-		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-重型坦克II]>",
-		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-重型坦克III]>",
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.HeavyTankII]>",
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.HeavyTankIII]>",
 		"TankArmoured",
 		]
 	},
@@ -129,6 +144,7 @@
 		"uniques": [
 		"[Target Unit] takes [25] damage <upon damaging a [Infantry] unit>",
 		"[Target Unit] takes [10] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [15] damage <upon damaging a [Artillery] unit>",
 		"Gunturret",
 		]
 	},
@@ -137,13 +153,90 @@
 		"uniques": [
 		"[Target Unit] takes [15] damage <upon damaging a [Infantry] unit>",
 		"[Target Unit] takes [30] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [30] damage <upon damaging a [Artillery] unit>",
 		"Gunturret",
 		]
 	},
 	
 	
 	
-	
+	{
+		"name": "Artillery",//火炮
+		"uniques": [
+		"[Target Unit] takes [5] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [5] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [25] damage <upon damaging a [Artillery] unit>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Artillery1]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Artillery1]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Art_2_comintern]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Art_2_comintern]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Artillery2]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Artillery2]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Artillery3]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Artillery3]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Art_3_comintern]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Art_3_comintern]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Artillery4]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Artillery4]>",
+		
+		"FillArtillery",
+		]
+	},
+	{
+		"name": "Antitank",//反坦克炮
+		"uniques": [
+		//"[Target Unit] takes [5] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [10] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [30] damage <upon damaging a [Artillery] unit>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Antitank1]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.AT_2_allies]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Antitank2]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Antitank3]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.AT_3_allies]>",
+		
+		
+		"FillArtillery",
+		]
+	},
+	{
+		"name": "Rocket_artillery",//火箭炮
+		"uniques": [
+		"[Target Unit] takes [10] damage <upon damaging a [Infantry] unit>",
+		//"[Target Unit] takes [5] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [15] damage <upon damaging a [Artillery] unit>",
+		
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Rocket_artillery1]>",
+		
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Rocket_artillery2]>",
+		
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Rocket_Art_2_allies]>",
+		
+		"FillArtillery",
+		]
+	},
+	/*{
+		"name": "Antiair",//防空炮
+		"uniques": [
+		"[Target Unit] takes [5] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [5] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [25] damage <upon damaging a [Artillery] unit>",
+		
+		
+		
+		"FillArtillery",
+		]
+	},*/
 	
 	
 	
@@ -161,14 +254,14 @@
 		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit><after discovering [Tech.InfantryEquipmentII]>",
 		"[Target Unit] takes [4] damage <upon damaging a [Infantry] unit><after discovering [Tech.InfantryEquipmentIII]>",
 		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit><after discovering [Tech.InfantryEquipmentIII]>",
-		"[Target Unit] takes [5] damage <upon damaging a [Infantry] unit><after discovering [科技-自行火箭炮]>",
-		"[Target Unit] takes [5] damage <upon damaging a [Armoured] unit> <after discovering [科技-自行火箭炮]>",
-		"[+1] Movement <after discovering [科技-机械化装备I]>",
-		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-机械化装备II]>",
-		"[This Unit] heals [3] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-机械化装备III]>",
-		"[+5] HP when healing <after discovering [科技-摩托化装备]>",
+		"[Target Unit] takes [5] damage <upon damaging a [Infantry] unit><after discovering [Tech.self-propelledRocketLauncher]>",
+		"[Target Unit] takes [5] damage <upon damaging a [Armoured] unit> <after discovering [Tech.self-propelledRocketLauncher]>",
+		"[+1] Movement <after discovering [Tech.MechanizedEquipmentI]>",
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.MechanizedEquipmentII]>",
+		"[This Unit] heals [3] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.MechanizedEquipmentIII]>",
+		"[+5] HP when healing <after discovering [Tech.MotorizedEquipment]>",
 		
-		
+		"[Target Unit] takes [35] damage <upon damaging a [Artillery] unit>",
 		
 		"Equipment",
 		"Gun",
@@ -181,17 +274,50 @@
 		"uniques": [
 		"[Target Unit] takes [20] damage <upon damaging a [Infantry] unit>",
 		"[Target Unit] takes [30] damage <upon damaging a [Armoured] unit>",
-		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-轻型坦克I]>",
-		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-中型坦克I]>",
-		"[This Unit] heals [3] HP <upon losing at least [0] HP in a single attack> <after discovering [科技-重型坦克I]>",
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.LightTankI]>",
+		"[This Unit] heals [2] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.MiddleTankI]>",
+		"[This Unit] heals [3] HP <upon losing at least [0] HP in a single attack> <after discovering [Tech.HeavyTankI]>",
 		"[+2] Movement",
+		
+		
+		"[Target Unit] takes [30] damage <upon damaging a [Artillery] unit>",
 		
 		"Underpan",
 		"TankArmoured",
 		"Gunturret",
 		]
 	},
-	
+	{
+		"name": "ai-Artillery",//ai
+		"uniques": [
+		"[Target Unit] takes [5] damage <upon damaging a [Infantry] unit>",
+		"[Target Unit] takes [5] damage <upon damaging a [Armoured] unit>",
+		"[Target Unit] takes [25] damage <upon damaging a [Artillery] unit>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Artillery1]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Artillery1]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Art_2_comintern]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Art_2_comintern]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Artillery2]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Artillery2]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Artillery3]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Artillery3]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Art_3_comintern]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Art_3_comintern]>",
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Tech.Artillery4]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Tech.Artillery4]>",
+		
+		
+		
+		
+		"FillArtillery",
+		]
+	},
 	
 	
 	

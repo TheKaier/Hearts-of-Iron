@@ -7,6 +7,13 @@
 			]
     },
     {
+        "name": "unitType.Air",//建造者
+        "movementType": "Air"
+        "uniques": [
+        
+			]
+    },
+    {
         "name": "unitType.Settler",//殖民者
         "movementType": "Land"
     },
@@ -14,7 +21,14 @@
         "name": "unitType.Infantry",//步兵
         "movementType": "Land"
         "uniques": [
+        //组织度
+        //"[This Unit] gains the [Decline in organization] promotion <upon damaging a [All] unit>",
+        
+        
+        
+        
 		"Instantly provides [5] [LandEXP] <upon losing at least [0] HP in a single attack>",
+		
 		"Gain control over [all] tiles in a [0]-tile radius <upon turn end> <in tiles adjacent to [your] tiles>",
 		
 		
@@ -30,7 +44,79 @@
 		
 		
 		
-		"[All] units gain the [ai-Infantry] promotion <for [AI player]>",
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		//"[All] units gain the [ai-Infantry] promotion <for [AI player]>",
+		
+		
+		//学说
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.MW.Delay]>",
+		"[+2] HP when healing <after adopting [Theory.MW.Mobile Infantry]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.MW.Mass Motorization]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.MW.Mechanized Offensive]>",
+	"[+3] HP when healing <after adopting [Theory.MW.Kampfgruppe1]>",
+	"[+3] HP when healing <after adopting [Theory.MW.Kampfgruppe2]>",
+	"[Target Unit] takes [1] damage <upon damaging a [All] unit> <after adopting [Theory.MW.Fire brigades]>",
+	"[Target Unit] takes [2] damage <upon damaging a [All] unit> <after adopting [Theory.MW.Werwolf Guerrillas]>",
+		
+		
+		
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Superior Firepower]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Delay]>",
+		"[+1] HP when healing <after adopting [Theory.SF.Mobile Defense]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Theory.SF.Concentrated Fire Plans]>",
+		"[+1] HP when healing <after adopting [Theory.SF.Tactical Control]>",
+		"[+2] HP when healing <after adopting [Theory.SF.AirLand Battle]>",
+		"[+1] HP when healing <after adopting [Theory.SF.Integrated Support]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Integrated Support]>",
+		"[+1] HP when healing <after adopting [Theory.SF.Regimental Combat Teams]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Regimental Combat Teams]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Centralized Fire Control]>",
+		"[+1] HP when healing <after adopting [Theory.SF.Advanced Firebases]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Shock and Awe]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Theory.SF.Shock and Awe]>",
+		
+		
+		
+		
+		
+		
+		
+		"[+1] HP when healing <after adopting [Theory.MA.Mass Assault]>",
+		"[+10]% Strength <when below [50] HP> <after adopting [Theory.MA.Pocket Defense]>",
+		"[+2] HP when healing <after adopting [Theory.MA.Defense in Depth]>",
+		"[+10]% Strength <when below [75] HP> <after adopting [Theory.MA.Large Front Operations]>",
+		"[+2] HP when healing <after adopting [Theory.MA.Operational Concentration]>",
+		"[+2] HP when healing <after adopting [Theory.MA.Vast Offensives]>",
+		"[+1] HP when healing <after adopting [Theory.MA.Breakthrough Priority]>",
+		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <after adopting [Theory.MA.Breakthrough Priority]>",
+		"[+2] HP when healing <after adopting [Theory.MA.Mechanized Wave]>",
+		"[+10]% Strength <when below [25] HP> <after adopting [Theory.MA.Continuous Offensive]>",
+
+		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <after adopting [Theory.MA.People's Army]>",
+		"[+10]% Strength <when below [50] HP> <after adopting [Theory.MA.People's Army]>",
+		"[+2] HP when healing <after adopting [Theory.MA.Infantry Offensive]>",
+		"[+2] HP when healing <after adopting [Theory.MA.Large Front Offensive]>",
+		"[+10]% Strength <when below [25] HP> <after adopting [Theory.MA.Human Wave Offensive]>",
+		"[+3] HP when healing <after adopting [Theory.MA.Human Wave Offensive]>",
+		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <after adopting [Theory.MA.Guerrilla Warfare]>",
+		"[+10]% Strength <when below [75] HP> <after adopting [Theory.MA.Guerrilla Warfare]>",
+[Armoured] 
+		"[+2] HP when healing <after adopting [Theory.MA.Deep Operations]>",
+		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <after adopting [Theory.MA.Breakthrough Priority]>",
+		"[+2] HP when healing <after adopting [Theory.MA.Mechanized Wave]>",
+
+		"[+2] HP when healing <after adopting [Theory.MA.Large Front Offensive]>",
+		
 			]
     },
     {
@@ -39,7 +125,8 @@
         "uniques": [
 		"Instantly provides [5] [LandEXP] <upon losing at least [0] HP in a single attack>",
 		"Gain control over [all] tiles in a [0]-tile radius <upon turn end> <in tiles adjacent to [your] tiles>",
-		"[All] units gain the [ai-Armoured] promotion <for [AI player]>",
+		
+		//"[All] units gain the [ai-Armoured] promotion <for [AI player]>",
 		
 		"[This Unit] gains the [LightUnderpan] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.LightUnderpan]> <for [non-[Underpan]] units>",
 		"[This Unit] gains the [MiddleUnderpan] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.MiddleUnderpan]> <for [non-[Underpan]] units>",
@@ -53,10 +140,81 @@
 		"[This Unit] gains the [MachineGun] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.MachineGun]> <for [{non-[Gunturret]} {TankArmoured}] units>",
 		"[This Unit] gains the [Cannon] status for [10000] turn(s) <for [0] movement> <costs [10] [Tank.Cannon]> <for [{non-[Gunturret]} {TankArmoured}] units>",
 		
+		
+		
+		//学说
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <after adopting [Theory.MW.Mobile Warfare]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <after adopting [Theory.MW.Elastic Defense]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <after adopting [Theory.MW.Armored Spearhead]>",
+		"[+2] HP when healing <after adopting [Theory.MW.Schwerpunkt]>",
+		"[Target Unit] takes [3] damage <upon damaging a [Infantry] unit> <after adopting [Theory.MW.Mechanized Offensive]>",
+		"[+3] HP when healing <after adopting [Theory.MW.Blitzkrieg]>",
+		"[Target Unit] takes [2] damage <upon damaging a [All] unit> <after adopting [Theory.MW.Werwolf Guerrillas]>",
+		"[+2] HP when healing <after adopting [Theory.MW.Modern Blitzkrieg]>",
+		
+		
+		
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Superior Firepower]>",
+		"[+1] HP when healing <after adopting [Theory.SF.Dispersed Support]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Mechanized Offensive1]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Mechanized Offensive2]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Theory.SF.Concentrated Fire Plans]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Theory.SF.Combined Arms]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Combined Arms]>",
+		"[+1] HP when healing <after adopting [Theory.SF.Tactical Control]>",
+		"[+1] HP when healing <after adopting [Theory.SF.AirLand Battle]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Shock and Awe]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Theory.SF.Shock and Awe]>",
+		
+	
+	"[+2] HP when healing <after adopting [Theory.MA.Deep Operations]>",
+		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <after adopting [Theory.MA.Breakthrough Priority]>",
+		"[+2] HP when healing <after adopting [Theory.MA.Mechanized Wave]>",
+
+		"[+2] HP when healing <after adopting [Theory.MA.Large Front Offensive]>",
+	
 			]
     },
-    
-    
+    {
+        "name": "unitType.Artillery",//火炮
+        "movementType": "Land"
+        "uniques": [
+        "Instantly provides [5] [LandEXP] <upon losing at least [0] HP in a single attack>",
+		
+		"Gain control over [all] tiles in a [0]-tile radius <upon turn end> <in tiles adjacent to [your] tiles>",
+		
+		
+        "[This Unit] gains the [Artillery] status for [10000] turn(s) <costs [25] [Resources.Wolfram]> <costs [25] [Resources.Iron]> <for [0] movement> <for [non-[FillArtillery]] units>",
+        "[This Unit] gains the [Antitank] status for [10000] turn(s) <costs [40] [Resources.Wolfram]> <costs [15] [Resources.Iron]> <for [0] movement> <for [non-[FillArtillery]] units>",
+        "[This Unit] gains the [Rocket_artillery] status for [10000] turn(s) <costs [20] [Resources.Wolfram]> <costs [40] [Resources.Iron]> <for [0] movement> <for [non-[FillArtillery]] units>",
+        //"[This Unit] gains the [Antiair] status for [10000] turn(s) <for [0] movement> <for [non-[FillArtillery]] units>",
+        //火炮
+        //Artillery
+        //反坦克
+        //Antitank
+        //火箭炮
+        //Rocket_artillery
+        //防空炮
+        //Antiair
+        
+        "[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Superior Firepower]>",
+		"[Target Unit] takes [2] damage <upon damaging a [Armoured] unit> <after adopting [Theory.SF.Concentrated Fire Plans]>",
+		"[+1] HP when healing <after adopting [Theory.SF.Tactical Control]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Centralized Fire Control]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Infantry] unit> <after adopting [Theory.SF.Shock and Awe]>",
+		"[Target Unit] takes [1] damage <upon damaging a [Armoured] unit> <after adopting [Theory.SF.Shock and Awe]>",
+        
+        
+        "[+2] HP when healing <after adopting [Theory.MA.Mechanized Wave]>",
+
+		"[+2] HP when healing <after adopting [Theory.MA.Large Front Offensive]>",
+        
+        
+        
+        
+        
+			]
+    },
     
     		
     
