@@ -333,7 +333,7 @@
 			},
 		]
 	},
-	/*{
+	{
 		"columnNumber": 6,
 		"era": "未知",
 		"techCost": 125,
@@ -341,7 +341,7 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "科技-支援装备",
+				"name": "Tech.SupportEquipment",
 				"row": 1,
 				"quote": "",
 				"prerequisites": ["Tech.Basicinfantryequipment"],
@@ -352,133 +352,133 @@
 				]
 			},
 			{
-				"name": "科技-工兵连I",
+				"name": "Tech.ECI",
 				"row": 2,
 				"quote": "",
-				"prerequisites": ["科技-支援装备"],
+				"prerequisites": ["Tech.SupportEquipment"],
 				"uniques": [
-				"Only available <after discovering [科技-支援装备]>",
+				"Only available <after discovering [Tech.SupportEquipment]>",
 				
 				
 				]
 			},
 			{
-				"name": "科技-工兵连II",
+				"name": "Tech.ECII",
 				"row": 3,
 				"quote": "",
-				"prerequisites": ["科技-工兵连I"],
+				"prerequisites": ["Tech.ECI"],
 				"uniques": [
-				"Only available <after discovering [科技-工兵连I]>",
+				"Only available <after discovering [Tech.ECI]>",
 				//"Gain [-1814] [Science]",
 				
 				]
 			},
 			{
-				"name": "科技-工兵连III",
+				"name": "Tech.ECIII",
 				"row": 4,
 				"quote": "",
-				"prerequisites": ["科技-工兵连II"],
+				"prerequisites": ["Tech.ECII"],
 				"uniques": [
-				"Only available <after discovering [科技-工兵连II]>",
+				"Only available <after discovering [Tech.ECII]>",
 				//"Gain [-1814] [Science]",
 				
 				]
 			},
 			{
-				"name": "科技-工兵连IV",
+				"name": "Tech.ECIV",
 				"row": 5,
 				"quote": "",
-				"prerequisites": ["科技-工兵连III"],
+				"prerequisites": ["Tech.ECIII"],
 				"uniques": [
-				"Only available <after discovering [科技-工兵连III]>",
+				"Only available <after discovering [Tech.ECIII]>",
 				//"Gain [-1814] [Science]",
 				
 				]
 			},
 			{
-				"name": "科技-侦查连I",
+				"name": "Tech.ICI",
 				"row": 6,
 				"quote": "",
-				"prerequisites": ["科技-支援装备"],
+				"prerequisites": ["Tech.SupportEquipment"],
 				"uniques": [
-				"Only available <after discovering [科技-支援装备]>",
+				"Only available <after discovering [Tech.SupportEquipment]>",
 				
 				
 				]
 			},
 			{
-				"name": "科技-侦查连II",
+				"name": "Tech.ICII",
 				"row": 7,
 				"quote": "",
-				"prerequisites": ["科技-侦查连I"],
+				"prerequisites": ["Tech.ICI"],
 				"uniques": [
-				"Only available <after discovering [科技-侦查连I]>",
+				"Only available <after discovering [Tech.ICI]>",
 				//"Gain [-1814] [Science]",
 				
 				]
 			},
 			{
-				"name": "科技-侦查连III",
+				"name": "Tech.ICIII",
 				"row": 8,
 				"quote": "",
-				"prerequisites": ["科技-侦查连II"],
+				"prerequisites": ["Tech.ICII"],
 				"uniques": [
-				"Only available <after discovering [科技-侦查连II]>",
+				"Only available <after discovering [Tech.ICII]>",
 				//"Gain [-1814] [Science]",
 				
 				]
 			},
 			{
-				"name": "科技-侦查连IV",
+				"name": "Tech.ICIV",
 				"row": 9,
 				"quote": "",
-				"prerequisites": ["科技-侦查连III"],
+				"prerequisites": ["Tech.ICIII"],
 				"uniques": [
-				"Only available <after discovering [科技-侦查连III]>",
+				"Only available <after discovering [Tech.ICIII]>",
 				//"Gain [-1814] [Science]",
 				
 				]
 			},
 			{
-				"name": "科技-维修连I",
+				"name": "Tech.MCI",
 				"row": 10,
 				"quote": "",
-				"prerequisites": ["科技-支援装备"],
+				"prerequisites": ["Tech.SupportEquipment"],
 				"uniques": [
-				"Only available <after discovering [科技-支援装备]>",
+				"Only available <after discovering [Tech.SupportEquipment]>",
 				
 				
 				]
 			},
 			{
-				"name": "科技-维修连II",
+				"name": "Tech.MCII",
 				"row": 11,
 				"quote": "",
-				"prerequisites": ["科技-维修连I"],
+				"prerequisites": ["Tech.MCI"],
 				"uniques": [
-				"Only available <after discovering [科技-维修连I]>",
+				"Only available <after discovering [Tech.MCI]>",
 				//"Gain [-1814] [Science]",
 				
 				]
 			},
 			{
-				"name": "科技-维修连III",
+				"name": "Tech.MCIII",
 				"row": 12,
 				"quote": "",
-				"prerequisites": ["科技-维修连II"],
+				"prerequisites": ["Tech.MCII"],
 				"uniques": [
-				"Only available <after discovering [科技-维修连II]>",
+				"Only available <after discovering [Tech.MCII]>",
 				//"Gain [-1814] [Science]",
 				
 				]
 			},
 			{
-				"name": "科技-维修连IV",
+				"name": "Tech.MCIV",
 				"row": 13,
 				"quote": "",
-				"prerequisites": ["科技-维修连III"],
+				"prerequisites": ["Tech.MCIII"],
 				"uniques": [
-				"Only available <after discovering [科技-维修连III]>",
+				"Only available <after discovering [Tech.MCIII]>",
 				//"Gain [-1814] [Science]",
 				
 				]
@@ -489,7 +489,7 @@
 			
 			
 		]
-	},*/
+	},
 	{
 		"columnNumber": 7,
 		"era": "未知",

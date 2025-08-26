@@ -64,7 +64,7 @@
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 7,
-		"techRequired": "The Wheel",
+		//"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", 
 		//"Costs [1] [Gold] per turn"
 		],
@@ -79,7 +79,7 @@
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 10,
-		"techRequired": "Railroads",
+		//"techRequired": "Railroads",
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
         "civilopediaText": [

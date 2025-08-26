@@ -24,10 +24,10 @@
         //组织度
         //"[This Unit] gains the [Decline in organization] promotion <upon damaging a [All] unit>",
         
+        "[This Unit] gains the [SupportEquipment] status for [10000] turn(s) <costs [20] [Resources.Aluminum]> <for [0] movement> <for [non-[SupportEquipment]] units>",
         
         
-        
-		"Instantly provides [5] [LandEXP] <upon losing at least [0] HP in a single attack>",
+		"Instantly provides [5] [LandEXP] <upon losing at least [1] HP in a single attack>",
 		
 		"Gain control over [all] tiles in a [0]-tile radius <upon turn end> <in tiles adjacent to [your] tiles>",
 		
@@ -110,12 +110,6 @@
 		"[+3] HP when healing <after adopting [Theory.MA.Human Wave Offensive]>",
 		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <after adopting [Theory.MA.Guerrilla Warfare]>",
 		"[+10]% Strength <when below [75] HP> <after adopting [Theory.MA.Guerrilla Warfare]>",
-[Armoured] 
-		"[+2] HP when healing <after adopting [Theory.MA.Deep Operations]>",
-		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <after adopting [Theory.MA.Breakthrough Priority]>",
-		"[+2] HP when healing <after adopting [Theory.MA.Mechanized Wave]>",
-
-		"[+2] HP when healing <after adopting [Theory.MA.Large Front Offensive]>",
 		
 			]
     },
@@ -123,7 +117,7 @@
         "name": "unitType.Armoured",//
         "movementType": "Land"
         "uniques": [
-		"Instantly provides [5] [LandEXP] <upon losing at least [0] HP in a single attack>",
+		"Instantly provides [5] [LandEXP] <upon losing at least [1] HP in a single attack>",
 		"Gain control over [all] tiles in a [0]-tile radius <upon turn end> <in tiles adjacent to [your] tiles>",
 		
 		//"[All] units gain the [ai-Armoured] promotion <for [AI player]>",
@@ -179,7 +173,7 @@
         "name": "unitType.Artillery",//火炮
         "movementType": "Land"
         "uniques": [
-        "Instantly provides [5] [LandEXP] <upon losing at least [0] HP in a single attack>",
+        "Instantly provides [5] [LandEXP] <upon losing at least [1] HP in a single attack>",
 		
 		"Gain control over [all] tiles in a [0]-tile radius <upon turn end> <in tiles adjacent to [your] tiles>",
 		

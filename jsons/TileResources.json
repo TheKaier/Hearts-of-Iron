@@ -124,7 +124,7 @@
 		"majorDepositAmount": {"sparse": 7, "default": 7, "abundant": 9},
 		"minorDepositAmount": {"sparse": 7, "default": 7, "abundant": 9}
 	},
-	/*{
+	{
 		"name": "Resources.Aluminum",
 		"resourceType": "Strategic",
 		//"revealedBy": "Electricity",
@@ -141,7 +141,7 @@
 					"Minor deposits generated with weight [10] <in [{Featureless} {Desert}] tiles>"],
 		"majorDepositAmount": {"sparse": 6, "default": 6, "abundant": 8},
 		"minorDepositAmount": {"sparse": 6, "default": 6, "abundant": 8}
-	},*/
+	},
 	/*{
 		"name": "Resources.Uranium",
 		"resourceType": "Strategic",

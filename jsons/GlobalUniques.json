@@ -83,7 +83,7 @@
         
         
         
-        
+        "SupportEquipment",
         
         "Gunturret",//炮塔
         "Underpan",//底盘
@@ -117,14 +117,14 @@
         "[+7 Faith]",
         "Provides [15] [Political]",
         //"Instantly provides [450] [Political]",
-        
+        "Instantly provides [10] [Manpower]",
         
         "[-100]% Strength <for [All] units> <when attacking>",
         "[+100]% Strength <vs cities> <for [All] units> <when attacking>",
         
-        "[unitType.Armoured] units gain the [ai-Armoured] promotion <for [AI player]>",
-        "[unitType.Infantry] units gain the [ai-Infantry] promotion <for [AI player]>",
-        "[unitType.Artillery] units gain the [ai-Artillery] promotion <for [AI player]>",
+        "[unitType.Armoured] units gain the [ai-Armoured] promotion <for [AI player] Civilizations>",
+        "[unitType.Infantry] units gain the [ai-Infantry] promotion <for [AI player] Civilizations>",
+        "[unitType.Artillery] units gain the [ai-Artillery] promotion <for [AI player] Civilizations>",
         
         
         

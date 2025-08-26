@@ -2322,7 +2322,7 @@
 	   {
                 "name": "Theory.MA.Mechanized Wave",
                 "uniques": [
-        "Only available <after adopting [Theory.Breakthrough Priority]>",
+        "Only available <after adopting [Theory.MA.Breakthrough Priority]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
 	
@@ -2331,7 +2331,7 @@
                 "column": 9
             },
 	   {
-                "name": "Theory.MA.Guerrilla Warfare",
+                "name": "Theory.MA.Continuous Offensive",
                 "uniques": [
         "Only available <after adopting [Theory.MA.Mechanized Wave]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
@@ -2358,7 +2358,7 @@
 	   {
                 "name": "Theory.MA.Infantry Offensive",
                 "uniques": [
-        "Only available <after adopting [Theory.People's Army]>",
+        "Only available <after adopting [Theory.MA.People's Army]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
         "Instantly consumes [100] [LandEXP] <hidden from users>",
 	
@@ -2395,7 +2395,7 @@
                 "column": 11
             },
 	   {
-                "name": "Theory.MA.Breakthrough Priority",
+                "name": "Theory.MA.Guerrilla Warfare",
                 "uniques": [
         "Only available <after adopting [Theory.MA.Human Wave Offensive]>",
 	"Only available <when above [99] [LandEXP]> <hidden from users>",
